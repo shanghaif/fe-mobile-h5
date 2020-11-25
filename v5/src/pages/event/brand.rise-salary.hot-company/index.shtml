@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!--#include virtual="/fe-mobile-h5/v5/src/includes/v5/resources_c.shtml"-->
+  <title>猎聘硬核涨薪季</title>
+  <link rel="stylesheet" href="//s.lietou-static.com/fe-mobile-h5/v5/css/pages/event/brand.rise-salary.hot-company.css">
+</head>
+
+<body>
+  <section class="banner-wrap">
+    <i class="banner-bg"></i>
+    <i class="banner-logo"></i>
+    <i class="banner-title"></i>
+  </section>
+
+  <section class="item-wrap union">
+    <h3><i></i></h3>
+    <div class="item-comtainer">
+      <div class="union-items" data-selector="union-items">
+        <a href="https://m.liepin.cn/brand/bat-lead-recruit/"></a>
+        <a href="https://m.liepin.cn/brand/it-top-hundred/?imscid=R000055906"></a>
+        <a href="https://event.liepin.cn/t/1556018077822/"></a>
+        <a href="https://event.liepin.cn/t/1557472342503/?from=groupmessage&isappinstalled=0"></a>
+      </div>
+    </div>
+  </section>
+
+  <section class="item-wrap ninety">
+    <h3><i></i></h3>
+    <div class="item-comtainer">
+      <ul data-selector="ninety-wrap"></ul>
+    </div>
+  </section>
+
+  <section class="item-wrap welfare">
+    <h3><i></i></h3>
+    <div class="item-comtainer">
+      <ul data-selector="welfare-wrap" class="flexbox"></ul>
+    </div>
+  </section>
+
+  <section class="item-wrap hard-core">
+    <h3><i></i></h3>
+    <div class="item-comtainer">
+      <ul data-selector="hard-core-company-wrap" class="flexbox"></ul>
+    </div>
+  </section>
+
+  <section class="item-wrap foreign">
+    <h3><i></i></h3>
+    <div class="item-comtainer">
+      <ul data-selector="foreign-company-wrap" class="flexbox"></ul>
+    </div>
+  </section>
+  <script src="//s.lietou-static.com/fe-mobile-h5/v5/static/js/vendor.js"></script>
+  <script src="//s.lietou-static.com/fe-mobile-h5/v5/js/common/common.js"></script>
+  <script src="//s.lietou-static.com/fe-mobile-h5/v5/js/pages/event/brand.rise-salary.hot-company.js"></script>
+</body>
+
+</html>

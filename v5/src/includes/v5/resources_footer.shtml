@@ -1,0 +1,60 @@
+<script crossorigin="anonymous" src="https://s.lietou-static.com/fe-mobile-h5/v5/static/js/vendor.js"></script>
+<script src="https://s.lietou-static.com/fe-lib-h5/v5/react/16.8.6/react.min.js"></script>
+<script src="https://s.lietou-static.com/fe-lib-h5/v5/react-dom/16.8.6/react-dom.min.js"></script>
+<script crossorigin="anonymous" src="https://s.lietou-static.com/fe-mobile-h5/v5/js/common/common.js"></script>
+<!-- tlog -->
+<script crossorigin="anonymous" src="https://s.lietou-static.com/fe-lib-h5/v5/tlog/tlog.min.js"></script>
+<!-- gio -->
+<script type='text/javascript'>
+    (function () {
+        var matchUserId = document.cookie.match(/UniqueKey=([^=;\s]+)(;|$)/);
+        var userId = matchUserId && decodeURIComponent(matchUserId[1]);
+        var matchUUID = document.cookie.match(/_uuid=([^=;\s]+)(;|$)/);
+        var uuid = matchUUID && decodeURIComponent(matchUUID[1]);
+        if (userId) {
+            window.gio = window.gio || function () {
+                window.gio.q = window.gio.q || [];
+                window.gio.q.push(arguments);
+            };
+            var scriptELm = document.createElement('script');
+            var tag = document.getElementsByTagName('script')[0];
+            scriptELm.async = 1;
+            scriptELm.src = document.location.protocol + '//s.lietou-static.com/fe-lib-h5/v5/gio/growingio-2.1.js';
+            tag.parentNode.insertBefore(scriptELm, tag);
+            window.gio('init', 'bad1b2d9162fab1f80dde1897f7a2972', {textEncryptFunc: window.gioTextFactory});
+            // custom page code begin here
+            userId && window.gio('setUserId', userId);
+            uuid && window.gio('app.set', '_uuid', uuid);
+
+            if (window.$CONFIG) {
+                if ($CONFIG.setCS3) {
+                    window.gio('app.set', $CONFIG.setCS3, $CONFIG.setCS3_data);
+                }
+                if ($CONFIG.setCS4) {
+                    window.gio('app.set', $CONFIG.setCS4, $CONFIG.setCS4_data);
+                }
+            }
+            window.gio('send');
+        }
+    }());
+</script>
+<!-- baidu -->
+<script>
+    var _hmt = _hmt || [];
+    (function () {
+        var hm = document.createElement("script");
+        hm.src = "//hm.baidu.com/hm.js?a2647413544f5a04f00da7eee0d5e200";
+        var s = document.getElementsByTagName("script")[0];
+        s.parentNode.insertBefore(hm, s);
+    })();
+</script>
+<!-- other -->
+<script src="https://s.lietou-static.com/fe-mobile-h5/v5/static/js/user/user.behavior.js"></script>
+<script type="text/javascript">
+    (function () {
+        var dlog_js = document.createElement("script");
+        dlog_js.src = "//static3.lietou-static.com/dlog.js?v=2&q=" + parseInt('' + new Date() / 6E5);
+        var s = document.getElementsByTagName("script")[0];
+        s.parentNode.insertBefore(dlog_js, s);
+    })();
+</script>

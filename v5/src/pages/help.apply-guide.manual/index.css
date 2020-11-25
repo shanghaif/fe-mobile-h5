@@ -1,0 +1,109 @@
+body {
+  background-color: #fff;
+  height: 100%;
+}
+.top-img {
+  text-align: center;
+}
+.view {
+  .top-img {
+    > img {
+      width: 100%;
+    }
+  }
+  .content-box {
+    ul {
+      li {
+        line-height: 58px;
+        margin: 0 16px;
+        border-bottom: 1px solid #E8E8E8;
+        &:last-child {
+          border-bottom: none;
+        }
+        .content-info {
+          float: left;
+          h3 {
+            position: relative;
+            display: inline-block;
+            color: #333;
+            font-size: 18px;
+            padding: 0 2px 0 13px;
+            &:before {
+              content: "";
+              position: absolute;
+              left: 0;
+              top: 27px;
+              width: 5px;
+              height: 5px;
+              background: #ddd;
+            }
+          }
+          p {
+            display: inline-block;
+            color: #333;
+            font-size: 15px;
+            position: relative;
+            .icon-new {
+              position: absolute;
+              top: -9px;
+              right: -16px;
+              color: #ff3e3e;
+              font-size: 14px;
+            }
+          }
+        }
+        > em {
+          float: right;
+          color: #999;
+          font-size: 9px;
+        }
+      }
+    }
+  }
+}
+.ui-masklayer {
+  background: rgba(0, 0, 0, 0.7) !important;
+}
+.strategy-dialog {
+  height: 330px;
+}
+@keyframes gradientLine {
+  from {
+    height: 0%;
+    background-color: #f2f2f2;
+  }
+  to {
+    height: 96%;
+    background-color: #ff7351;
+  }
+}
+@-moz-keyframes gradientLine {
+  from {
+    height: 0%;
+    background-color: #f2f2f2;
+  }
+  to {
+    height: 96%;
+    background-color: #ff7351;
+  }
+}
+@-webkit-keyframes gradientLine {
+  from {
+    height: 0%;
+    background-color: #f2f2f2;
+  }
+  to {
+    height: 96%;
+    background-color: #ff7351;
+  }
+}
+@-o-keyframes gradientLine {
+  from {
+    height: 0%;
+    background-color: #f2f2f2;
+  }
+  to {
+    height: 96%;
+    background-color: #ff7351;
+  }
+}

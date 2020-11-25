@@ -1,0 +1,124 @@
+.view .search-box {
+  padding: 10px;
+}
+.view .search-box .search-job {
+  display: block;
+  color: #999;
+  padding: 0 10px;
+  height: 34px;
+  line-height: 34px;
+  background-color: #eeeff3;
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 3px 0 0 3px;
+  font-size: 14px;
+}
+.view .search-box .input-main {
+  border: 1px solid #dbdbdb;
+  line-height: 22px;
+  background-color: #fff;
+  border-radius: 4px;
+  padding: 6px 40px 6px 60px;
+  position: relative;
+}
+.view .search-box .input-main .search-job {
+  display: inline-block;
+  color: #999;
+  padding: 6px 10px;
+  background-color: #eeeff3;
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 3px 0 0 3px;
+  font-size: 14px;
+}
+.view .search-box .input-main input {
+  width: 100%;
+  display: inline-block;
+  border: none;
+  border-right: 1px solid #ddd;
+}
+.view .search-box .input-main i {
+  color: #fc6520;
+  position: absolute;
+  top: 6px;
+  right: 11px;
+  font-size: 20px;
+  font-weight: normal;
+}
+
+/*职位大全*/
+.view .whole-job {
+  background-color: #fff;
+  margin-bottom: 15px;
+  padding-bottom: 26px;
+}
+.view .whole-job-title {
+  padding: 17px 0 15px 0;
+  border-bottom: 1px solid #dcdcdc;
+}
+.view .whole-job-title h2 {
+  font-size: 16px;
+  color: #333;
+  line-height: 17px;
+  padding-left: 10px;
+  border-left: 3px solid #fc561f;
+  margin-left: 14px;
+}
+.view .whole-job .job-list {
+  padding: 18px 10px 12px 14px;
+}
+.view .whole-job .job-list li {
+  margin-bottom: 15px;
+}
+.view .whole-job .job-list li a {
+  font-size: 14px;
+  color: #666;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  margin-right: 20px;
+}
+
+/*最新职位招聘*/
+.newest-job {
+  background-color: #fff;
+  margin-bottom: 15px;
+}
+.newest-job .newest-job-title {
+  padding: 17px 0 15px 0;
+  border-bottom: 1px solid #dcdcdc;
+}
+.newest-job .newest-job-title h2 {
+  font-size: 16px;
+  color: #333;
+  line-height: 17px;
+  padding-left: 10px;
+  border-left: 3px solid #fc561f;
+  margin-left: 14px;
+}
+.newest-job .job-list a {
+  padding: 8px 22px 8px 14px;
+  border-bottom: 1px dashed #dcdcdc;
+}
+.newest-job .job-list a:last-child {
+  border-bottom: none;
+}
+.newest-job .job-list .job-name, .newest-job .job-list .company-name, .newest-job .job-list .job-salary {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.newest-job .job-list .job-name {
+  font-size: 14px;
+  color: #666;
+}
+.newest-job .job-list .company-name {
+  font-size: 12px;
+  color: #999;
+}
+.newest-job .job-list .job-salary {
+  font-size: 14px;
+  color: #ff5500;
+}

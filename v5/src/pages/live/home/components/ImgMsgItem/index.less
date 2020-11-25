@@ -1,0 +1,33 @@
+.live-text-msg-wrap {
+  .live-text-msg-item {
+    .thumb-photo {
+      max-width: 217px;
+      max-height: 170px;
+      margin-top: 6px;
+      background-size: contain;
+      background-repeat: no-repeat;
+    }
+  }
+}
+.photo-modoal-wrap {
+  display: none;
+  z-index: 1003;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #000;
+  &.photo-modoal-wrap-show {
+    display: flex;
+  }
+}
+.photo-content {
+  max-width: 100%;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center center;
+}

@@ -1,0 +1,148 @@
+.nav-container {
+  z-index: 9;
+  position: sticky;
+  top: 0;
+}
+.job-end-container {
+  position: relative;
+  width: 100%;
+  height: 100px;
+  line-height: 100px;
+  background-color: #f8f8f8;
+  p {
+    font-size: 20px;
+    color: #999;
+    text-indent: 18px;
+  }
+  &:after {
+    display: block;
+    content: "";
+    position: absolute;
+    right: 15px;
+    top: 50%;
+    transform: translate(0, -50%);
+    width: 74px;
+    height: 63px;
+    background: url(./images/offline.png) no-repeat 0 0 / contain;
+  }
+}
+.recommend-wrap {
+  padding: 20px 18px;
+  margin-bottom: 8px;
+  background-color: #fff;
+  .recommend-job {
+    h2 {
+      font-size: 20px;
+      margin-bottom: -4px;
+    }
+    .recommend-job-list {
+      .job-card {
+        position: relative;
+        display: block;
+        padding: 20px 0;
+        color: #333;
+        background: #fff;
+        border-radius: 2px;
+        border-bottom: 1px solid #eee;
+        text-decoration: none;
+        h3 {
+          position: relative;
+          font-size: 17px;
+          margin: 0 0 5px;
+          font-weight: normal;
+          padding-right: 130px;
+          overflow: hidden;
+          text-overflow: ellipsis;
+          white-space: nowrap;
+          small {
+            position: absolute;
+            right: 0;
+            font-size: 16px;
+            float: right;
+            color: #f64;
+          }
+        }
+        .job-card-company {
+          font-size: 14px;
+          margin: 0 60px 8px 0;
+          color: #666;
+          white-space: nowrap;
+          text-overflow: ellipsis;
+          overflow: hidden;
+        }
+        .job-card-labels {
+          margin: 0 -5px 12px;
+          overflow: hidden;
+          height: 22px;
+          label {
+            float: left;
+            margin: 0 5px;
+            padding: 3px 6px;
+            border-radius: 2px;
+            background-color: #f8f8f8;
+            color: #999;
+            font-size: 12px;
+          }
+        }
+        .job-card-publisher {
+          line-height: 20px;
+          img {
+            float: left;
+            width: 20px;
+            height: 20px;
+            margin-right: 8px;
+            border-radius: 2px;
+            border: 1px solid #eee;
+          }
+        }
+      }
+    }
+    .recommend-job-load-more {
+      display: block;
+      padding: 18px 18px 0;
+      margin-bottom: 4px;
+      font-size: 14px;
+      text-align: center;
+      text-decoration: none;
+      color: #f64;
+    }
+  }
+}
+.stance {
+  padding-bottom: 50px;
+}
+.unlogin-container {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #f64;
+  .unlogin-content {
+    padding: 10px 18px;
+    i, span {
+      float: left;
+    }
+    i {
+      margin: -2px 8px 0 0;
+      font-size: 22px;
+      color: #fff;
+    }
+    span {
+      line-height: 29px;
+      font-size: 14px;
+      color: #fff;
+    }
+    a {
+      float: right;
+      width: 79px;
+      height: 28px;
+      font-size: 13px;
+      line-height: 28px;
+      text-align: center;
+      color: #fff;
+      border: 1px solid #fff;
+      border-radius: 20px;
+      box-sizing: border-box;
+    }
+  }
+}

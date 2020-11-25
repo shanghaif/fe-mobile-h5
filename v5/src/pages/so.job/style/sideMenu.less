@@ -1,0 +1,160 @@
+.m-panel {
+  position: fixed;
+  top: 0;
+  bottom: auto;
+  height: 100%;
+  right: -260px;
+  width: 0;
+  font-size: 15px;
+  box-sizing: border-box;
+  overflow: auto;
+  -webkit-overflow-scrolling: touch;
+  background-color: #fafafa;
+  z-index: 1008;
+}
+.m-panel.m-panel-right {
+  right: 0;
+  animation: leftToRight .3s ease-in both;
+}
+.m-panel.m-panel-left {
+  right: 0;
+  animation: rightToLeft .3s ease-in both;
+}
+.m-panel .m-panel-head {
+  background-image: url('../images/link-profile_bg.jpg');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  box-sizing: border-box;
+  padding: 36px 10px 15px 25px;
+  color: #fff;
+}
+.m-panel .m-panel-head .private-photo {
+  width: 40px;
+  height: 40px;
+  margin-bottom: 7px;
+  border-radius: 50%;
+  background-color: #fff;
+  img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+  }
+}
+.m-panel .m-panel-head .private-title {
+  margin-bottom: 3px;
+  font-size: 13px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.m-panel .m-panel-head .private-title span {
+  font-size: 17px;
+}
+.m-panel .m-panel-head .private-company {
+  font-size: 13px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.m-panel-body {
+  padding: 0 52.5px;
+}
+.m-panel-body .box {
+  margin-top: 15px;
+}
+.m-panel-body .box > li {
+  text-align: center;
+}
+.m-panel-body .box li:first-child {
+  float: left;
+}
+.m-panel-body .box li:last-child {
+  float: right;
+}
+.m-panel .m-panel-body a {
+  color: #666;
+}
+.m-panel .m-panel-body .flex-1 {
+  text-align: center;
+}
+.m-panel .m-panel-body span {
+  display: block;
+}
+.m-panel .m-panel-body span:first-child {
+  font-size: 40px;
+  color: #ff8f3d;
+}
+.m-panel .m-panel-body span:last-child {
+  font-size: 13px;
+}
+.m-panel .close {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  font-size: 18px;
+}
+// 弹窗模板的样式
+.text-center {
+  text-align: center;
+}
+.text-info {
+  color: #45b1ff;
+}
+.improveDuty-container {
+  .refresh-success {
+    font-size:17px;
+    color:#2da22a;
+    text-align:center;
+    i {
+      margin-right: 8px;
+    }
+  }
+  .promote {
+    color: #ff5600;
+  }
+}
+.refresh-download-center-box {
+  position: relative;
+  text-align: center;
+  z-index:2503;
+  .index-banner {
+    width: 96%;
+  }
+  .index-banner-close {
+    position: absolute;
+    top: 6%;
+    right: 0;
+    min-width: 30px;
+    width: 7%;
+    z-index: 2503;
+  }
+}
+@media screen and (max-height:568px) {
+  .m-panel .m-panel-body span:first-child {
+    font-size: 30px;
+  }
+}
+@media screen and (max-height:480px) {
+  .m-panel .m-panel-body span:first-child {
+    font-size: 22px;
+  }
+  .m-panel .m-panel-body span:last-child {
+    font-size: 12px;
+  }
+}
+@keyframes rightToLeft {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 260px;
+  }
+}
+@keyframes leftToRight {
+  0% {
+    width: 260px;
+  }
+  100% {
+   width: 0;
+  }
+}

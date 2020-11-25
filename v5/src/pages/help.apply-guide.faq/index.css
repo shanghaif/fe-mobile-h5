@@ -1,0 +1,73 @@
+body {
+  height: 100%;
+}
+
+.top-img {
+  text-align: center;
+}
+
+.content {
+  font-size: 14px;
+}
+
+.content ul li {
+  position: relative;
+  background-color: #fff;
+  border-bottom: 1px solid #e8e8e8;
+  padding: 16px;
+  color: #666;
+}
+
+@supports (bottom:constant(safe-area-inset-bottom)) {
+  .content ul li:last-child {
+    padding-bottom: constant(safe-area-inset-bottom);
+  }
+
+}
+
+.content ul li h4 {
+  position: relative;
+  line-height: 24px;
+  font-weight: normal;
+  color: #333;
+}
+
+.content ul li h4 .text-icon {
+  position: absolute;
+  right: 0;
+  top: 0;
+  color: #666;
+}
+
+.content ul li .answer {
+  margin-top: 10px;
+  line-height: 24px;
+  display: none;
+  padding: 0 4px;
+}
+
+.content ul li .text-icon {
+  transition: all ease 2s;
+  -webkit-transition: all ease 2s;
+}
+
+.content ul li.active i.text-icon {
+  transform: rotate(-180deg);
+  -webkit-transform: rotate(-180deg);
+}
+
+.content ul li .answer .item {
+  margin-top: 20px;
+}
+
+.content ul li .answer .item:first-child {
+  margin-top: 0px;
+}
+
+.content ul li .answer .item .title {
+  color: #ff7351;
+}
+
+.content ul li .answer .orange-text {
+  color: #ff7351;
+}

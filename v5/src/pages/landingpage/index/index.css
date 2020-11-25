@@ -1,0 +1,153 @@
+body,
+.view{
+  height: 100%;
+  background: #fff;
+}
+.banner img {
+  width: 100%;
+}
+.main dl {
+  line-height: 24px;
+  background: #f6f6f6;
+}
+.main dl dd {
+  padding: 12px 0;
+  text-align: center;
+  font-size: 16px;
+  transition: color .3s ease-in-out;
+  -webkit-transition: color .3s ease-in-out;
+}
+.main dl dd span {
+  display: block;
+  border-left: 1px solid #c8c8c8;
+}
+.main dl dd:first-child span{
+  border-left: 0;
+}
+.main dl dd span .text-icon {
+  margin-right: 4px;
+  font-size: 16px;
+  color: #9fa2a5;
+}
+.main dl dd span .icon-position{
+  margin-top: -4px;
+  vertical-align: middle;
+  font-size: 18px;
+  font-weight: bold;
+}
+.main dl dd.active {
+  color: #ff9000;
+  border-bottom: 2px solid #ff7f00;
+}
+.main dl dd.active .text-icon {
+  color: #ff9000;
+}
+.main .content {
+  padding: 0 10px;
+}
+.main .content ul {
+  display: none;
+}
+.main .content .active {
+  display: block;
+}
+.main .content ul li {
+  padding: 5px 0;
+  line-height: 40px;
+  border-bottom: 1px solid #dcdcdc;
+}
+.main .content ul li a {
+  font-size: 16px;
+  color: #666;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -moz-box-pack: center;
+  -ms-flex-align: center;
+  -webkit-box-align: center;
+  -moz-box-align: center;
+  -webkit-align-items: center;
+  -moz-align-items: center;
+  align-items: center;
+}
+.main .content ul li img {
+  width: 80px;
+  height: 40px;
+  margin-right: 5px;
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+}
+.main .content ul li span{
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  -webkit-box-flex: 2;
+  -webkit-flex: 2;
+  -ms-flex: 2;
+  flex: 2;
+}
+.main .content ul li em {
+  line-height: normal;
+  text-align: right;
+  color: #ff7f00;
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+}
+.action-buttons {
+  padding: 23px 0 26px
+}
+.action-buttons .btn {
+  display: block;
+  width: 250px;
+  line-height: 44px;
+  margin: 0 auto 24px;
+  text-align: center;
+  font-size: 18px;
+  color: #fff;
+  background: #ff7f00;
+  border-radius: 3px;
+}
+.action-buttons .btn i {
+  padding-right: 3px;
+  font-style: normal
+}
+.action-buttons p {
+  padding: 0 16px;
+  text-align: right;
+  color: #c2c2c2
+}
+.action-buttons p a {
+  color: #0d39c8
+}
+.guide-page {
+  height: 100%;
+  background: url(./images/guidepage-bg.jpg) no-repeat center 0 #fa5254;
+  background-size: contain;
+}
+.guide-page .guide-buttons {
+  position: absolute;
+  bottom: 50px;
+  left: 0;
+  width: 100%;
+  text-align: center;
+}
+.guide-page .guide-buttons a {
+  display: inline-block;
+  width: 40%;
+  line-height: 44px;
+  margin: 0 4px;
+  font-size: 18px;
+  color: #fa5254;
+  background: #fedcdd;
+}
+
+
+
+
+

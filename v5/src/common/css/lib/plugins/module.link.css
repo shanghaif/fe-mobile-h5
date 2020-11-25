@@ -1,0 +1,65 @@
+/*友链*/
+#friendly-link {
+  border-bottom: 2px solid #d2d4da;
+  background-color: #fff;
+  padding: 10px;
+}
+#friendly-link h3 {
+  font-size: 14px;
+  color: #333;
+  height: 15px;
+  border-left: 3px solid #e8541e;
+  height: 15px;
+  line-height: 15px;
+  padding-left: 5px;
+  margin-bottom: 10px;
+}
+#friendly-link .friendly-link-box {
+  border-top: 1px solid #ddd;
+  padding: 5px;
+}
+#friendly-link .friendly-link-box a {
+  font-size: 12px;
+  color: #666;
+  line-height: 16px;
+  margin-right: 10px;
+}
+
+/*内链模块*/
+#inner-link {
+  margin-bottom: -20px;
+  padding: 0;
+  background-color: #fff;
+  border-bottom: 2px solid #d2d4da;
+}
+#inner-link  .tab-btn p {
+  text-align: center;
+  font-size: 14px;
+  color: #999;
+  border-bottom: 1px solid #ddd;
+  line-height: 36px;
+}
+#inner-link .tab-btn p.active {
+  color: #666;
+  border-bottom: 1px solid #999;
+}
+#inner-link .tab-content {
+  padding: 10px 15px;
+  font-size: 12px;
+  display: none;
+  /* height: 94px;*/
+  overflow: hidden;
+}
+#inner-link .tab-content:first-child {
+  display: block;
+}
+#inner-link  .tab-content a {
+  color: #666;
+}
+#inner-link .tab-content p {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  padding: 0 5px;
+  line-height: 20px;
+}

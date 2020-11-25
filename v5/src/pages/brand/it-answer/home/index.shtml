@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!--#include virtual="/fe-mobile-h5/v5/src/includes/v5/resources_header.shtml"-->
+  <title>是程序员就闯5关</title>
+  <link rel="stylesheet" href="//s.lietou-static.com/fe-mobile-h5/v5/css/pages/brand/it-answer/home.css">
+</head>
+
+<body class="luck-draw-20191024">
+  <i class="right-top-icon"></i>
+  <i class="right-bottom-icon"></i>
+  <div class="content-wrap luck-draw-index-wrap">
+    <h2 data-selector="dyn-title"></h2>
+    <section data-selector="dyn-cnt"></section>
+  </div>
+  <div class="bottom-tip">
+    <div class="nesting-item"></div>
+    <div class="nesting-item second-nesting-item"></div>
+    <div class="nesting-item third-nesting-item"></div>
+    <div class="nesting-item final-nesting-item">
+      <i class="liepin-logo"></i>
+    </div>
+  </div>
+  <i class="left-top-icon"></i>
+  <i class="left-bottom-icon"></i>
+  <!--#include virtual="/fe-mobile-h5/v5/src/includes/v5/resources_footer.shtml"-->
+  <!--#include virtual="/fe-mobile-h5/v5/src/includes/v5/resources_weixin.shtml"-->
+  <script src="//s.lietou-static.com/fe-mobile-h5/v5/js/pages/brand/it-answer/home.js"></script>
+  </script>
+</body>
+
+</html>

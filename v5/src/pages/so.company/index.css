@@ -1,0 +1,78 @@
+.condition-filter {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 99;
+  border-top: 0;
+  background: #f9f9f9;
+}
+.condition-title a {
+  display: block;
+  line-height: 44px;
+  font-size: 15px;
+  color: #666;
+}
+.condition-title a span {
+  display: inline-block;
+  max-width: 80%;
+  vertical-align: middle;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.condition-title a i {
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 2px;
+  border: 5px solid transparent;
+  border-top: 5px solid #666;
+  border-bottom: 0;
+  transition: all .3s ease;
+  -webkit-transition: all .3s ease;
+}
+.condition-title a.opened, .condition-title a.text-warning {
+  color: #fc6621;
+}
+.condition-title a.opened i {
+  border-top-color: #fc6621;
+  transform: rotate(180deg);
+  -webkit-transform: rotate(180deg);
+}
+.condition-title a.text-warning i {
+  border-top-color: #fc6621;
+}
+.scroll-wrapper {
+  position: absolute;
+  top: 94px;
+  bottom: 10px;
+  left: 0;
+  width: 100%;
+  background: #fff;
+}
+.scroll-wrapper .company-list{
+  background: #fff;
+}
+.pull-up {
+  height: 40px;
+  text-align: center;
+  color: #999;
+}
+.pull-up .icon-empty {
+  margin-right: 5px;
+  vertical-align: middle;
+  font-size: 18px;
+}
+.company-list-nodata {
+  padding: 100px 0 500px;
+  text-align: center;
+  background: #fff;
+}
+.company-list-nodata figure img {
+  width: 30%;
+}
+.company-list-nodata figcaption {
+  margin-top: 35px;
+  font-size: 16px;
+  color: #999;
+}

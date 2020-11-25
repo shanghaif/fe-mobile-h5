@@ -1,0 +1,573 @@
+.salary-report-container {
+  background-color: #131b2a;
+  .self-person-info {
+    position: relative;
+    width: 100%;
+    padding: 25.4% 0;
+    background: url(./images/info-banner.jpg) no-repeat 0 0 / cover;
+    .report-logo {
+      position: absolute;
+      left: 20px;
+      top: 10px;
+      font-size: 13px;
+      line-height: 15px;
+      color: #333;
+    }
+    .info-content {
+      position: absolute;
+      left: 30px;
+      top: 50%;
+      transform: translate(0, -50%);
+      dl {
+        dt {
+          width: 75px;
+          height: 75px;
+          margin-right: 14px;
+          border: 5px solid #17254c;
+          border-radius: 50%;
+          img {
+            width: 100%;
+            height: 100%;
+            border-radius: 50%;
+          }
+        }
+        dd {
+          color: #fff;
+          p {
+            font-size: 15px;
+            line-height: 21px;
+            &:first-child {
+              margin-bottom: 4px;
+              font-size: 18px;
+              font-weight: bold;
+            }
+          }
+        }
+      }
+    }
+  }
+  .salary-level-content, .recruit-high-job, .salary-industry-distribution, .salary-industry-distribution, .salary-skill-label, .salary-ranking, .job-ranking, .match-salary-chance, .consultant-advice-content {
+    margin: 14px 16px 0 16px;
+    background-color: #242940;
+    border-radius: 4px;
+  }
+  .salary-title {
+    padding: 32px 0 15px;
+    font-size: 18px;
+    line-height: 28px;
+    color: #fff;
+    text-align: center;
+    font-weight: bold;
+  }
+  .special-color {
+    color: #f64;
+  }
+  .ranking-container {
+    padding-bottom: 17px;
+    .ranking-item {
+      padding: 18px 20px 23px;
+    }
+    .ranking-0 {
+      &:before {
+        display: inline-block;
+        content: "";
+        width: 32px;
+        height: 32px;
+        background: url(./images/one.png) no-repeat 0 0 / cover;
+        }
+    }
+    .ranking-1 {
+      &:before {
+        display: inline-block;
+        content: "";
+        width: 32px;
+        height: 32px;
+        background: url(./images/two.png) no-repeat 0 0 / cover;
+        }
+    }
+    .ranking-2 {
+      &:before {
+        display: inline-block;
+        content: "";
+        width: 32px;
+        height: 32px;
+        background: url(./images/three.png) no-repeat 0 0 / cover;
+        }
+    }
+  }
+  .salary-level-conatiner {
+    position: relative;
+    z-index: 1;
+    margin-top: -6px;
+    .dot {
+      z-index: -1;
+      position: absolute;
+      content: "";
+      top: -8px;
+      right: 10px;
+      width: 15px;
+      height: 20px;
+      background: url(./images/dot.png) no-repeat 0 0 / cover;
+    }
+    .salary-level-content {
+      padding-top: 50px;
+      &:before {
+        display: block;
+        content: "";
+        position: absolute;
+        top: 19px;
+        left: 0;
+        width: 34px;
+        height: 51px;
+        background: url(./images/circle-yellow.png) no-repeat 0 0 / contain;
+      }
+      .echarts-salary {
+        position: relative;
+        width: 87.76%;
+        height: 135px;
+        margin: 0 auto;
+        canvas {
+          width: 100%;
+          height: 100%;
+        }
+        i {
+          visibility: hidden;
+          position: absolute;
+          left: 0;
+          top: 0;
+          width: 60px;
+          height: 56px;
+          background: url(./images/here.png) no-repeat 0 0 / contain;
+        }
+      }
+      .salary {
+        margin-top: 40px;
+        font-size: 12px;
+        color: #999;
+        line-height: 16px;
+        text-align: center;
+        span {
+          margin-left: 5px;
+          line-height: 28px;
+          font-size: 18px;
+          color: #fff;
+          font-weight: bold;
+        }
+        i {
+          margin: 0 28px;
+        }
+      }
+      .salary-lead {
+        padding: 15px 0 32px;
+        line-height: 20px;
+        text-align: center;
+        font-size: 14px;
+        color: #fff;
+      }
+    }
+  }
+  .recruit-high-job {
+    position: relative;
+    &:before {
+      position: absolute;
+      left: 0;
+      top: 0;
+      display: block;
+      content: "";
+      width: 120px;
+      height: 164px;
+      background: url(./images/job-banner.png) no-repeat 0 0 / cover;
+    }
+    .recruit-info {
+      font-size: 16px;
+      color: #fff;
+      font-weight: bold;
+      text-align: center;
+      strong {
+        font-size: 21px;
+      }
+    }
+    .recruit-tips {
+      padding: 2px 0 36px;
+      font-size: 12px;
+      line-height: 16px;
+      color: #ccc;
+      text-align: center;
+    }
+  }
+  .salary-industry-distribution {
+    position: relative;
+    margin-top: 14px;
+    .salary-title {
+      padding-bottom: 30px;
+    }
+    .echarts-industry-distribution {
+      width: 100%;
+      height: 257px;
+      padding-bottom: 32px;
+    }
+    &:before {
+      display: block;
+      content: "";
+      position: absolute;
+      right: -16px;
+      top: 20px;
+      width: 26px;
+      height: 52px;
+      background: url(./images/circle-orange.png) no-repeat 0 0 / cover;
+    }
+    &:after {
+      position: absolute;
+      bottom: -90px;
+      left: -16px;
+      display: inline-block;
+      content: "";
+      width: 30px;
+      height: 96px;
+      background: url(./images/circle-khaki.png) no-repeat 0 0 / cover;
+    }
+  }
+  .salary-skill-label {
+    position: relative;
+    padding-bottom: 45px;
+    .salary-title {
+      padding-bottom: 34px;
+    }
+    ul {
+      margin: 0 16px;
+      li {
+        justify-content: space-between;
+        padding-bottom: 20px;
+        span {
+          display: inline-block;
+          width: 16%;
+          font-size: 12px;
+          color: #fff;
+          text-align: right;
+        }
+        .skill-item {
+          position: relative;
+          width: 80.4%;
+          height: 24px;
+          border-radius: 0 4px 4px 0;
+          background: #333646;
+          div {
+            position: absolute;
+            left: 0;
+            top: 0;
+            width: 0;
+            height: 24px;
+            border-radius: 0 2px 2px 0;
+            transition: width 2s linear;
+            transition-duration: 1.7s;
+            span {
+              position: absolute;
+              top: 4px;
+              right: -15px;
+            }
+          }
+          &:after {
+            display: block;
+            content: "";
+            width: 1px;
+            height: 60px;
+            background: #343647;
+          }
+        }
+        .skill-0 {
+          background-color: #d24d57;
+        }
+        .skill-1 {
+          background-color: #ef6340;
+        }
+        .skill-2 {
+          background-color: #5857c0;
+        }
+        .skill-3 {
+          background-color: #f9c747;
+        }
+        .skill-4 {
+          background-color: #4eb188;
+        }
+        &:last-child {
+          padding-bottom: 0;
+          .skill-item {
+            &:after {
+              height: 20px;
+            }
+          }
+        }
+      }
+    }
+  }
+  .salary-ranking {
+    .ranking-container {
+      dl {
+        dt {
+          img {
+            display: block;
+            width: 40px;
+            height: 40px;
+            margin: 0 16px 0 20px;
+            border: 1px solid #666;
+            border-radius: 4px;
+          }
+        }
+        dd {
+          max-width: 62%;
+          p {
+            color: #fff;
+            font-size: 13px;
+            line-height: 18px;
+            &:first-child {
+              margin-bottom: 3px;
+              font-size: 15px;
+              line-height: 21px;
+              font-weight: bold;
+            }
+          }
+        }
+      }
+  }
+  }
+  .job-ranking {
+    .ranking-container {
+      li {
+        .ranking-content {
+          flex-grow: 1;
+          margin-left: 21px;
+          p {
+            color: #fff;
+            .job-title {
+              flex-grow: 1;
+              font-size: 15px;
+              line-height: 21px;
+              font-weight: bold;
+            }
+            .job-gain {
+              flex-shrink: 0;
+              font-size: 13px;
+              line-height: 16px;
+            }
+          }
+          .range {
+            position: relative;
+            width: 100%;
+            height: 10px;
+            margin-top: 10px;
+            background-color: #343747;
+            border-radius: 2px;
+            .range-percent {
+              position: absolute;
+              left: 0;
+              top: 0;
+              height: 10px;
+              background-color: #f64;
+              border-radius: 2px 0 0 2px;
+            }
+          }
+        }
+        }
+    }
+  }
+  .match-salary-chance {
+    position: relative;
+    .match-job-container {
+      padding-bottom: 12px;
+      li {
+        padding: 20px 0;
+        margin: 0 16px;
+        border-top: 1px solid #324469;
+        p {
+          justify-content: space-between;
+          font-size: 14px;
+          line-height: 20px;
+          color: #ccc;
+          .job-title {
+            width: 65%;
+            margin-bottom: 5px;
+            font-size: 17px;
+            line-height: 24px;
+            color: #fff;
+            font-weight: bold;
+          }
+          .special-color {
+            flex-shrink: 0;
+            font-size: 16px;
+          }
+        }
+        &:first-child {
+          margin-bottom: 5px;
+          border: none;
+        }
+      }
+    }
+    &:before {
+      display: block;
+      content: "";
+      position: absolute;
+      top: -10px;
+      left: -16px;
+      width: 26px;
+      height: 52px;
+      background: url(./images/circle-green.png) no-repeat 0 0 / cover;
+    }
+  }
+  .consultant-advice {
+    .advice-title {
+      position: relative;
+      display: flex;
+      align-items: center;
+      margin: 28px 16px 5px;
+      line-height: 25px;
+      font-size: 18px;
+      font-weight: bold;
+      color: #fff;
+      &:before {
+        display: inline-block;
+        content: "";
+        width: 38px;
+        height: 47px;
+        margin-right: 10px;
+        background: url(./images/advice.png) no-repeat 0 0 / cover;
+      }
+      &:after {
+        position: absolute;
+        right: -16px;
+        top: 16px;
+        display: inline-block;
+        content: "";
+        width: 30px;
+        height: 82px;
+        background: url(./images/circle-violet.png) no-repeat 0 0 / cover;
+      }
+    }
+    .consultant-advice-content {
+      position: relative;
+      padding: 18px 16px;
+      p {
+        line-height: 25px;
+        font-size: 14px;
+        color: #fff;
+      }
+    }
+  }
+  .recruit-recommend-container {
+    ul {
+      margin: 0 18px;
+      li {
+        padding: 20px 14px;
+        margin-top: 14px;
+        color: #fff;
+        background-color: #242940;
+        border-radius: 4px;
+        dl {
+          align-items: flex-start;
+          padding-bottom: 16px;
+          border-bottom: 1px solid #324469;
+          dt {
+            width: 45px;
+            height: 45px;
+            margin-right: 12px;
+            img {
+              width: 100%;
+              height: 100%;
+              border-radius: 4px;
+              border: 1px solid #eee;
+            }
+          }
+          dd {
+            flex: 1;
+            justify-content: space-between;
+            .hr-name {
+              margin-bottom: 4px;
+              font-size: 15px;
+              line-height: 21px;
+              color: #fff;
+              font-weight: bold;
+              span {
+                font-size: 13px;
+                margin: 0 10px;
+              }
+            }
+            .hr-online {
+              font-size: 12px;
+              color: #666;
+              &::before {
+                display: inline-block;
+                content: "";
+                width: 8px;
+                height: 8px;
+                margin-right: 4px;
+                background-color: #7ed438;
+                border-radius: 50%;
+              }
+            }
+            .hr-feed {
+              font-size: 12px;
+              color: #ccc;
+              line-height: 16px;
+            }
+            button {
+              width: 65px;
+              height: 28px;
+              padding: 0;
+              flex-shrink: 0;
+              font-size: 12px;
+              background-color: #f64;
+              color: #fff;
+              border: none;
+              border-radius: 2px;
+            }
+          }
+        }
+        .job-info {
+          padding: 16px 0 0;
+          .job-title {
+            line-height: 24px;
+            justify-content: space-between;
+            .job-name {
+              width: 65%;
+              font-size: 17px;
+              font-weight: bold;
+              color: #fff;
+            }
+            .salary {
+              flex-shrink: 0;
+              font-size: 16px;
+              color: #f64;
+            }
+          }
+          .comp {
+            padding: 5px 0 10px;
+            line-height: 20px;
+            font-size: 14px;
+            color: #ccc;
+          }
+          .job-require {
+            font-size: 12px;
+            color: #ccc;
+          }
+        }
+      }
+    }
+  }
+  .btn-conatiner {
+    padding: 27px 0 35px;
+    text-align: center;
+    a {
+      display: inline-block;
+      height: 32px;
+      line-height: 32px;
+      font-size: 14px;
+      color: #fff;
+      text-align: center;
+      margin: 0 auto;
+    }
+  }
+}
+@media (device-width: 375px) and (device-height: 812px) and (-webkit-min-device-pixel-ratio : 3) {
+  .salary-report-container .btn-conatiner {
+    padding: 27px 0 55px
+  }
+}

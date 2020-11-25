@@ -1,0 +1,91 @@
+#city-list .now-location {
+  height: 30px;
+  line-height: 30px;
+  background-color: #f2f2f2;
+  font-size: 13px;
+  color: #999;
+  padding-left: 15px;
+  border: 1px solid #cdcdcd;
+}
+#city-list .now-location a {
+  font-size: 13px;
+  color: #e8541e;
+  margin-left: 12px;
+}
+#city-list .card {
+  margin: 10px 0 0;
+  padding: 10px;
+}
+#city-list .card-top {
+  padding: 18px 10px 0 10px;
+}
+#city-list .card .card-title {
+  font-size: 14px;
+  color: #333;
+  border-left: 3px solid #e8541e;
+  padding-left: 5px;
+  line-height: 15px;
+  height: 15px;
+  margin-bottom: 14px;
+}
+#city-list .hot-box {
+  padding-right: 20px;
+}
+#city-list .list-show-main {
+  padding-right: 20px;
+  color: #999;
+}
+#city-list .list-show-main li {
+  border-bottom: 1px solid #d2d2d2;
+  position: relative;
+  padding: 5px 0 0px 20px;
+}
+#city-list .list-show-main li .number {
+  position: absolute;
+  left: 0;
+  top: 8px;
+  display: block;
+  font-size: 16px;
+}
+#city-list .list-box {
+}
+#city-list .list-box p {
+  text-align: center;
+}
+#city-list .list-box p:first-child {
+  text-align: left;
+}
+#city-list .list-box p:last-child {
+  text-align: right;
+}
+#city-list .list-box p a {
+  color: #999;
+  display: inline-block;
+  padding: 2px 10px;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+#city-list .list-box p a:active {
+  background: #e7e8ed;
+}
+.side-nav {
+  position: fixed;
+  width: 14px;
+  overflow: hidden;
+  right: 5px;
+  top: 106px;
+}
+.side-nav a {
+  display: block;
+  width: 14px;
+  height: 14px;
+  line-height: 14px;
+  font-size: 12px;
+  border-radius: 50%;
+  color: #999;
+  text-align: center;
+}
+.side-nav a.active {
+  color: #fff;
+  background: #ec5504;
+}

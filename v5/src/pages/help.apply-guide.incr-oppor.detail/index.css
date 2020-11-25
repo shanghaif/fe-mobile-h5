@@ -1,0 +1,88 @@
+body {
+  width: 100%;
+  height: 100%;
+  background-color: #fff;
+}
+
+.view {
+  padding-top: 18px;
+}
+
+.top-img > img {
+  width: 100%;
+}
+
+h3 {
+  position: relative;
+  font-size: 16px;
+  font-weight: bold;
+  margin: 0 18px;
+  padding: 0 10px;
+  line-height: 20px;
+}
+
+h3:before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 4px;
+  height: 20px;
+  background-color: #ff7351;
+}
+
+dl {
+  margin-top: 20px;
+  padding: 0 16px;
+  color: #666;
+  font-size: 14px;
+}
+
+dl dd {
+  margin-bottom: 14px;
+  line-height: 24px;
+}
+
+dl dd .orange-text {
+  color: #ff7351;
+  padding: 0 2px;
+}
+
+ul.list {
+  margin-top: 20px;
+  padding: 0 16px;
+  color: #666;
+  font-size: 14px;
+}
+
+ul.list li {
+  line-height: 26px;
+}
+
+dl dd ul.disc {
+  list-style-type: disc;
+  margin-left: 20px;
+}
+
+dl dd ul.disc li {
+  list-style-type: disc;
+}
+
+.btn {
+  position: absolute;
+  bottom: 30px;
+  left: 5%;
+  width: 90%;
+  border-radius: 4px;
+}
+
+p.inner-img {
+  padding: 0 30px;
+}
+
+/*@supports (bottom:constant(safe-area-inset-bottom)) {
+  body .btn {
+    bottom: calc(30px + constant(safe-area-inset-bottom));
+  }
+
+}*/

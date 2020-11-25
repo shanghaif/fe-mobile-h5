@@ -1,0 +1,297 @@
+body {
+  background-color: #fff;
+}
+
+.live-schedule-wrap {
+  padding-bottom: 100px;
+
+  .schedule-banner-wrap {
+    position: relative;
+    padding: 22.73333%;
+    background-color: #f2f2f2;
+
+    .schedule-banner {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+    }
+  }
+
+  .landing-info-wrap {
+    padding: 15px 18px 32px;
+
+    dt {
+      margin-bottom: 5px;
+      line-height: 28px;
+      font-size: 20px;
+      font-weight: bold;
+      color: #000;
+    }
+
+    dd {
+      display: flex;
+      align-items: center;
+      line-height: 18px;
+      color: #666;
+
+      .icon-launchtime {
+        flex-shrink: 0;
+        margin-right: 4px;
+        width: 8px;
+        height: 12px;
+        background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAYCAMAAADEfo0+AAAAM1BMVEUAAAD/Z0T/ZkP/ZkT/ZkX/Zkb/Z0P/ZUT/Z0L/ZkT/ZUT/YkX/ZkT/ZkT/ZkT/Z0X/ZkRlzFenAAAAEHRSTlMACZ701F8qyz40Ihrq6K2rovbH0gAAAFNJREFUGNOVkFkOgCAMBcEd13f/02qIyWgbI8wfkz66hALiNL/eaZOaGGDURTcglGl7I+4YIscQxBDE9OSwQsuf2P2nvq0fjHKz3Pf6aaWcE1ZxAp8WCq3jxp2aAAAAAElFTkSuQmCC) center / 100% 100%;
+      }
+    }
+  }
+
+  h3 {
+    padding-bottom: 16px;
+    font-size: 18px;
+    line-height: 25px;
+  }
+
+  .landing-host-wrap {
+    padding-bottom: 16px;
+
+    h3 {
+      padding: 0 18px;
+    }
+
+    overflow: hidden;
+
+    .landing-host-scroll-wrap {
+      height: 125px;
+      overflow: hidden;
+
+      .landing-host-scroller {
+        padding: 16px 18px;
+        height: 150px;
+        white-space: nowrap;
+        overflow: auto;
+
+        dl {
+          display: inline-flex;
+          align-items: center;
+          border-radius: 4px;
+          padding: 24px 15px;
+          height: 93px;
+          width: 220px;
+          margin-right: 13px;
+          box-shadow: 0 0 25px rgba(0, 0, 0, 0.05);
+
+          dt {
+            flex-shrink: 0;
+            margin-right: 13px;
+
+            img {
+              display: block;
+              width: 45px;
+              height: 45px;
+              border-radius: 50%;
+            }
+          }
+
+          dd {
+            .host-name {
+              margin-bottom: 4px;
+              line-height: 22px;
+              font-size: 16px;
+              font-weight: bold;
+              color: #2F2E2E;
+            }
+
+            .host-desc {
+              line-height: 18px;
+              font-size: 13px;
+              color: #666;
+            }
+          }
+
+          &:last-child {
+            margin: 0;
+          }
+        }
+      }
+    }
+  }
+
+  .landing-desc-wrap {
+    padding: 0 18px;
+    line-height: 28px;
+
+    .desc-content-wrap {
+      overflow: hidden;
+      max-height: 112px;
+      font-size: 18px;
+
+      .desc-content-pre {
+        font-size: 15px;
+        line-height: 28px;
+        word-break: break-all;
+        white-space: pre-wrap;
+        font-family: inherit;
+        color: inherit;
+
+        &.overflowed {
+          -webkit-line-clamp: 4;
+          display: -webkit-box;
+          /*! autoprefixer: off */
+          -webkit-box-orient: vertical;
+          /* autoprefixer: on */
+          overflow: hidden;
+          text-overflow: ellipsis;
+        }
+      }
+    }
+
+    .btn-show-all {
+      display: inline-block;
+      margin-top: 13px;
+      color: #f64;
+      font-size: 15px;
+    }
+  }
+
+  .landing-job-list-wrap {
+    padding-top: 40px;
+    h3 {
+      padding: 0 18px;
+    }
+    .landing-job-list {
+      padding: 0px 18px;
+      font-size: 14px;
+      .landing-job-card {
+        padding: 20px 0;
+        border-bottom: 1px solid #f8f8f8;
+        .landing-job-wrap  {
+          color: #333;
+          font-size: 17px;
+          font-weight: bold;
+          .landing-job-salary {
+            font-size: 16px;
+            color: #f64;
+          }
+        }
+        .landing-company-show {
+          padding: 5px 0 8px;
+          font-size: 14px;
+          line-height: 20px;
+          color: #666;
+        }
+        .laning-job-requirement {
+          display: inline-block;
+          padding: 3px 6px;
+          margin-right: 16px;
+          font-size: 12px;
+          border-radius: 2px;
+          background-color: #F8F8F8;
+        }
+        .landing-publisher-wrap {
+          padding: 12px 0 0;
+          dt {
+            img {
+              width: 22px;
+              height: 22px;
+              margin-right: 8px;
+              flex-shrink: 0;
+              border-radius: 2px;
+            }
+          }
+          dd {
+            font-size: 13px;
+            line-height: 18px;
+          }
+        }
+      }
+    }
+  }
+}
+.living-symbol {
+  position: relative;
+  width: 18px;
+  height: 18px;
+  margin-right: 4px;
+  i {
+    position: absolute;
+    width: 2px;
+    bottom: 4px;
+    background-color: #f64;
+    border-top-left-radius: 1px;
+    border-top-right-radius: 1px;
+    animation-fill-mode: both;
+    animation-duration: 0.9s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+
+    &:first-child {
+      left: 4px;
+      animation-name: symbol1;
+    }
+
+    &:nth-child(2) {
+      left: 8px;
+      animation-name: symbol2;
+    }
+
+    &:last-child {
+      right: 4px;
+      animation-name: symbol3;
+    }
+  }
+}
+
+@keyframes symbol1 {
+  0% {
+    height: 5px;
+  }
+
+  33% {
+    height: 10px;
+  }
+
+  66% {
+    height: 7px;
+  }
+
+  100% {
+    height: 5px;
+  }
+}
+
+@keyframes symbol2 {
+  0% {
+    height: 10px;
+  }
+
+  33% {
+    height: 7px;
+  }
+
+  66% {
+    height: 5px;
+  }
+
+  100% {
+    height: 10px;
+  }
+}
+
+@keyframes symbol3 {
+  0% {
+    height: 7px;
+  }
+
+  33% {
+    height: 5px;
+  }
+
+  66% {
+    height: 10px;
+  }
+
+  100% {
+    height: 7px;
+  }
+}

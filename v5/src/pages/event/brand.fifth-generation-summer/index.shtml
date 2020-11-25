@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!--#include virtual="/fe-mobile-h5/v5/src/includes/v5/resources_c.shtml"-->
+  <title>5G的夏天</title>
+  <link rel="stylesheet" href="//s.lietou-static.com/fe-mobile-h5/v5/css/pages/event/brand.fifth-generation-summer.css">
+</head>
+
+<body>
+  <section class="banner-wrap">
+    <i class="banner-bg"></i>
+    <i class="logo-img"></i>
+  </section>
+
+  <section class="data-wrap"></section>
+
+  <section class="top-wrap">
+    <h3></h3>
+    <ul data-selector="top-wrap"></ul>
+  </section>
+
+  <section class="top-wrap big-wrap">
+    <h3></h3>
+    <ul data-selector="big-wrap"></ul>
+  </section>
+
+  <section class="hot-wrap">
+      <h3></h3>
+      <ul data-selector="tab-wrap" class="tab-wrap"></ul>
+      <div class="list-item-wrap" data-selector="list-wrap"></div>
+    </section>
+
+  <section class="bot-bg-wrap">
+    <i class="logo-img"></i>
+  </section>
+  <script src="//s.lietou-static.com/fe-mobile-h5/v5/js/pages/event/brand.fifth-generation-summer.js"></script>
+</body>
+
+</html>

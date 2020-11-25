@@ -1,0 +1,76 @@
+/* 友情链接 */
+.friendly-link-wrap {
+  padding: 20px 0;
+  background-color: #fff;
+  text-align: center;
+  > a {
+    color: #999;
+    font-size: 13px;
+    position: relative;
+    &:before {
+      content: "|";
+      position: absolute;
+      left: 0;
+      top: 1px;
+      font-size: 12px;
+    }
+    &:first-child {
+      &:before {
+        display: none;
+      }
+    }
+  }
+}
+/* 底部热联 */
+.hot-links {
+  padding: 20px 18px 0;
+  background-color: #fff;
+}
+.hot-links .tab-btn {
+  width: 100%;
+  overflow: hidden;
+}
+.hot-links .tab-btn .hot-tab-content {
+  overflow-x: auto;
+}
+.hot-links .tab-btn p {
+  margin-left: 33px;
+  text-align: center;
+  font-size: 14px;
+  color: #999;
+  white-space: nowrap;
+}
+.hot-links .tab-btn p:first-child {
+  margin-left: 0;
+}
+.hot-links .tab-btn p.active {
+  color: #333;
+  font-weight: bold;
+}
+.hot-links .tab-box {
+  padding: 16px 0 18px;
+  border-bottom: 1px solid #f8f8f8;
+}
+
+.hot-links .tab-content {
+  font-size: 12px;
+  height: 80px;
+  display: none;
+  overflow: hidden;
+}
+.hot-links .tab-content .flexbox p:first-child {
+  padding-left: 0;
+}
+.hot-links .tab-content:first-child {
+  display: block;
+}
+.hot-links  .tab-content a {
+  color: #666;
+}
+.hot-links .tab-content p {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  padding: 0 5px;
+  line-height: 20px;
+}

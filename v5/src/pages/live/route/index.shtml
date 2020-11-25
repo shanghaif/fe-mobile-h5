@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>意见反馈</title>
+  <meta charset="UTF-8" />
+  <meta http-equiv="x-dns-prefetch-control" content="on" />
+  <link rel=dns-prefetch href="https://concat.lietou-static.com" />
+  <link rel=dns-prefetch href="https://image0.lietou-static.com" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0, viewport-fit=cover" />
+  <meta name="format-detection" content="telephone=no, email=no" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="white" />
+  <link rel="preconnect" href="//concat.lietou-static.com" />
+  <link rel="preconnect" href="//image0.lietou-static.com" />
+  <script crossorigin="anonymous" src="//concat.lietou-static.com/fe-lib-h5/v5/femonitor/femonitor.min.js"></script>
+  <link rel="icon" href="//concat.lietou-static.com/fe-mobile-h5/v5/static/images/favicon.ico" type="image/x-icon" />
+  <link rel="stylesheet" href="//concat.lietou-static.com/fe-mobile-h5/v5/css/common/common.css"/>
+  <link rel="stylesheet" href="//concat.lietou-static.com/fe-mobile-h5/v5/css/pages/live/route.css">
+</head>
+<body>
+<div id="app"></div>
+<script src="//s.lietou-static.com/fe-mobile-h5/v5/static/js/vendor.js"></script>
+<script src="//concat.lietou-static.com/fe-lib-h5/v5/react/16.8.6/react.min.js"></script>
+<script src="//concat.lietou-static.com/fe-lib-h5/v5/react-dom/16.8.6/react-dom.min.js"></script>
+<script src="//s.lietou-static.com/fe-mobile-h5/v5/js/common/common.js"></script>
+<script src="//concat.lietou-static.com/fe-mobile-h5/v5/js/pages/live/route.js"></script>
+<!--#include file="../../../includes/v5/resources_weixin.shtml" -->
+<!--#include file="../../../includes/v5/statistic.shtml" -->
+</body>
+</html>

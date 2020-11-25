@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="cn">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="x-dns-prefetch-control" content="on">
+  <link rel="dns-prefetch" href="https://s.lietou-static.com">
+  <link rel="dns-prefetch" href="https://image0.lietou-static.com">
+  <link rel="preconnect" href="https://s.lietou-static.com" />
+  <link rel="preconnect" href="https://image0.lietou-static.com" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+  <meta name="format-detection" content="telephone=no, email=no" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="white" />
+  <link rel="icon" href="https://s.lietou-static.com/fe-mobile-h5/v5/static/images/favicon.ico" type="image/x-icon" />
+  <script crossorigin="anonymous" src="https://s.lietou-static.com/fe-lib-h5/v5/femonitor/femonitor.min.js"></script>
+  <link rel="stylesheet" href="https://s.lietou-static.com/fe-mobile-h5/v5/css/common/common.css">
+  <link rel="stylesheet" href="//s.lietou-static.com/fe-mobile-h5/v5/css/pages/sem-put/leads-sales/home.css">
+  <title>Document</title>
+</head>
+<body>
+<div id="app"></div>
+<script crossorigin="anonymous" src="https://s.lietou-static.com/fe-mobile-h5/v5/static/js/vendor.js"></script>
+<script src="//concat.lietou-static.com/fe-lib-h5/v5/react/16.8.6/react.min.js"></script>
+<script src="//concat.lietou-static.com/fe-lib-h5/v5/react-dom/16.8.6/react-dom.min.js"></script>
+<script crossorigin="anonymous" src="https://s.lietou-static.com/fe-mobile-h5/v5/js/common/common.js"></script>
+<script src="//s.lietou-static.com/fe-mobile-h5/v5/js/pages/sem-put/leads-sales/home.js"></script>
+<!--#include virtual="/fe-mobile-h5/v5/src/includes/v5/statistic.shtml"-->
+</body>
+</html>

@@ -1,0 +1,195 @@
+@import "./lib/plugins/headerFooter.css";
+@import "./lib/plugins/cards.css";
+@import "./lib/plugins/loading.css";
+@import "./lib/plugins/navbar.css";
+@import "./lib/plugins/pagerBox.css";
+@import "./lib/plugins/hotlinks.css";
+@import "./lib/plugins/switchpage.css";
+@import "./lib/plugins/module.link.css";
+@import "./lib/plugins/page.item.css";
+@import "./lib/plugins/new.navbar.css";
+/*地区插件*/
+/*应该写在组件里的css*/
+#static-city a {
+  color: #333;
+  display: block;
+}
+/* 下面是 sns-m 迁入 */
+.opacity {
+  opacity: 0;
+}
+
+/*蓝V 黄V 媒体码*/
+.v-blue-box, .v-yellow-box, .media-box {
+  padding: 1px;
+}
+.v-blue-box .icon-v-circle {
+  color: #079eff;
+}
+.v-yellow-box .icon-v-circle {
+  color: #ffa614;
+}
+.icon-media-box .icon-media {
+  color: #f45548;
+}
+
+/*app分享出的页面的footerbar*/
+.app-footer-bar {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background: rgba(0, 0, 0, .6);
+  padding: 0;
+}
+.app-header-bar {
+  position: relative;
+}
+.app-footer-bar dl {
+  display: flex;
+  -webkit-box-pack: center;
+  -moz-box-pack: center;
+  -ms-flex-align: center;
+  -webkit-align-items: flex-start;
+  align-items: flex-start;
+  -webkit-box-align: start;
+  -moz-box-align: start;
+  padding: 1.5rem 1.5rem;
+}
+.app-header-bar dl {
+  -webkit-align-items: center;
+  align-items: center;
+  -webkit-box-align: center;
+  -moz-box-align: center;
+  padding-left: 2rem;
+}
+.app-footer-bar dl dt {
+  width: 50px;
+}
+.app-footer-bar dl dt img {
+  display: block;
+  width: 50px;
+  height: 50px;
+}
+.app-footer-bar dl dd:nth-of-type(1) {
+  margin: 0 1rem;
+  color: #fff;
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  width: 0;
+}
+.app-footer-bar dl dd:nth-of-type(1) ul li {
+  text-align: left;
+}
+.app-footer-bar dl dd:nth-of-type(1) ul li:nth-of-type(1) {
+  font-size: 16px;
+  font-weight: bold;
+}
+.app-footer-bar dl dd:nth-of-type(1) ul li:nth-of-type(2) {
+  font-size: 14px;
+  margin: .5rem 0;
+}
+.app-footer-bar dl dd:nth-of-type(1) ul li:nth-of-type(3) {
+  color: #ffb746;
+}
+.app-footer-bar dl dd:nth-of-type(1) ul li:nth-of-type(3) .icon {
+  margin-right: .5rem;
+}
+.app-footer-bar dl dd:nth-of-type(2) {
+  width: 6.5rem;
+}
+.app-footer-bar dl dd:nth-of-type(2) .button {
+  width: 100%;
+  margin-top: .5rem;
+}
+.app-footer-bar .app-bar-orange {
+  color: #f70;
+}
+.app-footer-bar .app-bar-colose {
+  padding: 15px;
+  position: absolute;
+  top: -10px;
+  left: -10px;
+  color: #fff;
+  font-size: 18px;
+}
+.button {
+  width: 200px;
+  line-height: 44px;
+  -webkit-border-radius: 6px;
+  border-radius: 3px;
+  background-color: #ff7800;
+  -webkit-appearance: none;
+  border: none;
+  color: #fff;
+  display: block;
+  text-align: center;
+  font-size: 15px;
+}
+.button:visited {
+  color: #fff;
+}
+.button:focus {
+  outline: none;
+}
+body.app-bar-top .app-download-bar {
+  top: 0
+}
+body.app-bar-bottom .app-download-bar {
+  bottom: 0;
+}
+.app-download-bar {
+  width: 100%;
+  background-color: rgba(0, 0, 0, .6);
+
+  a.icon-close {
+    color: #fff;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    padding-right: 30px;
+    padding-bottom: 30px;
+  }
+  dl {
+    padding: 10px 10px 10px 32px;
+
+    dt {
+      margin-right: 10px;
+    }
+    dd {
+      padding-right: 72px;
+
+      .btn {
+        width: auto;
+        position: absolute;
+        right: 15px;
+        top: 18px;
+        padding: 0 10px;
+      }
+      ul li {
+        color: #fff;
+
+        &:nth-of-type(1) {
+          font-size: 14px;
+          margin-top: -1px;
+        }
+        &:nth-of-type(2) {
+          font-size: 14px;
+          margin: 3px 0;
+          color: #ff8e4a;
+        }
+        &:last-of-type {
+          margin-bottom: 0
+        }
+        .text-icon {
+          color: #ffb746;
+          margin-right: 5px;
+        }
+      }
+    }
+  }
+}
+.hide {
+  display: none !important;
+}

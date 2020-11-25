@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <!--#include virtual="/fe-mobile-h5/v5/src/includes/v5/resources_c.shtml"-->
+  <title>是程序员就闯5关</title>
+  <link rel="stylesheet" href="https://s.lietou-static.com/fe-mobile-h5/v5/css/common/common.css">
+  <link rel="stylesheet" href="https://s.lietou-static.com/fe-mobile-h5/v5/css/pages/brand/it-answer/lottrey-entry.css">
+</head>
+<body class="luck-draw-20191024">
+  <i class="right-top-icon"></i>
+  <i class="right-bottom-icon"></i>
+  <div class="content-wrap luck-draw-index-wrap">
+    <h2>
+      <a href="javascript:;" data-selector="rule-link">选择文件夹打开抽取专属限量好礼</a>
+    </h2>
+    <section class="prise-container">
+      <ul class="prise-content flexbox">
+        <li class="prise-item prise-nocheck" data-selector="choose-prise">
+          <span class="">点我</span>
+        </li>
+        <li class="prise-item prise-nocheck" data-selector="choose-prise">
+          <span class="">点我</span>
+        </li>
+        <li class="prise-item prise-nocheck" data-selector="choose-prise">
+          <span class="">点我</span>
+        </li>
+        <li class="prise-item prise-nocheck" data-selector="choose-prise">
+          <span class="">点我</span>
+        </li>
+      </ul>
+      <a href="javascript:;" class="luck-draw-btn" data-selector="open-prise">打开</a>
+    </section>
+  </div>
+  <div class="bottom-tip">
+    <span class="nesting-item"></span>
+    <span class="nesting-item second-nesting-item"></span>
+    <span class="nesting-item third-nesting-item"></span>
+    <span class="nesting-item final-nesting-item">
+      <i class="liepin-logo"></i>
+    </span>
+  </div>
+  <i class="left-top-icon"></i>
+  <i class="left-bottom-icon"></i>
+</body>
+<script src="https://s.lietou-static.com/fe-mobile-h5/v5/static/js/react.min.js"></script>
+<script src="https://s.lietou-static.com/fe-mobile-h5/v5/static/js/react-dom.min.js"></script>
+<script src="https://s.lietou-static.com/fe-mobile-h5/v5/static/js/vendor.js"></script>
+<script src="https://s.lietou-static.com/fe-mobile-h5/v5/js/common/common.js"></script>
+<script src="https://s.lietou-static.com/fe-mobile-h5/v5/js/pages/brand/it-answer/lottrey-entry.js"></script>
+</html>

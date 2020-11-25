@@ -1,0 +1,255 @@
+.back-white {
+}
+.job-content {
+  padding: 10px;
+  background-color: #fff;
+}
+.login-register {
+  padding: 20px 15px;
+  font-size: 15px;
+  background-color: #fff;
+  color: #666;
+  line-height: 22px;
+  border-radius: 2px;
+  box-shadow: 0 2px 0px #d2d4da;
+  margin-bottom: 20px;
+}
+.login-register a {
+  display: block;
+  color: #666;
+}
+.login-register a p:first-child {
+  margin-bottom: 10px;
+}
+.login-register a .text-warning {
+  display: block;
+  color: #fc6621;
+}
+.recommend-title {
+  position: relative;
+  text-align: center;
+}
+.recommend-title span {
+  color: #8e8e98;
+  display: inline-block;
+  background-color: #e7e8ed;
+  padding: 0 30px;
+  font-size: 18px;
+  position: relative;
+  z-index: 1;
+  background: #fff;
+}
+.recommend-title:after {
+  content: '';
+  display: block;
+  height: 1px;
+  line-height: normal;
+  background-color: #8e8e98;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 100%;
+}
+.pic-card {
+  display: none;
+  position: relative;
+  margin-bottom: 10px;
+  border-radius: 2px;
+  box-shadow: 0 2px 0 #d2d4da;
+}
+.pic-card .icon-close {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  font-size: 18px;
+  color: #fff;
+}
+.result-list .pic-card a {
+  position: static;
+  padding: 0;
+}
+.pic-card img {
+  width: 100%;
+  border-radius: 2px;
+}
+.industry-module {
+  margin-top: 30px;
+  text-align: center;
+}
+.industry-module h2 {
+  margin-bottom: 10px;
+  font-size: 15px;
+}
+.industry-module .flexbox {
+  margin-bottom: 5px;
+}
+.industry-module .flexbox p {
+  background-color: #fff;
+  border: 1px #cbcbd5 solid;
+  margin-right: 5px;
+  font-size: 14px;
+  line-height: 35px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.industry-module .flexbox p a {
+  color: #8e8e98;
+  display: block;
+}
+.industry-module .flexbox a:last-child {
+  margin-right: 0;
+}
+/* 职位列表页 */
+.result-list {
+  padding: 10px 0 15px;
+}
+.result-list a:visited h2 {
+  color: #999;
+}
+.result-list a:visited p, .result-list a:visited .pulish-time time {
+  color: #bbb;
+}
+.result-list a:last-child {
+  margin-bottom: 0;
+}
+.result-list a.more-job {
+  padding: 30px 0;
+  text-align: center;
+  font-size: 16px;
+  color: #999;
+  display: block;
+}
+.result-list a h2 {
+  font-size: 15px;
+  margin-bottom: 4px;
+  overflow: hidden;
+  padding-right: 10px;
+}
+.result-list a h2 i.icon-honesty {
+  font-size: 16px;
+  margin-left: 3px;
+  color: #c11329;
+  vertical-align: top;
+}
+.result-list a p {
+  color: #666;
+  margin-bottom: 4px;
+  font-size: 14px;
+}
+.result-list a .feedback-labels label {
+  display: inline-block;
+  margin-right: 5px;
+  padding: 0 5px;
+  line-height: 16px;
+  font-size: 12px;
+  color: #8e8e98;
+  border: 1px solid #8e8e98;
+  border-radius: 2px;
+}
+.result-list a .pulish-time {
+  margin-bottom: 0;
+  font-size: 12px;
+}
+.result-list a .pulish-time time {
+  color: #999;
+  display: inline-block;
+  vertical-align: middle;
+}
+.result-list a .job-name {
+  vertical-align: middle;
+  font-size: 17px;
+  display: inline-block;
+  max-width: 89%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.result-list a h2 .text-warning {
+  text-align: right;
+  font-size: 17px;
+}
+.result-list a .jipin {
+  display: inline-block;
+  border: 1px #ff6555 solid;
+  color: #ff6555;
+  padding: 1px 4px;
+  line-height: normal;
+  font-style: normal;
+  border-radius: 2px;
+  font-size: 11px;
+  margin-right: 2px;
+  vertical-align: middle;
+}
+.result-list a .applied {
+  display: inline-block;
+  background-color: #bdbdc4;
+  color: #fff;
+  padding: 2px 4px;
+  line-height: normal;
+  font-style: normal;
+  border-radius: 2px;
+  font-size: 11px;
+  margin-left: 5px;
+  vertical-align: middle;
+}
+.result-list a .type-ejob, .result-list a .type-hjob, .result-list a .type-ejob-danger, .result-list a .type-lpjob {
+  width: 34px;
+  height: 34px;
+  text-align: right;
+  padding: 3px 3px 0 0;
+  color: #fff;
+  border-top-right-radius: 2px;
+  font-size: 12px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  background: linear-gradient(45deg, transparent 50%, #feb92c 50%);
+}
+.result-list a .type-hjob {
+  background: linear-gradient(45deg, transparent 50%, #1960f1 50%);
+}
+.result-list a .type-ejob-danger {
+  background: linear-gradient(45deg, transparent 50%, #ff6555 50%);
+}
+.result-list a .type-lpjob {
+  background: linear-gradient(45deg, transparent 50%, #ff7e00 50%);
+}
+.result-list .pull-up {
+  color: #999;
+  text-align: center;
+  margin-top: 10px;
+}
+.search-box.search-job .input-wrap {
+  -webkit-border-radius: 30px;
+  border-radius: 30px;
+}
+.search-box.search-job .input-fixed .input-wrap {
+  -webkit-border-radius: 0px;
+  border-radius: 0px;
+}
+.job-content-empty {
+  margin-top: 20%;
+  text-align: center;
+}
+.job-content-empty p em {
+  display: inline-block;
+  width: 90px;
+  line-height: 90px;
+  font-size: 40px;
+  color: #fff;
+  background: #ddd;
+  border-radius: 50%;
+}
+.job-content-empty h3 {
+  margin: 15px 0 5px;
+  font-size: 18px;
+  color: #666;
+}
+.job-content-empty .empty-tips {
+  margin-bottom: 20px;
+  line-height: 24px;
+  color: #999;
+}
+.job-content-empty .btn {
+  width: 50%;
+}

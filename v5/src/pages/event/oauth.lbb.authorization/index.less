@@ -1,0 +1,118 @@
+body {
+  height: 100%;
+  background-color: #fff;
+}
+
+.register-wrap {
+  box-sizing: border-box;
+  padding: 0 32px;
+  .register-title {
+    padding: 40px 0 30px;
+    h1 {
+      margin: 0;
+      padding: 0;
+      color: #333;
+      font-size: 32px;
+      letter-spacing: 0;
+      line-height: 38.5px;
+      padding-left: 2px;
+    }
+  }
+  .inputzone {
+    box-sizing: border-box;
+    position: relative;
+    border-bottom: 1px solid #eee;
+    height: 60px;
+    line-height: 60px;
+    &.focus {
+      border-color: #f64;
+    }
+    [type="text"], [type="number"], [type="tel"] {
+      box-sizing: border-box;
+      padding: 0;
+      border: none;
+      color: #333;
+      line-height: 20px;
+      font-size: 16px;
+      caret-color: #f64;
+    }
+    .text-icon {
+      color: #ccc;
+    }
+    .icon-new-close {
+      display: none;
+      margin-left: 10px;
+      font-size: 16px;
+    }
+    .area-code-box {
+      flex-shrink: 0;
+      .select-result {
+        line-height: 36px;
+        color: #333;
+        font-size: 16px;
+      }
+      .icon-new-down2 {
+        font-size: 10px;
+        padding: 0 13.5px 0 14.5px;
+        color: #333;
+      }
+    }
+    .show-hide-pass {
+      float: right;
+      margin: 10px 0 0 10px;
+      font-size: 18px;
+    }
+    .get-checkcode {
+      flex-shrink: 0;
+      line-height: 60px;
+      margin-left: 10px;
+      font-size: 16px;
+      color: #999;
+      &.active {
+        color: #f64;
+      }
+      &.disabled {
+        color: #999;
+      }   
+    }
+  }
+  .btn-submit {
+    border-radius: 0;
+    margin: 50px 0 18px;
+    height: 50px;
+    line-height: 50px;
+    font-size: 16px;
+    border-radius: 2px;
+  }
+  .page-btn-wrap {
+    a {
+      color: #333;
+      font-size: 16px;
+    }
+  }
+  .hide {
+    display: none;
+  }
+}
+
+.bottom-section {
+  flex-shrink: 0;
+  margin: 0 32px 40px;
+  color: #999;
+  font-size: 12px;
+  line-height: 16.5px;
+  text-align: center;
+  .foreign-tips {
+    padding-bottom: 5px;
+    .agreement-text {
+      color: #151515;
+    }
+  }
+}
+
+/*================ 软键盘弹起时底部文案隐藏 ====================*/
+@media screen and (max-height:430px) {
+  .bottom-section {
+    display: none;
+  }
+}

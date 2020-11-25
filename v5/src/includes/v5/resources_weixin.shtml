@@ -1,0 +1,4 @@
+<script src="//res.wx.qq.com/open/js/jweixin-1.4.0.js"></script>
+<script type="text/javascript" charset="utf-8">
+    document.write(unescape('%3Cscript src="https://open.liepin.com/weixinJs/getSignatureStr?accountType=1&ver=' + new Date().getTime() + '&var=weixinConfigInfo"%3E%3C/script%3E'))
+</script>

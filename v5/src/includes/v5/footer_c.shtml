@@ -1,0 +1,35 @@
+<%@ page contentType="text/html;charset=UTF-8" language="java" %>
+  <footer>
+    <div class="browse-list">
+      <ul class="flexbox">
+        <li class="flex-1">
+          <a href="https://m.liepin.com/?s=m" onclick="tlog=window.tlog||[];tlog.push('c:C000000497')">电脑版</a>
+        </li>
+        <li class="flex-1">
+          <a class="active" href="javascript:;">触屏版</a>
+        </li>
+        <li class="flex-1">
+          <a href="https://app-tongdao.liepin.com/p/download/liepinmishu-latest-mobile-auto?from=mindex" onclick="tlog=window.tlog||[];tlog.push('c:C000000496')">客户端</a>
+        </li>
+      </ul>
+    </div>
+    <div class="menu-list">
+      <ul class="flexbox">
+        <li class="flex-1">
+          <a href="/">首页</a>
+        </li>
+        <li class="flex-1">
+          <a href="/h/?c=0" rel="nofollow">帮助</a>
+        </li>
+        <li class="flex-1">
+          <a href="/feedback/editfeedback/" rel="nofollow">反馈</a>
+        </li>
+        <li class="flex-1">
+          <a href="/about_us/" rel="nofollow">关于</a>
+        </li>
+      </ul>
+    </div>
+    <div class="footer-tip">京ICP备09083200号 合字B2-20160007<br>
+    人才服务许可证:120116174002号 <img src="https://s.lietou-static.com/fe-mobile-h5/v5/static/images/police.png" style="width: 15px;height: 15px;"><a href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=11010502035189" target="_blank" style="color: #999;">京公网安备:11010502035189</a><br>
+    Copyright © 2006-2019 liepin.com All Rights Reserved</div>
+  </footer>

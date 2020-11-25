@@ -1,0 +1,239 @@
+.card-common {
+  position: relative;
+  padding: 30px;
+  overflow: hidden;
+}
+.card-common:before, .card-common:after {
+  display: table;
+  content: '';
+}
+.card-common:after {
+  clear: both;
+}
+.card-common .header > a > img, .card-common .header > img, .card-common > a > img, .card-common > img {
+  width: 1.333333333rem;
+  height: 1.333333333rem;
+  margin-right: .266666667rem;
+  box-sizing: border-box;
+  float: left;
+}
+.card-common .card-title {
+  overflow: hidden;
+  white-space: nowrap;
+  font-size: .48rem;
+  margin-top: .15rem;
+  margin-bottom: 0.15rem;
+  line-height: 1;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.card-common .card-title small {
+  margin: 0 .133333333rem;
+  font-size: .293333333rem;
+  color: #999;
+}
+.card-common .card-title .text-icon {
+  vertical-align: baseline;
+  color: #ff9046;
+}
+.card-common .card-subtitle {
+  font-size: .293333333rem;
+  color: #999;
+}
+.card-common .card-content i.label {
+  padding: .04rem;
+  margin-right: 3px;
+  border: 1px solid #ff9046;
+  border-radius: .07rem;
+  font-size: .266666667rem;
+  font-style: normal;
+  color: #ff9046;
+}
+.card-common ul.tool-bar li {
+  float: left;
+  width: 33%;
+  line-height: 1.173333333rem;
+  text-align: center;
+  font-size: .373333333rem;
+  color: #999;
+}
+.card-common ul.tool-bar li i.text-icon {
+  margin-right: .066666667rem;
+}
+
+/* 职位卡片 */
+.job-card-wrap {
+  background: #fff;
+  padding: 0 10px;
+}
+.job-card {
+  display: block;
+  color: #333;
+  background: #fff;
+  border-radius: 2px;
+  border-bottom: 1px solid #ddd;
+  padding: 15px 0;
+  position: relative;
+}
+.recommend-job-list .job-card:last-child {
+  margin-bottom: 0;
+}
+.job-card dt.job-card-logo {
+  float: left;
+  width: 60px;
+  height: 60px;
+  line-height: 60px;
+  position: relative;
+}
+.job-card dt.job-card-logo:after {
+  content: '';
+  width: 58px;
+  height: 58px;
+  top: 1px;
+  left: 0;
+  border: 1px solid #e8e8e8;
+  border-radius: 3px;
+  position: absolute;
+}
+.job-card dt.job-card-logo img {
+  width: 60px;
+  vertical-align: middle;
+}
+.job-card .right-info {
+  padding-left: 70px;
+  text-align: left;
+  position: relative;
+}
+.job-card .right-info .collect{
+  position: absolute;
+  top: 22px;
+  right: 18px;
+  text-align: center;
+  color: #c6c6c6;
+}
+.job-card dd.right-info .job-name {
+  color: #333;
+  font-size: 0;
+  font-weight: bold;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.job-card dd.right-info .job-name .name-text{
+  max-width: 86%;
+  display: inline-block;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-size: 15px;
+}
+.job-card dd.right-info .text-icon{
+  font-weight: normal;
+  font-size: 15px;
+}
+.job-card dd.right-info .icon-hurry{
+  color: #ff6555;
+  font-size: 14px;
+}
+.job-card dd.right-info a.company-name {
+  color: #666;
+}
+.job-card dd.right-info li a {
+  color: #999;
+}
+.job-card .right-info li .text-warning {
+  text-align: right;
+  font-size: 15px;
+}
+.job-card .right-info li {
+  color: #999;
+  line-height: 1.2;
+  margin-bottom: 8px;
+  font-size: 13px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.job-card .right-info li:last-child{
+  width: 81%;
+}
+.job-card .right-info li.company-name {
+  color: #666;
+  font-size: 14px;
+}
+.job-card .flex-3, .job-card .flex-2, .job-card .flex-1 {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+/*公司卡片*/
+.card {
+  display: block;
+  margin: 10px;
+  margin: 0 0px 0 10px;
+  padding: 15px 0px;
+  box-shadow: none;
+  border-bottom: 1px solid #ddd;
+}
+.card:visited h3 {
+  color: #999;
+}
+.card:visited p, .card:visited .text-warning, .card:visited .company-benefits span {
+  color: #bbb;
+}
+.card figure {
+  float: left;
+  height: 60px;
+  width: 60px;
+  vertical-align: middle;
+  line-height: 60px;
+  text-align: center;
+  border: 1px solid #e7e8ed;
+}
+.card figure img{
+  display: block;
+}
+.company-information {
+  padding-left: 70px;
+}
+.company-information .company-mute{
+  margin:5px 0;
+  line-height: 1;
+}
+.company-information .company-mute span{
+  border-left: 1px solid #666;
+  padding: 0 5px;
+}
+.company-information .company-mute span:first-child{
+  border:0;
+  padding-left: 0;
+}
+.company-information .industry-name {
+  display: inline-block;
+  max-width: 105px;
+  vertical-align: top;
+}
+.company-information h3 {
+  font-size: 16px;
+  color: #333;
+}
+.company-information p {
+  color: #666;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.company-information .company-benefits {
+  height: 24px;
+  overflow: hidden;
+}
+.company-information .company-benefits span {
+  float: left;
+  height: 24px;
+  line-height: 24px;
+  margin: 0 0 5px 5px;
+  padding: 0 5px;
+}
+.company-information .company-benefits span:first-child {
+  margin-left: 0;
+}

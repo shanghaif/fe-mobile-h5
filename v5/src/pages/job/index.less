@@ -1,0 +1,93 @@
+* {
+  box-sizing: border-box;
+}
+
+
+dl,dd,dt {
+  margin: 0;
+  padding: 0;
+}
+
+.view {
+  padding-bottom: 75px;
+  line-height: 1.4;
+  font-family: "PingFang SC", "Microsoft YaHei", Heiti, SimSun, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  background-color: #f8f8f8;
+}
+.nav-container {
+  z-index: 9;
+  position: sticky;
+  top: 0;
+}
+.job-detail,
+.recommend-wrap,
+.footer-addition {
+  padding: 18px;
+  background-color: #fff;
+  margin-bottom: 6px;
+}
+
+.job-detail {
+  padding-bottom: 0;
+
+  & > dl {
+    margin-bottom: 40px;
+
+    & > dt {
+      font-weight: bold;
+      margin-bottom: 16px;
+      font-size: 20px;
+    }
+  }
+
+  &:after {
+    content: '';
+    display: table;
+  }
+}
+
+// 推荐职位 猜你喜欢
+.recommend-wrap {
+  padding: 20px 18px;
+}
+.recommend-wrap .recommend-job h2 {
+  font-size: 20px;
+  margin-bottom: -4px;
+}
+
+.recommend-job-load-more {
+  display: block;
+  padding: 18px;
+  margin-bottom: 14px;
+  font-size: 14px;
+  text-align: center;
+  text-decoration: none;
+  color: #f64;
+}
+.recommend-job-warning {
+  position: relative;
+  padding: 14px 14px 14px 37px;
+  font-size: 14px;
+  color: #715a4a;
+  background-color: #ffeed7;
+}
+.recommend-job-warning .text-icon {
+  position: absolute;
+  top: 16px;
+  left: 14px;
+  line-height: 1;
+  font-size: 15px;
+}
+.report-btn {
+  float: right;
+  color: #f64;
+}
+
+.view-more {
+  color: #f64;
+}
+
+.footer-addition {
+  margin-bottom: 0;
+  padding: 20px 18px 0;
+}

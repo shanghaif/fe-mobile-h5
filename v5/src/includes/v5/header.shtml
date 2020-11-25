@@ -1,0 +1,7 @@
+<!--#set var='compatible' value='<%@ page pageEncoding="utf-8"%>'-->
+<nav class="nav">
+    <a class="left" href="https://m.liepin.com/"><img
+            src="https://s.lietou-static.com/fe-mobile-h5/v5/static/images/logo_icon.png"/></a>
+    <h1>title</h1>
+    <a class="right" data-nick="nav-right-btn" href="javascript:;"><i class="text-icon icon-user"></i></a>
+</nav>

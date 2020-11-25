@@ -1,0 +1,233 @@
+.job-skill-container {
+  background-color: #f4f4f4;
+  .job-skill-head {
+    padding: 18px;
+    margin-bottom: 8px;
+    background-color: #fff;
+    .job-skill-nav {
+      a {
+        line-height: 18px;
+        font-size: 13px;
+        color: #333;
+      }
+    }
+    .job-skill-title {
+      padding: 18px 0 16px;
+      font-size: 25px;
+      color: #333;
+      font-weight: bold;
+    }
+    .job-skill-link {
+      margin: 0 -18px;
+      padding: 0 18px;
+      border-bottom: 1px solid #eee;
+      a {
+        margin-right: 20px;
+        line-height: 22px;
+        font-size: 16px;
+        color: #999;
+      }
+      a.active {
+        display: inline-flex;
+        flex-flow: column nowrap;
+        align-items: center;
+        color: #333;
+        font-weight: bold;
+        &:after {
+          display: inline-block;
+          content: "";
+          width: 20px;
+          height: 6px;
+          margin: 3px 0;
+          border-radius: 10px;
+          background-color: #F64;
+        }
+      }
+    }
+    .job-skill-content {
+      h5 {
+        margin: 20px 0 13px;
+        line-height: 28px;
+        font-size: 20px;
+        color: #333;
+        font-weight: bold;
+      }
+      p {
+        line-height: 18px;
+        font-size: 15px;
+        color: #333;
+      }
+    }
+  }
+  .job-record-container {
+    padding: 0 18px;
+    margin-bottom: 9px;
+    background-color: #fff;
+    h5 {
+      padding: 28px 0 11px;
+      line-height: 28px;
+      font-size: 20px;
+      color: #333;
+    }
+    .echarts-record {
+      width: 100%;
+      height: 210px;
+    }
+    .job-top {
+      .job-title {
+        margin: 10px 0 14px;
+        line-height: 18px;
+        font-size: 15px;
+        color: #333;
+        font-weight: bold;
+      }
+      ul {
+        padding-bottom: 23px;
+        li {
+          margin-bottom: 9px;
+          span {
+            flex-shrink: 0;
+            line-height: 20px;
+            font-size: 14px;
+            color: #333;
+            strong {
+              color: #F64;
+            }
+            &:first-child {
+              margin-right: 23px;
+            }
+          }
+          .line {
+            width: 100%;
+            height: 1px;
+            margin: 0 15px 0 23px;
+            background-color: #eee;
+          }
+        }
+      }
+    }
+  }
+  .recruitment-info-container {
+    padding: 0 18px;
+    margin-bottom: 8px;
+    background-color: #fff;
+    h5 {
+      padding-top: 20px;
+      line-height: 28px;
+      font-size: 20px;
+      color: #333;
+    }
+    .job-list-wrap {
+      li {
+        border-bottom: 1px solid #eee;
+        .job-wrap {
+          .job-info-wrap {
+            justify-content: space-between;
+            margin-top: 20px;
+            .job-title {
+              flex-shrink: 1;
+              margin-right: 10px;
+              font-size: 17px;
+              font-weight: bold;
+              line-height: 24px;
+              color: #333;
+            }
+            .job-salary {
+              flex-shrink: 0;
+              font-size: 16px;
+              color: #f64;
+              font-weight: bold;
+            }
+          }
+          .company-name {
+            margin: 5px 0 8px;
+            line-height: 20px;
+            font-size: 14px;
+            color: #666;
+          }
+  
+          .require-wrap {
+            .require-item {
+              display: inline-block;
+              margin-left: 10px;
+              padding: 0 6px;
+              line-height: 22px;
+              background-color: #f8f8f8;
+              border-radius: 2px;
+              font-size: 12px;
+              color: #999;
+  
+              &:first-child {
+                margin: 0;
+              }
+            }
+          }
+         
+        }
+        .user-wrap {
+          padding: 12px 0 20px;
+          line-height: 22px;
+          img {
+            flex-shrink: 0;
+            width: 22px;
+            height: 22px;
+            border: 1px solid #eee;
+            margin-right: 8px;
+            border-radius: 2px;
+          }
+          span {
+            font-size: 13px;
+            line-height: 18px;
+            color: #333;
+          }
+          .dot {
+            margin: 0 10px;
+          }
+        }
+      }
+    }
+    .look-more {
+      display: block;
+      padding: 18px 0 20px;
+      line-height: 20px;
+      font-size: 14px;
+      text-align: center;
+      color: #F64;
+    }
+  }
+  .foot-container {
+    padding: 0 18px;
+    background-color: #fff;
+    .link-tab {
+      padding: 20px 0 16px;
+      li {
+        float: left;
+        margin-right: 33px;
+        line-height: 21px;
+        font-size: 15px;
+        color: #999;
+        &.active {
+          color: #333;
+          font-weight: bold;
+        }
+      }
+    }
+    .link-content {
+      display: none;
+      width: 112%;
+      padding-bottom: 12px;
+      a {
+        float: left;
+        width: 26%;
+        margin: 0 25px 8px 0;
+        font-size: 12px;
+        line-height: 16px;
+        color: #666;
+        text-align: center;
+      }
+    }
+    .content-active {
+      display: block;
+    }
+  }
+}

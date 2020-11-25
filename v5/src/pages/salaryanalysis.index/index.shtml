@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+  <!--#include virtual="/fe-mobile-h5/v5/src/includes/v5/resources_c.shtml"-->
+  <title>薪酬报告</title>
+  <link type="text/css" rel="stylesheet" href="//s.lietou-static.com/fe-mobile-h5/v5/css/pages/salaryanalysis2019.css" />
+</head>
+
+<body>
+  <section class="salary-wrap">
+    <div class="salary-word"></div>
+    <div class="salary-content"></div>
+    <i class="salary-dot"></i>
+    <a href="">点击看我的报告</a>
+  </section>
+  <script src="//s.lietou-static.com/fe-mobile-h5/v5/static/js/vendor.js"></script>
+  <script src="//s.lietou-static.com/fe-mobile-h5/v5/js/common/common.js"></script>
+  <script src="//s.lietou-static.com/fe-mobile-h5/v5/js/pages/salaryanalysis2019.js"></script>
+</body>
+
+</html>

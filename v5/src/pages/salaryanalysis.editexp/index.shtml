@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <!--#include virtual="/fe-mobile-h5/v5/src/includes/v5/resources_c.shtml"-->
+  <title>薪酬报告</title>
+  <link type="text/css" rel="stylesheet" href="//s.lietou-static.com/fe-mobile-h5/v5/css/pages/salaryanalysis.editexp.css" />
+  <script>
+    var rem = parseInt(document.documentElement.clientWidth, 10) / 10;
+    document.documentElement.style.setProperty('font-size', rem + 'px');
+  </script>
+</head>
+
+<body>
+  <div class="view">
+    <h2 class="complete-tips">
+      职业薪酬报告
+    </h2>
+    <div class="page2">
+      <form data-selector="form" method="post" action="/salaryanalysis/" lt-plugins-valid="0.3408153104489351">
+        <input type="hidden" name="name" value="张山">
+        <input type="hidden" name="sex" value="男">
+        <input type="hidden" name="birthYear" value="1991">
+        <input type="hidden" name="workYear" value="2014" data-selector="work-year">
+        <input type="hidden" name="dq" value="010">
+        <input type="hidden" name="email" value="">
+        <p class="tips">填写最近就业信息，获得更全面分析结果</p>
+        <ul class="name-card items">
+          <li class="now-company clearfix">
+            当前公司
+            <input type="text" name="company" value="猎聘网" validate-title="当前公司" validate-rules="[['required']]"
+              placeholder="最近就职公司名称">
+          </li>
+          <li class="job-name clearfix">
+            职位名称
+            <input type="text" name="jobName" value="前端工程师" validate-title="职位名称" validate-rules="[['required']]"
+              placeholder="职位名称">
+          </li>
+          <li class="clearfix" data-selector="industry">
+            当前行业
+            <input type="hidden" name="industry" value="040" validate-title="行业职能" validate-rules="[['required']]">
+            <span class="user-select">
+              <em class="select-result">互联网/移动互联网/电子商务</em>
+              <i class="text-icon icon-go-ahead"></i>
+            </span>
+          </li>
+          <li class="clearfix" data-selector="job">
+            当前职能
+            <input type="hidden" name="jobtitle" value="N000517" validate-title="行业职能"
+              validate-rules="[['required'], ['dyncheck', 'jobTitleValid']]">
+            <span class="user-select">
+              <em class="select-result">房地产成本经理/主管</em>
+              <i class="text-icon icon-go-ahead"></i>
+            </span>
+          </li>
+          <li class="times clearfix" data-selector="work-time">
+            起止时间
+            <div class="times-input">
+              <span class="work-start-date" data-selector="work-start-date">2019-12</span>
+              <em> — </em>
+              <span class="work-end-date" data-selector="work-end-date">至今</span>
+              <input type="hidden" name="jobStartDate" value="2019-12" validate-title="工作时间"
+                validate-rules="[['required']]">
+              <input type="hidden" name="jobEndDate" value="9999-99" validate-title="工作时间"
+                validate-rules="[['required']]">
+            </div>
+          </li>
+          <li class="now-salary clearfix">
+            目前年薪
+            <span class="salary-input">
+              <input type="text" maxlength="7" name="salary" value="" validate-title="目前年薪"
+                validate-rules="[['required'],['number','$输入不正确'],['number',{'min':101, max: 9999999},'请正确填写薪资']]"
+                placeholder="月薪" class="month-salary">
+              元 ×
+              <input type="text" name="salaryMonths" value="12" validate-title="月"
+                validate-rules="[['required'],['number','$输入不正确'],['number',{'min':1, max: 99},'请正确填写薪资']]" class="month-amount">
+              <em>月</em>
+            </span>
+          </li>
+        </ul>
+        <p class="tips">补充学历信息，提升分析精准度</p>
+        <ul class="edu-exp items">
+          <li class="edu-school">
+            毕业院校
+            <input type="text" name="school" value="齐齐哈尔大学" validate-title="毕业院校" validate-rules="[['required']]"
+              placeholder="院校名称">
+          </li>
+          <li class="major-name">
+            专业名称
+            <input type="text" name="major" value="哈哈" validate-title="专业名称" placeholder="专业名称"
+              validate-rules="[['required']]">
+          </li>
+          <li class="clearfix" data-selector="edulevel">
+            最高学历
+            <input type="hidden" name="eduLevel" value="040" validate-title="最高学历" validate-rules="[['required']]"
+              placeholder="请选择">
+            <span class="user-select">
+              <em class="select-result">本科</em>
+              <i class="text-icon icon-go-ahead"></i>
+            </span>
+          </li>
+          <li class="school-time clearfix" data-selector="scholl-time">
+            在校时间
+            <div class="school-input">
+              <span class="edu-start-date">2010-09</span>
+              <em> — </em>
+              <span class="edu-end-date">2014-07</span>
+              <input type="hidden" name="eduStartDate" value="2010-09" validate-title="在校时间"
+                validate-rules="[['required']]">
+              <input type="hidden" name="eduEndDate" value="2014-07" validate-title="在校时间"
+                validate-rules="[['required']]">
+            </div>
+          </li>
+        </ul>
+        <div class="update" validate-group="radio" validate-title="所填信息是否同步到简历" validate-rules="['required','至少选择一项$']">
+          <span class="text">所填信息同步到我的简历</span>
+          <span class="is-update">
+            <em>是</em><em>否</em>
+            <input type="radio" name="isUpdateResume" value="1" data-selector="update-yes">
+            <input type="radio" name="isUpdateResume" value="0" data-selector="update-no">
+          </span>
+        </div>
+        <div class="btn-box">
+          <button class="btn-report">生成薪酬报告</button>
+        </div>
+      </form>
+    </div>
+  </div>
+  <script src="//s.lietou-static.com/fe-mobile-h5/v5/static/js/react.min.js"></script>
+  <script src="//s.lietou-static.com/fe-mobile-h5/v5/static/js/react-dom.min.js"></script>
+  <script src="//s.lietou-static.com/fe-mobile-h5/v5/static/js/vendor.js"></script>
+  <script src="//s.lietou-static.com/fe-mobile-h5/v5/js/common/common.js"></script>
+  <script src="//s.lietou-static.com/fe-mobile-h5/v5/js/pages/salaryanalysis.editexp.js"></script>
+</body>
+
+</html>

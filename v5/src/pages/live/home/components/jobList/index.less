@@ -1,0 +1,42 @@
+.living-job-list {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+
+  h2 {
+    flex-shrink: 0;
+    line-height: 58px;
+    text-indent: 18px;
+    font-size: 20px;
+    font-weight: bold;
+  }
+
+  .living-scroll-wrap {
+    position: relative;
+    height: 0;
+    flex: 1;
+    overflow: hidden;
+    touch-action: none;
+
+    .living-scroller {
+      position: absolute;
+      top: 0;
+      left: 0;
+      height: 100%;
+      width: 100%;
+      overflow-y: auto;
+      overflow-x: hidden;
+
+      .living-comp-job-wrap {
+        border-top: 1px solid #eee;
+        padding: 20px 0 8px;
+        margin: 0 18px;
+
+        &:first-child {
+          padding-top: 0;
+          border-top: none;
+        }
+      }
+    }
+  }
+}

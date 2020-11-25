@@ -1,0 +1,71 @@
+.job-card-item {
+  position: relative;
+  margin: 0 20px;
+  border-top: 1px solid #d3d2d1;
+  .job-card-link {
+    display: block;
+    color: inherit;
+  }
+  .job-salary-wrap {
+    display: flex;
+    padding-top: 20px;
+    align-items: center;
+    font-size: 15px;
+    .job-title {
+      flex: 1;
+      width: 0;
+      margin-right: 20px;
+      color: #000;
+    }
+    .job-salary {
+      flex-shrink: 0;
+      color: #f34d19;
+    }
+  }
+  .company-name {
+    width: 70%;
+    line-height: 31px;
+    font-size: 13px;
+    color: #999;
+  }
+  .requirement {
+    width: 70%;
+  }
+  .requirement-item {
+    display: inline-block;
+    margin-right: 10px;
+    padding: 0 6px;
+    line-height: 16px;
+    font-size: 10px;
+    border-radius: 8px;
+    background-color: #efefef;
+    color: #999;
+  }
+  .job-info-wrap {
+    padding: 10px 0 20px;
+    display: flex;
+    align-items: center;
+    font-size: 11px;
+    color: #000;
+    dt {
+      margin-right: 6px;
+      img {
+        flex-shrink: 0;
+        width: 20px;
+        height: 20px;
+        border-radius: 50%;
+      }
+    }
+  }
+  button {
+    position: absolute;
+    top: 50px;
+    right: 0;
+    padding: 4px 17px;
+    background-color: #f34f1b;
+    border-radius: 20px;
+  }
+  &:first-child {
+    border-top: none;
+  }
+}

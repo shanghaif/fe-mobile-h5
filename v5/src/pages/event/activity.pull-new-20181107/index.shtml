@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!--#include virtual="/fe-mobile-h5/v5/src/includes/v5/resources_c.shtml"-->
+  <title>Document</title>
+  <link rel="stylesheet" href="//s.lietou-static.com/fe-mobile-h5/v5/css/pages/event/activity.pull-new-20181107.css">
+</head>
+
+<body class="pull-new-act">
+  <section class="logo">
+    <i></i>
+  </section>
+  <section class="slogan">
+    <h5>轻松拿offer，薪资翻倍涨</h5>
+    <div class="en flexbox">
+      <p>EASY TO GET OFFER</p>
+    </div>
+  </section>
+  <section class="swiper-section" data-selector="link">
+    <div class="swiper-container">
+      <div class="swiper-wrapper" id="swiper1">
+        <div class="swiper-slide">
+          <i class="logo1"></i>
+          <p class="job-title">产品经理</p>
+          <p class="job-salary">24-48万</p>
+        </div>
+        <div class="swiper-slide">
+          <i class="logo2"></i>
+          <p class="job-title">java高级研发</p>
+          <p class="job-salary">90-120万</p>
+        </div>
+        <div class="swiper-slide">
+          <i class="logo3"></i>
+          <p class="job-title">会员内容运营</p>
+          <p class="job-salary">24-30万</p>
+        </div>
+        <div class="swiper-slide">
+          <i class="logo4"></i>
+          <p class="job-title">营销经理</p>
+          <p class="job-salary">13-26万</p>
+        </div>
+        <div class="swiper-slide">
+          <i class="logo5"></i>
+          <p class="job-title">审计师</p>
+          <p class="job-salary">18-24万</p>
+        </div>
+        <div class="swiper-slide">
+          <i class="logo1"></i>
+          <p class="job-title">产品经理</p>
+          <p class="job-salary">24-48万</p>
+        </div>
+        <div class="swiper-slide">
+          <i class="logo2"></i>
+          <p class="job-title">java高级研发</p>
+          <p class="job-salary">90-120万</p>
+        </div>
+        <div class="swiper-slide">
+          <i class="logo3"></i>
+          <p class="job-title">会员内容运营</p>
+          <p class="job-salary">24-30万</p>
+        </div>
+        <div class="swiper-slide">
+          <i class="logo4"></i>
+          <p class="job-title">营销经理</p>
+          <p class="job-salary">13-26万</p>
+        </div>
+        <div class="swiper-slide">
+          <i class="logo5"></i>
+          <p class="job-title">审计师</p>
+          <p class="job-salary">18-24万</p>
+        </div>
+      </div>
+    </div>
+    <div class="swiper-container">
+      <div class="swiper-wrapper" id="swiper2">
+        <div class="swiper-slide">
+          <i class="logo6"></i>
+          <p class="job-title">底盘结构件工程师</p>
+          <p class="job-salary">14-24万</p>
+        </div>
+        <div class="swiper-slide">
+          <i class="logo7"></i>
+          <p class="job-title">临床项目经理</p>
+          <p class="job-salary">20-30万</p>
+        </div>
+        <div class="swiper-slide">
+          <i class="logo8"></i>
+          <p class="job-title">质量经理</p>
+          <p class="job-salary">24-36万</p>
+        </div>
+        <div class="swiper-slide">
+          <i class="logo9"></i>
+          <p class="job-title">车贷运营主管</p>
+          <p class="job-salary">24-32万</p>
+        </div>
+        <div class="swiper-slide">
+          <i class="logo10"></i>
+          <p class="job-title">游戏UI策划</p>
+          <p class="job-salary">14-22万</p>
+        </div>
+        <div class="swiper-slide">
+          <i class="logo6"></i>
+          <p class="job-title">底盘结构件工程师</p>
+          <p class="job-salary">14-24万</p>
+        </div>
+        <div class="swiper-slide">
+          <i class="logo7"></i>
+          <p class="job-title">临床项目经理</p>
+          <p class="job-salary">20-30万</p>
+        </div>
+        <div class="swiper-slide">
+          <i class="logo8"></i>
+          <p class="job-title">质量经理</p>
+          <p class="job-salary">24-36万</p>
+        </div>
+        <div class="swiper-slide">
+          <i class="logo9"></i>
+          <p class="job-title">车贷运营主管</p>
+          <p class="job-salary">24-32万</p>
+        </div>
+        <div class="swiper-slide">
+          <i class="logo10"></i>
+          <p class="job-title">游戏UI策划</p>
+          <p class="job-salary">14-22万</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="form"> <!--class-->
+    <form data-selector="form">
+      <input type="hidden" name="user_login" data-selector="user_login">
+      <input type="hidden" data-selector="version" name="version">
+      <div class="flexbox form-item">
+        <input type="text" data-selector="username" autocomplete="off" type="text" placeholder="请输入手机号" validate-title="手机号"
+          validate-rules="[['required'],['dynrule','CheckPhone']]" validate-type="change" />
+        <div class="flexbox flex0 area-code-box" data-selector="area-code-box">
+          <span class="select-result">中国 (+86)</span>
+          <input type="hidden" autocomplete="off" data-selector="area-code" value="0086" validate-title="区号"
+            validate-rules="[['required']]" />
+          <i class="text-icon icon-down"></i>
+        </div>
+      </div>
+      <div class="flexbox form-item">
+        <input type="text" autocomplete="off" data-selector="validcode" class="validcode" type="text" name="verifycode"
+          placeholder="请输入验证码" validate-title="验证码" validate-rules="['required']" />
+        <a href="javascript:;" class="flex0 getCode" data-selector="get-checkcode">获取验证码</a>
+      </div>
+      <button type="submit" disabled class="submit disabled">进入猎聘</button>
+    </form>
+    <div class="link">
+      <a href="https://m.liepin.cn/login/">密码登录</a>
+    </div>
+    <div class="tip">点击“进入猎聘”表示您同意<a href="https://m.liepin.cn/user/agreement/">《猎聘网协议》</a></div>
+  </section>
+  <div id="script"></div>
+  <script src="//s.lietou-static.com/fe-mobile-h5/v5/js/pages/event/activity.pull-new-20181107.js"></script>
+</body>
+
+</html>

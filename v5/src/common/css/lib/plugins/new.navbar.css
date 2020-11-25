@@ -1,0 +1,27 @@
+/*面包屑导航*/
+.new-navbar{
+  color: #333;
+  margin-bottom: 10px;
+  background-color: #fff;
+  padding:10px;
+}
+.new-navbar a{
+  color: #333;
+  display: inline-block;
+  line-height: 30px;
+  max-width: 25%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.new-navbar a.active {
+  font-size: 13px;
+  color: #2c8bba;
+}
+.new-navbar i.icon-go-ahead{
+  display: inline-block;
+  font-size: 12px;
+  color: #999;
+}
+
+

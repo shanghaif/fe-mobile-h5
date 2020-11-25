@@ -1,0 +1,73 @@
+body {
+  background-color: #fff;
+}
+.logo {
+  height: 80px;
+  margin-bottom: 50px;
+  border-bottom: 1px solid #ccc;
+  width: 100%;
+}
+.tips {
+  text-align: center;
+  margin-bottom: 30px;
+}
+.tips img {
+  height: 50px;
+  margin-bottom: 12px;
+}
+.tips p {
+  font-size: 16px;
+  color: #fe7f00;
+}
+.info-list {
+  padding: 0 18px;
+}
+.info-list h3 {
+  font-size: 14px;
+  color: #666;
+  font-weight: normal;
+  margin-bottom: 10px;
+  padding-left: 2%;
+}
+.info-list ul li {
+  font-size: 14px;
+  color: #666;
+  line-height: 28px;
+  width: 50%;
+  float: left;
+}
+.info-list ul {
+  margin-bottom: 24px;
+  padding-left: 10%;
+  margin-bottom: 50px;
+}
+.info-list .friendly {
+  font-size: 14px;
+  color: #999;
+  margin-bottom: 20px;
+  text-align: center;
+}
+.info-list .btn-box {
+  text-align: center;
+}
+.info-list .btn-box a {
+  display: inline-block;
+  font-size: 16px;
+  width: 35%;
+  height: 42px;
+  line-height: 42px;
+  border: 1px solid #fe7f00;
+  background-color: #fff;
+  border-radius: 4px;
+  color: #fe7f00;
+}
+.info-list .btn-box a.btn-submit {
+  color: #fff;
+  background-color: #fe7f00;
+  margin-left: 50px;
+}
+.info-list .btn-box a.btn-disabled {
+  background-color: #dedede;
+  color: #666;
+  border: 1px solid #dedede;
+}

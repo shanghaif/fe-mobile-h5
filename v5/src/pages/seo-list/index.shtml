@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <meta charset="UTF-8">
+  <meta http-equiv="x-dns-prefetch-control" content="on">
+  <link rel="dns-prefetch" href="https://s.lietou-static.com">
+  <link rel="dns-prefetch" href="https://image0.lietou-static.com">
+  <link rel="preconnect" href="https://s.lietou-static.com" />
+  <link rel="preconnect" href="https://image0.lietou-static.com" />
+  <meta name="viewport"
+    content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0, viewport-fit=cover">
+  <meta name="format-detection" content="telephone=no, email=no" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="white" />
+  <link rel="icon" href="https://s.lietou-static.com/fe-mobile-h5/v5/static/images/favicon.ico" type="image/x-icon" />
+  <script crossorigin="anonymous" src="https://s.lietou-static.com/fe-lib-h5/v5/femonitor/femonitor.min.js"></script>
+  <link rel="stylesheet" href="https://s.lietou-static.com/fe-mobile-h5/v5/css/common/common.css">
+
+  <!-- SEO商圈相关 -->
+  <meta http-equiv="Cache-Control" content="no-transform" />
+  <meta http-equiv="Cache-Control" content="no-siteapp" />
+  <link rel="alternate" media="only screen and (max-width: 640px) href=" wap当前页/">
+  <meta name="mobile-agent" content="format=html5; url=https://wap当前页">
+  <link rel="canonical" href="当前页标准链接">
+
+  <title>【{$商圈}招聘】_【{$商圈}求职】_【{$商圈}找工作】】-猎聘网</title>
+  <meta name="keywords" content="【{$商圈}附近的工作】_【{$商圈}兼职】" />
+  <meta name="description" content=" {$商圈}求职，{$商圈}招聘，找{$商圈}附近的工作}或者找{$商圈}兼职，就到猎聘网{$商圈}主页" />
+  <!-- SEO商圈相关 end-->
+
+  <meta name="applicable-device" content="mobile">
+  <meta name="location" content="province=北京;city=北京">
+  <link rel="stylesheet" href="https://s.lietou-static.com/fe-mobile-h5/v5/css/pages/so.job.css">
+</head>
+
+<body data-page-id="" data-info="">
+  <div class="nav-container"></div>
+  <div class="so-job-container">
+    <section class="so-job-filter">
+      <div class="so-job-filter-wrap">
+        <a class="so-job-filter-industry">行业筛选</a>
+        <a class="so-job-filter-job">职位筛选</a>
+        <a class="so-job-filter-company">公司筛选</a>
+        <!-- 不是智能排序的时候才加 active class, 是智能排序的时候不加 -->
+        <a class="so-job-filter-pubtime active">发布时间排序</a>
+        <a class="so-job-filter-pubtime">智能排序</a>
+      </div>
+    </section>
+
+    <section class="so-job-company-list">
+      <div class="profile-card clearfix">
+        <div class="profile-card-img-wrap">
+          <img src="./images/empty.png" alt="" />
+        </div>
+        <div class="profile-card-content">
+          <div class="profile-card-title ellipsis-1">猎聘</div>
+          <div class="profile-card-desc ellipsis-1">
+            <span>互联网·电商</span>
+            <span>D轮</span>
+            <span>1000-2000人</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="so-job-job-wrap">
+      <!-- 已登录用户无结果时显示推荐数据和无结果提示 -->
+      <div class="so-job-no-result">
+        <p class="alert-warning">暂无相关职位，以下是推荐的职位</p>
+      </div>
+      <div class="so-job-job-list">
+        <a class="job-card">
+          <h3>java开发工程师<span class="job-title-label">急聘</span> <small>24-36万</small></h3>
+          <div class="job-card-company">猎聘网　Ａ轮</div>
+          <div class="job-card-labels">
+            <label>北京</label>
+            <label>四年以上</label>
+            <label>本科及以上</label>
+            <label>本科及以上</label>
+            <label>本科及以上</label>
+            <label>本科及以上</label>
+            <label>本科及以上</label>
+            <label>本科及以上</label>
+            <label>本科及以上</label>
+          </div>
+          <div class="job-card-publisher clearfix"><img src="../images/photo.png" alt="">王小姐 · 招聘经理</div>
+        </a>
+      </div>
+      <!-- 未登录用户, 无搜索结果 展示 -->
+      <div class="so-job-job-list">
+        <div class="job-list-empty">
+          <p>暂无相关职位</p>
+          <p>请换个搜索条件试试</p>
+        </div>
+      </div>
+      <!-- 分页 -->
+      <div class="job-list-page-bar">
+        <a href="" class="disabled">上一页</a>
+        <span class="page-num">1/20</span>
+        <a href="">下一页</a>
+      </div>
+    </section>
+    <!-- 底部热链 内容用现有的热链内容 -->
+    <div class="real-hot-links-container">
+    </div>
+    <!-- 面包屑 -->
+    <section class="break-crumb">
+      <div class="navbars clearfix" data-selector="crumbs-link">
+        <a href="https://m.liepin.com/hz/" class="home_link ">杭州招聘</a>
+        <i>&gt;</i>
+        <a href="https://m.liepin.com/job/1924644921.shtml">当前职位</a>
+      </div>
+    </section>
+  </div>
+
+  <script crossorigin="anonymous" src="https://s.lietou-static.com/fe-mobile-h5/v5/static/js/vendor.js"></script>
+  <script src="https://s.lietou-static.com/fe-lib-h5/v5/react/16.8.6/react.min.js"></script>
+  <script src="https://s.lietou-static.com/fe-lib-h5/v5/react-dom/16.8.6/react-dom.min.js"></script>
+  <script crossorigin="anonymous" src="https://s.lietou-static.com/fe-mobile-h5/v5/js/common/common.js"></script>
+  <!-- tlog
+<script crossorigin="anonymous" src="https://s.lietou-static.com/fe-lib-h5/v5/tlog/tlog.min.js"></script>
+-->
+  <!-- gio -->
+  <script type='text/javascript'>
+    (function () {
+      var matchUserId = document.cookie.match(/UniqueKey=([^=;\s]+)(;|$)/);
+      var userId = matchUserId && decodeURIComponent(matchUserId[1]);
+      var matchUUID = document.cookie.match(/_uuid=([^=;\s]+)(;|$)/);
+      var uuid = matchUUID && decodeURIComponent(matchUUID[1]);
+      if (userId) {
+        window.gio = window.gio || function () {
+          window.gio.q = window.gio.q || [];
+          window.gio.q.push(arguments);
+        };
+        var scriptELm = document.createElement('script');
+        var tag = document.getElementsByTagName('script')[0];
+        scriptELm.async = 1;
+        scriptELm.src = document.location.protocol + '//s.lietou-static.com/fe-lib-h5/v5/gio/growingio-2.1.bcafa775.js';
+        tag.parentNode.insertBefore(scriptELm, tag);
+        window.gio('init', 'bad1b2d9162fab1f80dde1897f7a2972', { textEncryptFunc: window.gioTextFactory });
+        // custom page code begin here
+        userId && window.gio('setUserId', userId);
+        uuid && window.gio('app.set', '_uuid', uuid);
+
+        if (window.$CONFIG) {
+          if ($CONFIG.setCS3) {
+            window.gio('app.set', $CONFIG.setCS3, $CONFIG.setCS3_data);
+          }
+          if ($CONFIG.setCS4) {
+            window.gio('app.set', $CONFIG.setCS4, $CONFIG.setCS4_data);
+          }
+        }
+        window.gio('send');
+      }
+    }());
+  </script>
+  <!-- baidu -->
+  <script>
+    var _hmt = _hmt || [];
+    (function () {
+      var hm = document.createElement("script");
+      hm.src = "//hm.baidu.com/hm.js?a2647413544f5a04f00da7eee0d5e200";
+      var s = document.getElementsByTagName("script")[0];
+      s.parentNode.insertBefore(hm, s);
+    })();
+  </script>
+  <!-- other -->
+  <!--
+<script src="https://s.lietou-static.com/fe-mobile-h5/v5/static/js/user/user.behavior.js"></script>
+-->
+  <script type="text/javascript">
+    (function () {
+      var dlog_js = document.createElement("script");
+      dlog_js.src = "//static3.lietou-static.com/dlog.js?v=2&q=" + parseInt('' + new Date() / 6E5);
+      var s = document.getElementsByTagName("script")[0];
+      s.parentNode.insertBefore(dlog_js, s);
+    })();
+  </script>
+  <script crossorigin="anonymous" src="https://s.lietou-static.com/fe-mobile-h5/v5/js/pages/so.job.js"></script>
+  <script>
+  </script>
+  <link rel="prefetch" href="https://s.lietou-static.com/fe-mobile-h5/v5/js/pages/job.js" />
+
+  <script type="application/ld+json">
+    {
+        "@context":"https://ziyuan.baidu.com/contexts/cambrian.jsonld",
+        "appid": "1586030202028057",
+        "@id":"",
+        "title":"【招聘网站_招聘信息_人才招聘】-猎聘",
+        "description":"猎聘是一家专门为高端人才提供高薪职位招聘信息的网站，每天提供超过10000条企业招聘信息，是企业与人才一条龙服务的招聘网站平台，找工作就上猎聘！",
+        "upDate":"2020-04-14T08:00:00",
+        "data":{
+            "WebPage":{
+                "headline":"【招聘网站_招聘信息_人才招聘】-猎聘",
+                "pcUrl":"",
+                "wapUrl":""
+            }
+        }
+    }
+</script>
+</body>
+
+</html>

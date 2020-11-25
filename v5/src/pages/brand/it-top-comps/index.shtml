@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>互联网TOP100招聘专场</title>
+  <!--#include virtual="/fe-mobile-h5/v5/src/includes/v5/resources_header.shtml"-->
+  <link rel="stylesheet" href="//s.lietou-static.com/fe-mobile-h5/v5/css/pages/brand/it-top-comps.css">
+</head>
+
+<body>
+  <section class="banner-wrap">
+    <i class="banner-bg"></i>
+    <i class="banner-logo"></i>
+    <i class="banner-title"></i>
+  </section>
+  <section class="data-wrap"></section>
+  <section class="split-line"></section>
+  <section class="company-list-wrap">
+    <h4></h4>
+    <ul class="flexbox"></ul>
+  </section>
+  <section class="bot-wrap">
+    <i class="bot-bg"></i>
+    <i class="bot-logo"></i>
+  </section>
+  <!--#include virtual="/fe-mobile-h5/v5/src/includes/v5/resources_footer.shtml"-->
+  <script crossorigin="anonymous" src="//s.lietou-static.com/fe-mobile-h5/v5/js/pages/brand/it-top-comps.js"></script>
+</body>
+
+</html>

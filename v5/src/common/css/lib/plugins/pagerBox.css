@@ -1,0 +1,71 @@
+
+/*分页样式*/
+.pager-box {
+  text-align: center;
+  padding: 10px 0;
+  background: #fff;
+  position: relative;
+}
+.pager-box .pre a, .pager-box .next a {
+  display: block;
+  height: 40px;
+  line-height: 40px;
+  background-color: #fd7f23;
+  font-size: 16px;
+  color: #fff;
+  border-radius: 2px;
+  border: 1px solid #fd7f23;
+  padding: 0;
+  box-shadow: none;
+}
+.pager-box .pre, .pager-box .next {
+  padding: 0 4%;
+}
+.pager-box a.btn-disabled {
+  background-color: #bcbcbc;
+  border: 1px solid #bcbcbc;
+}
+.pager-box .pager-count i {
+  font-size: 12px;
+  line-height: normal;
+  vertical-align: middle;
+  -webkit-transform: rotate(0deg);
+  -webkit-transition: all .3s;
+  transform: rotate(0deg);
+  transition: all .3s;
+  margin: 0 0 2px 1px;
+}
+.pager-box p.selected i {
+  color: #fc6621;
+  -webkit-transform: rotate(180deg);
+  -webkit-transition: all .3s;
+  transform: rotate(180deg);
+  transition: all .3s;
+}
+.pager-box .pager-list {
+  display: none;
+  width: 22%;
+  border: 1px solid #ddd;
+  position: absolute;
+  background: #fff;
+  bottom: 80%;
+  left: 39%;
+}
+.pager-box .pager-list li a {
+  display: block;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  border-bottom: 1px solid #ddd;
+  color: #333;
+  margin: 0;
+  padding: 0;
+  box-shadow: none;
+}
+.pager-box .pager-list li a.active {
+  background-color: #fd7f23;
+  color: #fff;
+}
+.pager-box .pager-list li:last-child a {
+  border-bottom: none;
+}

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+</head>
+<link rel="stylesheet" href="//s.lietou-static.com/fe-mobile-h5/v5/css/common/common.css" />
+<link rel="stylesheet" href="//s.lietou-static.com/fe-mobile-h5/v5/css/pages/app.download-by-mscid.css">
+<body>
+  <div class="download-container">
+    <section>
+      <dl>
+        <dt></dt>
+        <dd><p>猎聘</p></dd>
+      </dl>
+      <button type="button" class="btn" data-selector="download-app">下载App</button>
+    </section>
+  </div>
+</body>
+<script src="//s.lietou-static.com/fe-lib-h5/v5/react/16.8.6/react.min.js"></script>
+<script src="//s.lietou-static.com/fe-lib-h5/v5/react-dom/16.8.6/react-dom.min.js"></script>
+<script src="//s.lietou-static.com/fe-mobile-h5/v5/static/js/vendor.js"></script>
+<script src="//s.lietou-static.com/fe-mobile-h5/v5/js/common/common.js"></script>
+<script src="//s.lietou-static.com/fe-mobile-h5/v5/js/pages/app.download-by-mscid.js"></script>
+</html>

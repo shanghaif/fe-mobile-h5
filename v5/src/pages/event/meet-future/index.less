@@ -1,0 +1,208 @@
+body {
+  background-color: #000058;
+}
+.meet-future-container {
+  height: 2000px;
+  /* 顶部banner */
+  .top-banner-wrap {
+    padding: 98.07% 0;
+    background: url('./images/top-banner.jpg') no-repeat top center / 100% auto;
+  }
+  /* 上市咨询描述 */
+  .page-title-wrap {
+    margin-top: -22%;
+    width: 100%;
+    padding: 33.73% 0;
+    background: url('./images/page-title.png') no-repeat center / 100% 100%;
+  }
+  /* 融资上市top5 */
+  .market-top5-wrap {
+    .market-top5-title {
+      margin-top: 48px;
+      padding: 18.8% 0;
+      background: url('./images/session1-title.png') no-repeat center / 100% 100%;
+    }
+    ul {
+      li.market-top5-item {
+        margin-top: 32px;
+        background: url('./images/section1-content-bg.png') no-repeat top center / 100% auto;
+        &:first-child {
+          margin-top: 0;
+        }
+        &:last-child {
+          dl {
+            overflow: hidden;
+            background-position-y: 101%;
+          }
+        }
+        dl {
+          padding-bottom: 37px;
+          background: url('./images/section1-content-footer.png') no-repeat bottom center / 100% auto;
+          dt {
+            color: #fff;
+            padding: 23px 6.6% 10px;
+            .top5-comp-wrap {
+              padding-bottom: 15px;
+              .top5-comp-info {
+                float: left;
+                width: 82%;
+                .top5-comp-name {
+                  font-size: 17px;
+                  padding-bottom: 14px;
+                }
+                .top5-comp-tags {
+                  overflow: hidden;
+                  height: 18px;
+                  span {
+                    float: left;
+                    display: block;
+                    font-size: 10px;
+                    line-height: 16px;
+                    height: 16px;
+                    padding: 0 7px;
+                    border: 1px solid #fff;
+                    border-radius: 20px;
+                    margin-right: 5px;
+                  }
+                }
+              }
+              .top5-comp-logo {
+                display: block;
+                padding-left: 82%;
+                width: 55px;
+                height: 55px;
+                img {
+                  width: 55px;
+                  height: 55px;
+                  border-radius: 4px;
+                }
+              }
+            }
+            .top5-comp-desc {
+              font-size: 12px;
+              line-height: 20px;
+            }
+          }
+          dd {
+            padding: 0 6.6% 8px;
+            .top5-job-item {
+              border-radius: 4px;
+              padding: 12px 25px;
+              background: url('./images/session1-ripplebg.png') #fff no-repeat right bottom / 69px 60px;
+              .top5-job-info {
+                .top5-job-name {
+                  font-size: 14px;
+                  padding-bottom: 7.5px;
+                  overflow: hidden;
+                  text-overflow: ellipsis;
+                  white-space: nowrap;
+                }
+                .top5-job-tags {
+                  display: inline-block;
+                  background-color: #efebff;
+                  line-height: 17px;
+                  padding: 0 17px;
+                  border-radius: 10px;
+                  span {
+                    color: #4e0de6;
+                    font-size: 10px;
+                    &.top5-job-tags-split {
+                      // transform: scale(1, 0.6);
+                    }
+                  }
+                }
+              }
+              .top5-job-salary {
+                color: #fff;
+                font-size: 12px;
+                background-color: #4e0de6;
+                // padding: 0 14px;
+                width: 65px;
+                line-height: 35px;
+                text-align: center;
+                border-radius: 4px;
+                overflow: hidden;
+                text-overflow: ellipsis;
+                white-space: nowrap;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  /* 融资 */
+  .latest-financing-wrap {
+    position: relative;
+    padding-bottom: 41.2%;
+    background: url('./images/session2-footer.png') no-repeat bottom center / 100% auto;
+    .latest-financing-title {
+      padding: 18.8% 0;
+      background: url('./images/session2-title.png') no-repeat center / 100% 100%;
+    }
+    ul {
+      padding: 0 4%;
+      li {
+        box-sizing: border-box;
+        float: left;
+        width: 45.5%;
+        background: url('./images/session2-bg.png') no-repeat center / 100% 100%;
+        border-radius: 4px;
+        padding: 17px 10px 31px;
+        margin-bottom: 25px;
+        &:nth-child(odd) {
+          margin-right: 8.7%;
+        }
+        dl {
+          dt {
+            color: #fff;
+            text-align: center;
+            img {
+              width: 50px;
+              height: 50px;
+              border-radius: 2px;
+            }
+            h4 {
+              font-size: 14px;
+              line-height: 28px;
+            }
+          }
+          dd {
+            .latest-financing-desc {
+              color: #fff;
+              font-size: 9px;
+              line-height: 14px;
+              text-align: center;
+              min-height: 28px;
+            }
+            .latest-financing-see {
+              margin-top: 10px;
+              text-align: center;
+              > a {
+                display: inline-block;
+                font-size: 12px;
+                font-weight: bold;
+                width: 85px;
+                height: 31px;
+                line-height: 31px;
+                color: #4026db;
+                background: linear-gradient(left, #faf7ff, #e1d2fc);
+                text-align: center;
+                border-radius: 20px;
+              }
+            }
+          }
+        }
+      }
+    }
+    .meet-future-logo {
+      position: absolute;
+      left: 50%;
+      bottom: 70px;
+      width: 114px;
+      height: 44px;
+      margin-left: -47px;
+      background: url('./images/liepin-logo.png') no-repeat center / 100% 100%;
+    }
+  }
+}

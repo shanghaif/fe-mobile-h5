@@ -1,0 +1,200 @@
+.hunter-info {
+    position: relative;
+    margin: 10px 0;
+    text-align: center;
+}
+
+.hunter-info figure img {
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+
+.hunter-info figure .hunter-name {
+    font-size: 16px;
+}
+
+.hunter-info figure .hunter-name .icon-honesty {
+    font-style: normal;
+    margin-left: 4px;
+    color: #c11329;
+}
+
+.hunter-info figure .comp-name {
+    font-size: 13px;
+    line-height: 26px;
+    padding: 0 12px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.hunter-info .icon-empty-heart,
+.hunter-info .icon-heart {
+    position: absolute;
+    right: 10px;
+    top: 1px;
+    font-size: 20px;
+    color: #c8c8c8;
+}
+
+.hunter-info .icon-heart {
+    color: #ff8b26;
+}
+
+.operation {
+    background: #fff;
+    border-bottom: 1px solid #dcdcdc;
+}
+
+.operation a {
+    display: block;
+    padding: 10px 0;
+    text-align: center;
+    color: #333;
+}
+
+.operation a:first-child {
+    border-right: 1px solid #dcdcdc;
+}
+
+.operation a .text-icon {
+    font-size: 22px;
+    color: #ff8b26;
+}
+
+.operation-disabled a {
+    color: #ccc;
+}
+
+.operation-disabled a .text-icon {
+    color: #ccc;
+}
+
+.personal-introduction {
+    padding: 10px 0;
+    line-height: 22px;
+    background: #fff;
+}
+
+.personal-introduction span {
+    float: left;
+    width: 70px;
+    text-align: right;
+}
+
+.personal-introduction p {
+    margin-left: 92px;
+    padding-right: 10px;
+}
+
+.position-release {
+    padding: 15px 0;
+    text-align: center;
+    font-size: 12px;
+    color: #777;
+}
+
+.position-list ul {
+    padding: 10px 0 0 10px;
+    background: #fff;
+}
+
+.position-list li a {
+    display: block;
+    padding: 13px 13px 13px 0;
+    line-height: 28px;
+    color: #000;
+    border-bottom: 1px solid #dcdcdc;
+}
+
+.position-list li a:visited {}
+
+.position-list li a label {
+    display: inline-block;
+    width: 58%;
+    vertical-align: middle;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.position-list li a span {
+    display: inline-block;
+    width: 40%;
+    text-align: right;
+    vertical-align: middle;
+    font-weight: bold;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    color: #ff7f00;
+}
+
+.position-list li a span .icon-go-ahead {
+    margin-left: 8px;
+    color: #777;
+}
+
+.position-list .pull-up {
+    margin-top: 10px;
+}
+.nav h1 {
+    padding: 0 100px 0 50px;
+}
+.nav a.black-right {
+    right: 50px;
+    width: auto;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.nav a.more {
+    right: 10px;
+    width: auto;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.hide {
+    display: none;
+}
+
+.nav .more-menu {
+    position: absolute;
+    right: 16px;
+    top: 60px;
+    background-color: rgba(61, 70, 76, .9);
+    border-radius: 5px;
+}
+
+.nav .more-menu:before {
+    content: '';
+    position: absolute;
+    right: 10px;
+    top: -9px;
+    border-bottom: 10px solid rgba(61, 70, 76, .9);
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+}
+
+.nav .more-menu li {
+    /*background-color: #3d464c;*/
+    padding: 0 10px;
+}
+
+.nav .more-menu li a {
+    position: static;
+    display: block;
+    /*background-color: #3d464c;*/
+    top: 0;
+    transform: none;
+    -webkit-transform: none;
+    font-size: 15px;
+    line-height: 38px;
+}
+
+.nav .more-menu li:first-child a {
+    border-bottom: 1px solid #51595e;
+}

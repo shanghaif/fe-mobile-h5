@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html>
+<meta charset="utf-8">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+<meta name="format-detection" content="telephone=no, email=no">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="white">
+
+<head>
+  <!--#include virtual="/fe-mobile-h5/v5/src/includes/resources_c.shtml"-->
+  <title>技能标签</title>
+  <link type="text/css" rel="stylesheet" href="https://s.lietou-static.com/fe-mobile-h5/v5/css/pages/jn.css" />
+</head>
+
+<body>
+  <div class="job-skill-container">
+    <div class="job-skill-head">
+      <div class="job-skill-nav">
+        <a href="">招聘网</a>
+        >
+        <a href="">职业技能</a>
+        >
+        <a href="">Java求职技能</a>
+      </div>
+      <h3 class="job-skill-title">Java求职技能</h3>
+      <div class="job-skill-link" data-selector="skill-tab">
+        <a href="javascript:;" class="active">主页</a>
+        <a href="">技能教程</a>
+      </div>
+      <div class="job-skill-content">
+        <h5>Java技能</h5>
+        <p>技能说明什么，我是占位符我是占位置技能说明什么，我是占位符我是占位置技能说明什么，我是占位符我是占位置技能说明什么，我是占位符我是占位置技能说明什么，我是占位符我是占位置技能说明什么，我是占位符我是占位置</p>
+      </div>
+    </div>
+    <div class="job-record-container">
+      <h5>java技能数据</h5>
+      <div class="echarts-record" id="echarts-record"></div>
+      <div class="job-top">
+        <h6 class="job-title">掌握该技能的TOP前5职位</h6>
+        <ul>
+          <li class="flexbox">
+            <span>TOP1</span>
+            <span>前端开发</span>
+            <span class="line flex-1"></span>
+            <span>占比<strong>40%</strong></span>
+          </li>
+          <li class="flexbox">
+            <span>TOP1</span>
+            <span>前端开发</span>
+            <span class="line flex-1"></span>
+            <span>占比<strong>40%</strong></span>
+          </li>
+          <li class="flexbox">
+            <span>TOP1</span>
+            <span>前端开发</span>
+            <span class="line flex-1"></span>
+            <span>占比<strong>40%</strong></span>
+          </li>
+          <li class="flexbox">
+            <span>TOP1</span>
+            <span>前端开发</span>
+            <span class="line flex-1"></span>
+            <span>占比<strong>40%</strong></span>
+          </li>
+          <li class="flexbox">
+            <span>TOP1</span>
+            <span>前端开发</span>
+            <span class="line flex-1"></span>
+            <span>占比<strong>40%</strong></span>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="recruitment-info-container">
+      <h5>Java招聘信息</h5>
+      <ul class="job-list-wrap">
+        <li>
+          <div class="job-wrap">
+            <div class="job-info-wrap flexbox">
+              <span class="job-title ellipsis-1">高级Java开发工程师</span>
+              <span class="job-salary">24-36万</span>
+            </div>
+            <p class="company-name ellipsis-1">北京好车多多科技有限公司 A轮</p>
+            <div class="require-wrap">
+              <span class="require-item">北京</span>
+              <span class="require-item">4年以上</span>
+              <span class="require-item">本科及以上</span>
+            </div>
+          </div>
+          <div class="user-wrap flexbox">
+            <img src="" alt="" />
+            <span>宗女士</span>
+            <span class="dot">·</span>
+            <span>人力资源总监</span>
+          </div>
+        </li>
+        <li>
+          <div class="job-wrap">
+            <div class="job-info-wrap flexbox">
+              <span class="job-title ellipsis-1">高级Java开发工程师</span>
+              <span class="job-salary">24-36万</span>
+            </div>
+            <p class="company-name ellipsis-1">北京好车多多科技有限公司 A轮</p>
+            <div class="require-wrap">
+              <span class="require-item">北京</span>
+              <span class="require-item">4年以上</span>
+              <span class="require-item">本科及以上</span>
+            </div>
+          </div>
+          <div class="user-wrap flexbox">
+            <img src="" alt="" />
+            <span>宗女士</span>
+            <span class="dot">·</span>
+            <span>人力资源总监</span>
+          </div>
+        </li>
+      </ul>
+      <a href="" class="look-more">查看更多在招职位</a>
+    </div>
+    <div class="foot-container">
+      <ul class="link-tab clearfix" data-selector="link-tab">
+        <li class="active">热门技能</li>
+        <li>技能教程</li>
+      </ul>
+      <section class="link-content clearfix content-active">
+        <a href="" class="ellipsis-1">湖南电气售后</a>
+        <a href="" class="ellipsis-1">湖南电气售后</a>
+        <a href="" class="ellipsis-1">湖南电气售后</a>
+        <a href="" class="ellipsis-1">湖南电气售后</a>
+      </section>
+      <section class="link-content clearfix">
+        <a href="" class="ellipsis-1">河北电气售后</a>
+        <a href="" class="ellipsis-1">湖南电气售后</a>
+        <a href="" class="ellipsis-1">湖南电气售后</a>
+      </section>
+    </div>
+  </div>
+</body>
+<script>
+  var $CONFIG = {
+    recordData: [
+      {
+        name: '前端开发',
+        value: '20'
+      },
+      {
+        name: '产品经理',
+        value: '10'
+      },
+      {
+        name: 'UI设计',
+        value: '15'
+      },
+      {
+        name: 'seo',
+        value: '15'
+      },
+      {
+        name: '㛑设计',
+        value: '30'
+      },
+      {
+        name: '其他',
+        value: '10'
+      },
+    ],
+    salaryData: [
+      {
+        name: '10-11k',
+        value: '10',
+      },
+      {
+        name: '9-10k',
+        value: '30',
+      },
+      {
+        name: '10-12k',
+        value: '10',
+      },
+      {
+        name: '10-13k',
+        value: '17',
+      },
+      {
+        name: '10-14k',
+        value: '13',
+      },
+      {
+        name: '10-18k',
+        value: '20',
+      },
+    ]
+  }
+</script>
+<script src="https://cdn.bootcss.com/jquery/1.7.2/jquery.min.js"></script>
+
+<script src="https://concat.lietou-static.com/fe-mobile-h5/v5/babel-polyfill/6.8.0/polyfill.min.js"></script>
+<script crossorigin="anonymous" src="https://concat.lietou-static.com/fe-lib-h5/v5/femonitor/femonitor.min.js"></script>
+<script src="https://s.lietou-static.com/fe-mobile-h5/v5/static/js/react.min.js"></script>
+<script src="https://s.lietou-static.com/fe-mobile-h5/v5/static/js/react-dom.min.js"></script>
+<script src="https://s.lietou-static.com/fe-mobile-h5/v5/static/js/vendor.js"></script>
+<script src="https://s.lietou-static.com/fe-mobile-h5/v5/js/common/common.js"></script>
+<script src="https://s.lietou-static.com/fe-mobile-h5/v5/static/js/echarts.min.js"></script>
+
+<script src="https://s.lietou-static.com/fe-mobile-h5/v5/js/pages/jn.js"></script>
+
+</html>

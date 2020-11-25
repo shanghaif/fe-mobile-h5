@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+  <title>求职背包</title>
+  <!--#include virtual="/fe-c-h5/v5/src/includes/v5/resources_c.shtml"-->
+  <link rel="stylesheet" href="//concat.lietou-static.com/fe-c-h5/v5/css/common/common-react.css" />
+  <link rel="stylesheet" href="//concat.lietou-static.com/fe-c-h5/v5/css/pages/user.resource.css">
+</head>
+<body class="job-want-backpack">
+  <div id="app"></div>
+  <script src="//concat.lietou-static.com/fe-c-h5/v5/static/js/vendor.js"></script>
+  <script src="//concat.lietou-static.com/fe-c-h5/v5/js/common/common-react.js"></script>
+  <script src="//concat.lietou-static.com/fe-c-h5/v5/static/js/growingio-2.1.js"></script>
+  <script src="//concat.lietou-static.com/fe-c-h5/v5/js/pages/user.resource.js"></script>
+  <!--#include virtual="/fe-c-h5/v5/src/includes/v5/statistic.shtml"-->
+</body>
+
+</html>

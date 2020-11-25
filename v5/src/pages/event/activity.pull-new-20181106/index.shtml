@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!--#include virtual="/fe-mobile-h5/v5/src/includes/v5/resources_c.shtml"-->
+  <title></title>
+  <link rel="stylesheet" href="//s.lietou-static.com/fe-mobile-h5/v5/css/pages/event/activity.pull-new-20181106.css">
+</head>
+<body class="pull-new-act">
+  <section class="logo">
+    <i></i>
+  </section>
+  <section class="slogan">
+    <h5>轻松拿offer，薪资翻倍涨</h5>
+    <div class="en">
+      <p>EASY TO GET OFFER</p>
+    </div>
+  </section>
+  <section class="swiper-section" data-selector="link">
+    <a href="https://m.liepin.cn/register">
+      <div class="swiper-container">
+        <div class="swiper-wrapper" id="swiper1">
+          <div class="swiper-slide">
+            <i class="logo1"></i>
+            <p class="job-title">产品经理</p>
+            <p class="job-salary">24-48万</p>
+          </div>
+          <div class="swiper-slide">
+            <i class="logo2"></i>
+            <p class="job-title">java高级研发</p>
+            <p class="job-salary">90-120万</p>
+          </div>
+          <div class="swiper-slide">
+            <i class="logo3"></i>
+            <p class="job-title">会员内容运营</p>
+            <p class="job-salary">24-30万</p>
+          </div>
+          <div class="swiper-slide">
+            <i class="logo4"></i>
+            <p class="job-title">营销经理</p>
+            <p class="job-salary">13-26万</p>
+          </div>
+          <div class="swiper-slide">
+            <i class="logo5"></i>
+            <p class="job-title">审计师</p>
+            <p class="job-salary">18-24万</p>
+          </div>
+          <div class="swiper-slide">
+            <i class="logo1"></i>
+            <p class="job-title">产品经理</p>
+            <p class="job-salary">24-48万</p>
+          </div>
+          <div class="swiper-slide">
+            <i class="logo2"></i>
+            <p class="job-title">java高级研发</p>
+            <p class="job-salary">90-120万</p>
+          </div>
+          <div class="swiper-slide">
+            <i class="logo3"></i>
+            <p class="job-title">会员内容运营</p>
+            <p class="job-salary">24-30万</p>
+          </div>
+          <div class="swiper-slide">
+            <i class="logo4"></i>
+            <p class="job-title">营销经理</p>
+            <p class="job-salary">13-26万</p>
+          </div>
+          <div class="swiper-slide">
+            <i class="logo5"></i>
+            <p class="job-title">审计师</p>
+            <p class="job-salary">18-24万</p>
+          </div>
+        </div>
+      </div>
+      <div class="swiper-container">
+        <div class="swiper-wrapper" id="swiper2">
+          <div class="swiper-slide">
+            <i class="logo6"></i>
+            <p class="job-title">底盘结构件工程师</p>
+            <p class="job-salary">14-24万</p>
+          </div>
+          <div class="swiper-slide">
+            <i class="logo7"></i>
+            <p class="job-title">临床项目经理</p>
+            <p class="job-salary">20-30万</p>
+          </div>
+          <div class="swiper-slide">
+            <i class="logo8"></i>
+            <p class="job-title">质量经理</p>
+            <p class="job-salary">24-36万</p>
+          </div>
+          <div class="swiper-slide">
+            <i class="logo9"></i>
+            <p class="job-title">车贷运营主管</p>
+            <p class="job-salary">24-32万</p>
+          </div>
+          <div class="swiper-slide">
+            <i class="logo10"></i>
+            <p class="job-title">游戏UI策划</p>
+            <p class="job-salary">14-22万</p>
+          </div>
+          <div class="swiper-slide">
+            <i class="logo6"></i>
+            <p class="job-title">底盘结构件工程师</p>
+            <p class="job-salary">14-24万</p>
+          </div>
+          <div class="swiper-slide">
+            <i class="logo7"></i>
+            <p class="job-title">临床项目经理</p>
+            <p class="job-salary">20-30万</p>
+          </div>
+          <div class="swiper-slide">
+            <i class="logo8"></i>
+            <p class="job-title">质量经理</p>
+            <p class="job-salary">24-36万</p>
+          </div>
+          <div class="swiper-slide">
+            <i class="logo9"></i>
+            <p class="job-title">车贷运营主管</p>
+            <p class="job-salary">24-32万</p>
+          </div>
+          <div class="swiper-slide">
+            <i class="logo10"></i>
+            <p class="job-title">游戏UI策划</p>
+            <p class="job-salary">14-22万</p>
+          </div>
+        </div>
+      </div>
+    </a>
+  </section>
+  <section class="button-area">
+    <a href="https://m.liepin.cn/register" data-selector="link">去登录猎聘</a>
+  </section>
+  <script src="//s.lietou-static.com/fe-mobile-h5/v5/js/pages/event/activity.pull-new-20181106.js"></script>
+</body>
+
+</html>

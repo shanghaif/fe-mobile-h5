@@ -1,0 +1,53 @@
+header {
+  text-align: right;
+  padding: 10px 15px;
+  font-size: 16px;
+  color: #666;
+  background-color: #fff;
+}
+header a {
+  color: #666;
+  vertical-align: middle;
+}
+header span {
+  color: #666;
+  margin: 0 10px;
+  vertical-align: middle;
+}
+footer {
+  text-align: center;
+  background-color: #fff;
+  margin-top: 15px;
+}
+footer .browse-list {
+  padding: 0 30px;
+}
+footer .browse-list ul {
+  padding: 0 10px;
+  border-bottom: 1px dashed #bbb;
+}
+footer .browse-list li a {
+  display: block;
+  font-size: 14px;
+  line-height: 40px;
+  color: #999;
+}
+footer .browse-list li a.active {
+  color: #333;
+}
+footer .menu-list {
+  padding: 0;
+}
+footer .menu-list li a {
+  display: block;
+  font-size: 12px;
+  line-height: normal;
+  padding: 8px 0 3px;
+  color: #333;
+}
+footer .footer-tip {
+  color: #999;
+  font-size: 12px;
+  padding:15px 0 25px;
+  line-height:20px;
+}

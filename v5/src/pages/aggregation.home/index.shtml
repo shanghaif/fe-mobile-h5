@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>company</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <!--#include virtual="/fe-mobile-h5/v5/src/includes/v5/resources_header.shtml"-->
+  <meta name="viewport"
+    content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0, viewport-fit=cover">
+  <link rel="stylesheet" href="//s.lietou-static.com/fe-mobile-h5/v5/css/common/common.css">
+  <link rel="stylesheet" href="//s.lietou-static.com/fe-mobile-h5/v5/css/pages/aggregation.home.css">
+</head>
+
+<body>
+  <!--#include virtual="/fe-mobile-h5/v5/src/includes/v5/header.shtml"-->
+  <div class="aggregation-home">
+    <div class="breadcrumb">
+      <a href="https://m.liepin.cn/" title="招值网">招聘网</a>&gt;
+      <a href="https://m.liepin.cn/qiuzhi/" title="求职网">PHP就业前景</a>&gt;
+      <a href="javascript:;" title="#" class="last">PHP薪资待遇</a>
+    </div>
+    <div class="profession">PHP就业前景</div>
+    <div class="link-navbar flexbox">
+      <a href="#" title="主页" class="active">主页</a>
+      <a href="#" title="招聘信息">招聘信息</a>
+      <a href="#" title="薪资待遇">薪资待遇</a>
+      <a href="#" title="简历模板">岗位职责</a>
+    </div>
+    <div class="position-summary">
+      <h4 class="section-title">PHP岗位职责</h4>
+      <p>
+        <span>
+          产品经理是互联网/移动互联网/电子商务行业职位，月
+          平均薪资：¥12060，在互联网/移动互联网/电子商务具
+          有很好的职业发展前景；猎聘网为您免费提供 49 份产品
+          经理简历模板及最新产品经理招聘信息，助您获得理想
+          高薪工作。
+        </span>
+        <a href="">查看更多</a>
+      </p>
+    </div>
+    <div class="salary">
+      <div class="salary-info">
+        <h6>月平均薪资</h6>
+        <p class="salary-level">￥6863</p>
+        <p class="salary-example">
+          <span>取自35433份</span>
+          <span>可信度：较高</span>
+        </p>
+        <!-- 已登录 -->
+        <p class="salary-summary">您的薪资在PHP处于低下水平，下图为PHP整体薪资数据</p>
+        <!-- 未登录 -->
+        <!-- <p class="salary-summary">您暂未登录无法评估您的薪资水平，去<a href="">登录>></a></p> -->
+        <!-- 未登录  -->
+      </div>
+      <div class="salary-distribution-container">
+        <h6>月均薪资分布</h6>
+        <p>PHP薪资待遇数据详情<span data-selector="look-salary-info" class="text-icon icon-questionmask"></span></p>
+        <div class="echarts-salary" id="echarts-salary"></div>
+        <!-- 未登录 -->
+        <p class="salary-prompt">您的薪资在XX行业处于XX水平，登录/注册查看详细数据。<a href="">去登录/注册〉</a></p>
+        <!-- 已登录-是完简用户  -->
+        <!-- todo: 链接区分.com和.cn -->
+        <!-- <p class="salary-prompt">您的薪资在XX行业处于XX水平，下图为XX行业整体薪资数据及您当前所处的位置，<a href="https://m-c.liepin.com/activity/active-recruiter-topic/job-page">投递这些优选职位，可提高薪资水平〉</a></p> -->
+        <!-- 已登录，不是完简用户 -->
+        <!-- <p class="salary-prompt">您的薪资在XX行业处于XX水平，完善简历查看详细数据<a href="">去完善〉</a></p> -->
+      </div>
+    </div>
+    <div class="recruitment-info-container">
+      <h5>Java招聘信息</h5>
+      <ul class="job-list-wrap">
+        <li>
+          <a href="">
+            <div class="job-wrap">
+              <div class="job-info-wrap flexbox">
+                <span class="job-title ellipsis-1">高级Java开发工程师</span>
+                <span class="job-salary">24-36万</span>
+              </div>
+              <p class="company-name ellipsis-1">北京好车多多科技有限公司 A轮</p>
+              <div class="require-wrap">
+                <span class="require-item">北京</span>
+                <span class="require-item">4年以上</span>
+                <span class="require-item">本科及以上</span>
+              </div>
+            </div>
+            <div class="user-wrap flexbox">
+              <img src="" alt="" />
+              <span>宗女士</span>
+              <span class="dot">·</span>
+              <span>人力资源总监</span>
+            </div>
+          </a>
+        </li>
+        <li>
+          <a href="">
+            <div class="job-wrap">
+              <div class="job-info-wrap flexbox">
+                <span class="job-title ellipsis-1">高级Java开发工程师</span>
+                <span class="job-salary">24-36万</span>
+              </div>
+              <p class="company-name ellipsis-1">北京好车多多科技有限公司 A轮</p>
+              <div class="require-wrap">
+                <span class="require-item">北京</span>
+                <span class="require-item">4年以上</span>
+                <span class="require-item">本科及以上</span>
+              </div>
+            </div>
+            <div class="user-wrap flexbox">
+              <img src="" alt="" />
+              <span>宗女士</span>
+              <span class="dot">·</span>
+              <span>人力资源总监</span>
+            </div>
+          </a>
+        </li>
+      </ul>
+      <a href="" class="look-more">查看更多在招职位</a>
+    </div>
+    <!--#include virtual="/fe-mobile-h5/v5/src/includes/footer_c.shtml"-->
+
+  </div>
+  <script>
+    var $CONFIG = {
+      salaryData: [
+        { name: "后端开发", value: 52 },
+        { name: "高端技术职位", value: 14 },
+        { name: "测试", value: 13 },
+        { name: "前端开发", value: 11 },
+        { name: "运维/技术支持", value: 10 },
+      ],
+      keyWord: 'PHP程序设计'
+    }
+  </script>
+  <script src="https://concat.lietou-static.com/fe-mobile-h5/v5/babel-polyfill/6.8.0/polyfill.min.js"></script>
+  <script crossorigin="anonymous"
+    src="https://concat.lietou-static.com/fe-lib-h5/v5/femonitor/femonitor.min.js"></script>
+  <script src="https://s.lietou-static.com/fe-mobile-h5/v5/static/js/react.min.js"></script>
+  <script src="https://s.lietou-static.com/fe-mobile-h5/v5/static/js/react-dom.min.js"></script>
+  <script src="https://s.lietou-static.com/fe-mobile-h5/v5/static/js/vendor.js"></script>
+  <script src="https://s.lietou-static.com/fe-mobile-h5/v5/js/common/common.js"></script>
+  <script src="https://s.lietou-static.com/fe-mobile-h5/v5/static/js/echarts.min.js"></script>
+
+  <script src="//s.lietou-static.com/fe-mobile-h5/v5/js/pages/aggregation.home.js">
+  </script>
+  <!--#include virtual="/fe-mobile-h5/v5/src/includes/v5/statistic.shtml"-->
+
+</body>
+
+</html>

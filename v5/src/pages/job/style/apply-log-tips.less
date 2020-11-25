@@ -1,0 +1,66 @@
+.text-warning {
+  color: #f64;
+}
+.apply-log-tips-wrap {
+  position: fixed;
+  left: 18px;
+  bottom: 90px;
+  height: 70px;
+  // overflow: hidden;
+  ul {
+    li {
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+      p {
+        display: inline-block;
+        background-color: rgba(0,0,0,0.65);
+        border-radius: 16px;
+        color: #fff;
+        font-size: 14px;
+        padding: 0 14px;
+        line-height: 27px;
+        margin-bottom: 10px;
+      }
+    }
+  }
+}
+/* 动画效果区域 */
+@animationTime: 1.8s;
+@singleDomHeight: 35.8px;
+.auto-one {
+  animation: scrollUpHidden @animationTime ease 0s 1 forwards;
+}
+.auto-two {
+  animation: scrollToFirstPosition @animationTime ease 0s 1 forwards;
+}
+.auto-three {
+  animation: scrollToSecondPosition @animationTime ease 0s 1 forwards;
+}
+@keyframes scrollUpHidden {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(-@singleDomHeight);
+    opacity: 0;
+  }
+}
+@keyframes scrollToFirstPosition {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-@singleDomHeight);
+  }
+}
+@keyframes scrollToSecondPosition {
+  0% {
+    transform: translateY(0);
+    opacity: 0.7;
+  }
+  100% {
+    transform: translateY(-@singleDomHeight);
+    opacity: 1;
+  }
+}

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!--#include virtual="/fe-mobile-h5/v5/src/includes/v5/resources_c.shtml"-->
+  <title>猎聘硬核涨薪季</title>
+  <link rel="stylesheet" href="//s.lietou-static.com/fe-mobile-h5/v5/css/pages/event/brand.rise-salary.high-salary.css">
+</head>
+
+<body>
+  <section class="banner-wrap">
+    <i class="banner-bg"></i>
+    <i class="banner-logo"></i>
+    <i class="banner-title"></i>
+  </section>
+
+  <section class="item-wrap first-select">
+    <h3><i></i></h3>
+    <div class="item-comtainer">
+      <div class="photo-frame">
+        <a href="javascript:;" data-selector="company-card" data-id="7863078"></a>
+      </div>
+      <p class="company-desc">
+        贝壳找房创立于2018年初，定位于技术驱动的品质居住服务平台。贝壳找房致力于聚合和赋能全行业的优质服务者，打造开放合作的行业生态，为消费者提供包括二手房、新房、租赁和家装等全方位的居住服务。
+      </p>
+      <div class="hr"></div>
+      <ul data-selector="first-select"></ul>
+      <a href="javascript:;" data-selector="company-card" data-id="7863078" class="btn-more">查看更多职位</a>
+    </div>
+  </section>
+
+  <section class="item-wrap hard-core">
+    <h3><i></i></h3>
+    <div class="item-comtainer">
+      <div class="video-wrap" data-selector="video-wrap">
+      </div>
+      <!-- <div class="hr"></div>
+      <div class="core-photo"></div> -->
+    </div>
+  </section>
+
+  <section class="item-wrap industry-wrap">
+    <h3><i></i></h3>
+    <div class="item-comtainer">
+      <div class="tab-wrap">
+        <ul data-selector="tab-wrap">
+          <li class="active">旅行行业</li>
+          <li>出行行业</li>
+          <li>电商行业</li>
+          <li>视频行业</li>
+          <li>教育行业</li>
+          <li>房地产</li>
+          <li>即时产品</li>
+          <li>医疗行业</li>
+          <li>直播行业</li>
+          <li>生活服务</li>
+          <li>风口公司</li>
+        </ul>
+      </div>
+      <ul class="job-list-wrap" data-selector="job-wrap"></ul>
+    </div>
+  </section>
+
+  <section class="item-wrap tuyere-wrap">
+    <h3><i></i></h3>
+    <div class="item-comtainer">
+      <div class="photo-frame">
+        <div class="desc-wrap">
+          <p>本周推荐风口</p>
+          <h5>电子烟</h5>
+        </div>
+      </div>
+      <h4>推荐理由</h4>
+      <p class="desc">国内电子烟市场仍在起步阶段，极具发展实力。2016年中国电子烟市场规模约30亿元，2012至2016年复合增速为71.1%，而2016年更急速上升达316%，2019将发展成千亿市场，与国内万亿规模的传统烟草市场相比，电子烟市场虽然微乎其微，目前国内约有3.16亿烟民，据安永2018年统计，国内电子烟消费者大约在150至200万之间，仅占吸烟总人口的0.47%至0.63%。</p>
+      <div class="hr"></div>
+      <ul class="flexbox" data-selector="tuyere-wrap"></ul>
+    </div>
+  </section>
+  <script src="//player.polyv.net/script/polyvplayer.min.js"></script>
+  <script src="//s.lietou-static.com/fe-mobile-h5/v5/static/js/vendor.js"></script>
+  <script src="//s.lietou-static.com/fe-mobile-h5/v5/js/common/common.js"></script>
+  <script src="//s.lietou-static.com/fe-mobile-h5/v5/js/pages/event/brand.rise-salary.high-salary.js"></script>
+</body>
+
+</html>

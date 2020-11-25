@@ -1,0 +1,157 @@
+#app {
+  line-height: 1.6;
+
+  .resume-complete {
+    &-container {
+      display: flex;
+      flex-direction: column;
+      position: relative;
+      background-color: #fff;
+      height: 100vh;
+      overflow: hidden;
+
+      .violet-input {
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+      }
+
+      .form-item-wrap {
+        height: 60px;
+        font-size: 16px;
+        border-bottom: 0.5px solid #eee;
+
+        &.no-border {
+          border: 0 none;
+        }
+
+        &.start-end-wrap {
+          display: flex;
+          flex-direction: row;
+
+          input:first-child {
+            width: 50%;
+          }
+          input:last-child {
+            flex: 1;
+          }
+          span {
+            padding: 18px 35px 18px 0;
+            margin-left: -5px;
+          }
+        }
+        .salary-explain {
+          padding: 18px 0;
+          font-size: 13px;
+          color: #2a2a2a;
+
+          em {
+            color: #f64;
+            font-style: normal;
+            margin-right: 3px;
+          }
+        }
+        .comp-industry-item {
+          display: block;
+          padding: 18px 0;
+          font-size: 16px;
+
+          span {
+            font-size: 16px;
+            font-weight: normal;
+          }
+        }
+      }
+      .form-item-wrap-2 {
+        padding: 18px 0;
+        border-bottom: 0.5px solid #eee;
+
+        & > label {
+          display: block;
+          font-size: 14px;
+          color: #666;
+          margin-bottom: 12px;
+          & + .comp-industry-item {
+            text-overflow: ellipsis;
+            overflow: hiddden;
+            font-size: 16px;
+            font-weight: bold;
+            white-space: nowrap;
+            display: block;
+
+            & > span {
+              font-size: 16px;
+            }
+          }
+        }
+        & > p {
+          font-size: 16px;
+          font-weight: bold;
+          margin: 0;
+          padding: 0;
+
+          &.placeholder {
+            color: #ccc;
+            font-weight: normal;
+          }
+        }
+      }
+      .form-btn-wrap {
+        padding: 10px 18px 20px;
+        background-color: #fff;
+      }
+    }
+    &-content {
+      flex: 1;
+      height: 0;
+      overflow-y: auto;
+      overflow-x: hidden;
+      padding: 0 18px;
+    }
+
+    &-nav {
+      text-align: right;
+    }
+    &-next {
+      display: inline-block;
+      padding: 20px 0;
+      font-size: 16px;
+    }
+    &-hgroup {
+      margin-bottom: 25px;
+
+      h1 {
+        font-size: 25px;
+        margin: 0 0 5px;
+      }
+      .resume-complete-subtitle {
+        font-size: 13px;
+        color: #999;
+      }
+    }
+    &-sex-wrap {
+      display: flex;
+      padding: 18px 0;
+      flex-direction: row;
+
+      .violet-radio-ui {
+        margin-right: 43px;
+
+        &:last-child {
+          margin-right: 0;
+        }
+      }
+      & > span {
+        flex: 1;
+        width: 0;
+      }
+    }
+    &-loading {
+      display: flex;
+      width: 100vw;
+      height: 100vh;
+      align-items: center;
+      justify-content: center;
+    }
+  }
+}

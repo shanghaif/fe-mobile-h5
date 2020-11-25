@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <!--#include virtual="/fe-mobile-h5/v5/src/includes/v5/resources_c.shtml"-->
+  <title>薪酬报告</title>
+  <link type="text/css" rel="stylesheet" href="//s.lietou-static.com/fe-mobile-h5/v5/css/pages/salaryanalysis.editcard.css" />
+  <script>
+    var rem = parseInt(document.documentElement.clientWidth, 10) / 10;
+    document.documentElement.style.setProperty('font-size', rem + 'px');
+  </script>
+</head>
+
+<body>
+  <div class="view">
+    <h2 class="complete-tips">
+      职业薪酬报告
+    </h2>
+    <p class="dec-text">告诉我们您的信息，我们据此通过猎聘千万级人才库大数据分析模型，为您提供专业薪酬分析结果</p>
+    <form data-selector="form" action="/salaryanalysis/editexp/" method="POST">
+      <ul class="name-card items">
+        <li class="real-name items">
+          <label class="clearfix">
+            真实姓名
+            <input type="text" maxlength="5" name="name" value="张山" validate-title="真实姓名"
+              validate-rules="[['required'],['cn'],['length',{'max':5,'min':2}]]" placeholder="姓名" />
+            <span class="gender">
+              <em class="active">男</em><em class="">女</em>
+              <input type="radio" name="sex" value="男" checked="checked" />
+              <input type="radio" name="sex" value="女" />
+            </span>
+          </label>
+        </li>
+        <li class="birth-year clearfix" data-selector="birth-year">
+          出生年份
+          <input type="hidden" name="birthYear" value="1991" validate-title="出生年份" validate-rules="[['required']]" />
+          <span class="user-select">
+            <em class="select-result placeholder">1991</em>
+            <i class="text-icon icon-go-ahead"></i>
+          </span>
+        </li>
+        <li class="work-year clearfix" data-selector="start-work">
+          开始工作年份
+          <input type="hidden" name="workYear" value="2014" validate-title="开始工作年份" validate-rules="[['required']]" />
+          <span class="user-select">
+            <em class="select-result placeholder">2014</em>
+            <i class="text-icon icon-go-ahead"></i>
+          </span>
+        </li>
+        <li class="now-city clearfix" data-selector="current-city">
+          当前城市
+          <input type="hidden" name="dq" value="010" validate-title="当前城市" validate-rules="[['required']]" />
+          <span class="user-select">
+            <em class="select-result placeholder">北京</em>
+            <i class="text-icon icon-go-ahead"></i>
+          </span>
+        </li>
+      </ul>
+      <div class="btn-box">
+        <button type="submit" class="btn btn-submit" data-selector="namecard-save">下一步</button>
+      </div>
+    </form>
+  </div>
+  <script src="//s.lietou-static.com/fe-mobile-h5/v5/static/js/react.min.js"></script>
+  <script src="//s.lietou-static.com/fe-mobile-h5/v5/static/js/react-dom.min.js"></script>
+  <script src="//s.lietou-static.com/fe-mobile-h5/v5/static/js/vendor.js"></script>
+  <script src="//s.lietou-static.com/fe-mobile-h5/v5/js/common/common.js"></script>
+  <script src="//s.lietou-static.com/fe-mobile-h5/v5/js/pages/salaryanalysis.editcard.js"></script>
+</body>
+
+</html>

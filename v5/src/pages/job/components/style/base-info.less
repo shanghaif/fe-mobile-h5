@@ -1,0 +1,112 @@
+.job-base-info {
+  margin-bottom: 40px;
+
+  &-desc {
+    margin-bottom: 15px;
+
+    h1 {
+      margin: 0 0 14px;
+      position: relative;
+      font-size: 25px;
+    }
+
+    p {
+      margin: 0 0 6px;
+
+      span {
+        float: left;
+        position: relative;
+        padding: 0 10px;
+        white-space: nowrap;
+        font-size: 13px;
+
+        &:before {
+          position: absolute;
+          content: '';
+          top: 50%;
+          transform: translateY(-50%);
+          left: 0;
+          width: 1px;
+          height: 9px;
+          background-color: #ddd;
+        }
+
+        &:first-child {
+          padding-left: 0;
+
+          &:before {
+            display: none;
+          }
+        }
+      }
+
+      strong {
+        font-size: 16px;
+        color: #f64;
+      }
+    }
+  }
+
+  &-publisher {
+    padding-top: 18px;
+    border-top: 1px solid #eee;
+
+    img {
+      width: 45px;
+      height: 45px;
+      float: left;
+      border-radius: 4px;
+      border: 1px solid #eee;
+    }
+
+    &-desc {
+      margin-left: 57px;
+      margin-bottom: 4px;
+      font-size: 13px;
+      color: #666;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+
+      strong {
+        color: #333;
+        font-size: 15px;
+        margin-right: 10px;
+      }
+
+      span {
+        position: relative;
+        padding-left: 12px;
+        font-size: 12px;
+        color: #666;
+
+        &:before {
+          content: '';
+          position: absolute;
+          width: 8px;
+          height: 8px;
+          top: 50%;
+          left: 0;
+          transform: translateY(-50%);
+          border-radius: 4px;
+          background-color: #ddd;
+        }
+
+        &.on-line:before {
+          background-color: #7ed321;
+        }
+      }
+
+      i {
+        display: inline-block;
+        margin-left: 10px;
+        background-color: #ff856a;
+        border-radius: 4px 0 4px 0;
+        padding: 1px 3px;
+        font-size: 10px;
+        font-style: normal;
+        color: #fff;
+      }
+    }
+  }
+}

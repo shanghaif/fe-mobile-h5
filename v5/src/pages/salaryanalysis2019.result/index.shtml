@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html>
+<meta charset="utf-8">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+<meta name="format-detection" content="telephone=no, email=no">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="white">
+
+<head>
+  <!--#include virtual="/fe-mobile-h5/v5/src/includes/v5/resources_c.shtml"-->
+  <title>薪酬报告</title>
+  <link type="text/css" rel="stylesheet"
+    href="https://s.lietou-static.com/fe-mobile-h5/v5/css/pages/salaryanalysis2019.result.css" />
+</head>
+
+<body>
+  <div class="salary-report-container">
+    <section class="self-person-info">
+      <span class="report-logo">Report</span>
+      <div class="info-content">
+        <dl class="flexbox">
+          <dt>
+            <img src="" alt="" />
+          </dt>
+          <dd>
+            <p>北京</p>
+            <p>运营经理 | 工作5年 </p>
+          </dd>
+        </dl>
+      </div>
+    </section>
+    <section class="salary-level-conatiner">
+      <div class="dot"></div>
+      <div class="salary-level-content">
+        <div class="echarts-salary" id="echarts-salary" data-selector="canvas-wrap">
+          <canvas></canvas>
+          <i></i>
+        </div>
+        <p class="salary">
+          您的年薪
+          <span class="special-color">35万</span>
+          <i>|</i>
+          平均年薪
+          <span class="special-color">24万</span>
+        </p>
+        <p class="salary-lead">* 您的薪资水平领先于<span class="special-color">80%</span>的同行</p>
+      </div>
+    </section>
+    <section class="recruit-high-job">
+      <h3 class="salary-title">涨薪前景分析</h3>
+      <p class="recruit-info">
+        平台在招高薪
+        <span class="special-color">运营经理</span>
+        职位
+        <strong class="special-color">1345</strong>
+        个
+      </p>
+      <p class="recruit-tips">Tips: 储备优质机会是涨薪的第一步</p>
+    </section>
+    <section class="salary-industry-distribution">
+      <h3 class="salary-title">高薪同行企业性质分布</h3>
+      <div class="echarts-industry-distribution" id="echarts-industry-distribution">
+
+      </div>
+    </section>
+    <section class="salary-skill-label">
+      <h3 class="salary-title">高薪职位要求技能标签</h3>
+      <ul>
+        <li class="flexbox">
+          <span>软件技能</span>
+          <div class="skill-item">
+            <div class="skill-0"><span /></div>
+          </div>
+        </li>
+        <li class="flexbox">
+          <span>数据分析</span>
+          <div class="skill-item">
+            <div class="skill-1"><span /></div>
+          </div>
+        </li>
+        <li class="flexbox">
+          <span>用户体验</span>
+          <div class="skill-item">
+            <div class="skill-2"><span /></div>
+          </div>
+        </li>
+        <li class="flexbox">
+          <span>产品思维</span>
+          <div class="skill-item">
+            <div class="skill-3"><span /></div>
+          </div>
+        </li>
+        <li class="flexbox">
+          <span>其他</span>
+          <div class="skill-item">
+            <div class="skill-4"><span /></div>
+          </div>
+        </li>
+      </ul>
+    </section>
+    <section class="salary-ranking">
+      <h3 class="salary-title">公司运营经理职位薪资<span class="special-color">TOP3</span></h3>
+      <ul class="ranking-container">
+        <dl class="ranking-item ranking-0 flexbox">
+          <dt>
+            <img src="" alt="" />
+          </dt>
+          <dd>
+            <p>京东</p>
+            <p>正热招高薪职位<span class="special-color">1222个</span></p>
+          </dd>
+        </dl>
+        <dl class="ranking-item ranking-1 flexbox">
+          <dt>
+            <img src="" alt="" />
+          </dt>
+          <dd>
+            <p>京东</p>
+            <p>正热招高薪职位<span class="special-color">1222个</span></p>
+          </dd>
+        </dl>
+        <dl class="ranking-item ranking-2 flexbox">
+          <dt>
+            <img src="" alt="" />
+          </dt>
+          <dd>
+            <p>京东</p>
+            <p>正热招高薪职位<span class="special-color">1222个</span></p>
+          </dd>
+        </dl>
+      </ul>
+    </section>
+    <section class="job-ranking">
+      <h3 class="salary-title">近期涨薪快职位类型<span class="special-color">TOP3</span></h3>
+      <ul class="ranking-container">
+        <li class="ranking-item ranking-one flexbox">
+          <div class="ranking-content">
+            <p class="flexbox">
+              <span class="job-title ellipsis">高级内容运营</span>
+              <span class="job-gain">涨幅<span class="special-color">40%</span></span>
+            </p>
+            <div class="range">
+              <div class="range-percent" style="width: 30%;"></div>
+            </div>
+          </div>
+        </li>
+        <li class="ranking-item ranking-two flexbox">
+          <div class="ranking-content">
+            <p class="flexbox">
+              <span class="job-title ellipsis">高级内容运营</span>
+              <span class="job-gain">涨幅<span class="special-color">40%</span></span>
+            </p>
+            <div class="range">
+              <div class="range-percent" style="width: 40%;"></div>
+            </div>
+          </div>
+        </li>
+        <li class="ranking-item ranking-three flexbox">
+          <div class="ranking-content">
+            <p class="flexbox">
+              <span class="job-title ellipsis">高级内容运营</span>
+              <span class="job-gain">涨幅<span class="special-color">40%</span></span>
+            </p>
+            <div class="range">
+              <div class="range-percent" style="width: 20%;"></div>
+            </div>
+          </div>
+        </li>
+      </ul>
+    </section>
+    <section class="match-salary-chance">
+      <h3 class="salary-title">匹配的涨薪机会</h3>
+      <ul class="match-job-container">
+        <li>
+          <p class="flexbox">
+            <span class="job-title ellipsis">猎聘</span>
+            <span class="special-color">13*13</span>
+          </p>
+          <p class="ellipsis">百度有限责任公司</p>
+        </li>
+        <li>
+          <p class="flexbox">
+            <span class="job-title ellipsis">猎聘</span>
+            <span class="special-color">13*13</span>
+          </p>
+          <p class="ellipsis">百度有限责任公司</p>
+        </li>
+        <li>
+          <p class="flexbox">
+            <span class="job-title ellipsis">猎聘</span>
+            <span class="special-color">13*13</span>
+          </p>
+          <p class="ellipsis">百度有限责任公司</p>
+        </li>
+      </ul>
+    </section>
+    <section class="consultant-advice">
+      <h3 class="advice-title">猎聘顾问建议</h3>
+      <div class="consultant-advice-content">
+        <p>
+          岳先生，您是有<span class="special-color">5年经验</span>的专业人士，您的工作经历在
+          <span class="special-color">互联网行业</span>中有<span class="special-color">较强</span>
+          的竞争力。
+        </p>
+        <p>根据您的薪酬报告，为您推荐<span class="special-color">3位</span>行业
+          <span class="special-color">资深招聘方</span>，与他们保持沟通持续获取行业信息和优质机会。
+        </p>
+      </div>
+    </section>
+    <section class="recruit-recommend-container">
+      <ul class="recruit-recommend-content"></ul>
+    </section>
+    <section class="btn-conatiner">
+      <a href="javascript:;" data-selector="look-more-job">查看更多高薪职位</a>
+    </section>
+  </div>
+</body>
+<script>
+  var $CONFIG = {
+    keyword: '前端',
+    skillTagDistribute: [
+      {
+        value: 80,
+        name: '软件技能',
+      },
+      {
+        value: 60,
+        name: '数据分析',
+      },
+      {
+        value: 30,
+        name: '用户体验',
+      },
+      {
+        value: 20,
+        name: '产品思维',
+      },
+      {
+        value: 10,
+        name: '其他',
+      },
+    ],
+    percent: {
+      datas: [
+        { percent: 0, salary: "60k" },
+        { percent: 0.1, salary: "72K" },
+        { percent: 0.25, salary: "93K" },
+        { percent: 0.5, salary: "120K" },
+        { percent: 0.75, salary: "180K" },
+        { percent: 0.9, salary: "230K" }],
+      avgSalary: '24万',
+      me: { salary: 50000, percent: "1" }
+    },
+    compNatureDistribute: [
+      {
+        value: "0.4525573192239859",
+        name: "私营企业",
+      },
+      {
+        value: "0.18977072310405643",
+        name: "外企",
+
+      },
+      {
+        value: "0.1671957671957672",
+        name: "合资企业",
+
+      },
+      {
+        value: "0.14638447971781304",
+        name: "上市公司",
+      },
+      {
+        value: "0.04409171075837742",
+        name: "其他",
+
+      }
+    ]
+  }
+</script>
+<script src="https://cdn.bootcss.com/jquery/1.7.2/jquery.min.js"></script>
+
+<script src="https://concat.lietou-static.com/fe-mobile-h5/v5/babel-polyfill/6.8.0/polyfill.min.js"></script>
+<script crossorigin="anonymous" src="https://concat.lietou-static.com/fe-lib-h5/v5/femonitor/femonitor.min.js"></script>
+<script src="https://s.lietou-static.com/fe-mobile-h5/v5/static/js/react.min.js"></script>
+<script src="https://s.lietou-static.com/fe-mobile-h5/v5/static/js/react-dom.min.js"></script>
+<script src="https://s.lietou-static.com/fe-mobile-h5/v5/static/js/vendor.js"></script>
+<script src="https://s.lietou-static.com/fe-mobile-h5/v5/js/common/common.js"></script>
+<script src="https://s.lietou-static.com/fe-mobile-h5/v5/static/js/echarts.min.js"></script>
+
+<script src="https://s.lietou-static.com/fe-mobile-h5/v5/js/pages/salaryanalysis2019.result.js"></script>
+
+</html>

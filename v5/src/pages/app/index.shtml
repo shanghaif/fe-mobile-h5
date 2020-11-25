@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" />
+<!--#include virtual="/fe-mobile-h5/v5/src/includes/v5/resources_c.shtml"-->
+<title>猎聘</title>
+<link type="text/css" rel="stylesheet" href="//s.lietou-static.com/fe-mobile-h5/v5/css/pages/app.css" />
+</head>
+<body data-page-id="P000000187">
+  <div class="logo-wrap">
+    <i></i>
+  </div>
+  <div class="text-wrap">
+    <i></i>
+  </div>
+  <div class="btn-wrap">
+    <a href="javascript:;" data-selector="download">
+      <i></i>
+      <span>下载猎聘APP</span>
+    </a>
+  </div>
+	<script src="//s.lietou-static.com/fe-mobile-h5/v5/js/pages/app.js" ></script>
+
+</body>
+</html>

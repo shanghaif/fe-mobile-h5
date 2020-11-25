@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>company</title>
+  <!--#include virtual="/fe-mobile-h5/v5/src/includes/v5/resources_c.shtml"-->
+  <link rel="stylesheet" href="//s.lietou-static.com/fe-mobile-h5/v5/css/pages/aggregation.resume_detail.css">
+</head>
+
+<body>
+  <div class="resume-contain">
+    <!--#include virtual="/fe-mobile-h5/v5/src/includes/v5/header.shtml"-->
+    <div class="breadcrumb">
+      <a href="https://m.liepin.cn/" title="招值网">招值网</a>&gt;
+      <a href="https://m.liepin.cn/qiuzhi/" title="求职网">求职网</a>&gt;
+      <a href="" title="#">产品经理简历模板</a>&gt;
+      <a href="" title="#" class="last">简历模板</a>
+    </div>
+    <div class="professional">产品经理</div>
+    <div class="link-navbar flexbox">
+      <a href="#" title="主页" class="flex-1 active">
+        <span>主页</span>
+      </a>
+      <a href="#" title="招聘信息" class="flex-1">
+        <span>招聘信息</span>
+      </a>
+      <a href="#" title="薪资待遇" class="flex-1">
+        <span>薪资待遇</span>
+      </a>
+      <a href="#" title="简历模板" class="flex-1">
+        <span>简历模板</span>
+      </a>
+    </div>
+    <div class="hot-job ">
+      <span>999+</span><span>个产品经理在招职位正在热招。</span><span>点击查看>></span>
+    </div>
+    <div class="resume-template">
+      <div class="basic-information clearfix">
+        <div class="head-img">
+          <img src="" alt="">
+        </div>
+        <div class="info">
+          <p><span>李女士</span><span>3年经验 12万年薪</span></p>
+          <p>
+            <span>女</span><i>|</i><span>32岁</span><i>|</i><span>已婚</span><i>|</i><span>本科</span><i>|</i><span>现居吉林</span>
+          </p>
+          <p>Tel:1786342334</p>
+          <p>Mail:2398247334@qq.com</p>
+        </div>
+      </div>
+      <div class="career-intention">
+        <h4 class="section-title">职业去向</h4>
+        <div class="intention-info">
+          <p>目前年薪：<span>30万</span></p>
+          <p>期望年薪：<span>45万</span></p>
+          <p>期望地点：<span>北京</span><span>广州</span><span>南京</span></p>
+          <p class="flex-box">
+            <span>期望行业：</span>
+            <span>互联网/移动互联网/电子商务，游戏/通信 (设备/运营/增值) </span>
+          </p>
+          <p class="flex-box">
+            <span>期望职位：</span>
+            <span>互联网/移动互联网/电子商务，游戏/通信 (设备/运营/增值) </span>
+          </p>
+        </div>
+      </div>
+      <div class="bright-spot">
+        <h4 class="section-title">个人亮点</h4>
+        <div class="label">
+          <span>沟通能力强</span>
+          <span>性格开朗</span>
+          <span>正能量</span>
+          <span>人脉广阔</span>
+        </div>
+      </div>
+      <div class="language">
+        <h4 class="section-title">语言能力</h4>
+        <div class="language-box">
+          <p>普通话：<span>听说熟练</span></p>
+          <p>英语：<span>听说一般，读写一般</span></p>
+        </div>
+      </div>
+      <div class="education">
+        <h4 class="section-title">教育经历</h4>
+        <div class="education-box">
+          <span>2014年07月毕业 北京某大学 XXXXX专业</span>
+        </div>
+      </div>
+      <div class="work-experience">
+        <h4 class="section-title">工作经历</h4>
+        <div class="work-experience-box">
+          <p>公司名称：<span>某吉林互联网行业公司</span></p>
+          <p>在职时间：<span>XXXX年X月- XXXX年X月</span></p>
+          <p>职位名称：<span>某吉林互联网行业公司</span></p>
+          <p class="responsibilities" data-selector="work-responsibilities">
+            工作职责：<span>分析和挖掘用户需求，制定所负责产品线的发展蓝图和实施路线图；研究市跨部门配合工作和用户需求用户</span></p>
+          <div class="more-resume" data-selector="more-resume">
+            <a href="https://m.liepin.cn/login/">注册 |</a>
+            <a href="https://m.liepin.cn/register/">登录</a>
+            <span>查看全部内容</span>
+          </div>
+        </div>
+        <div class="work-experience-box">
+          <p>公司名称：<span>某吉林互联网行业公司</span></p>
+          <p>在职时间：<span>XXXX年X月- XXXX年X月</span></p>
+          <p>职位名称：<span>某吉林互联网行业公司</span></p>
+          <p class="responsibilities" data-selector="work-responsibilities">
+            工作职责：<span>分析和挖掘用户需求，制定所负责产品线的发展蓝图和实施路线图；研究市跨部门配合工作和用户需求用户</span></p>
+          <div class="more-resume" data-selector="more-resume">
+            <a href="https://m.liepin.cn/login/">注册 |</a>
+            <a href="https://m.liepin.cn/register/">登录</a>
+            <span>查看全部内容</span>
+          </div>
+        </div>
+      </div>
+      <div class="project-experience">
+        <h4 class="section-title">项目经历</h4>
+        <div class="project-experience-box">
+          <p>项目名称：<span>某吉林互联网行业公司</span></p>
+          <p>项目时间：<span>XXXX年X月- XXXX年X月</span></p>
+          <p class="responsibilities" data-selector="project-responsibilities">
+            项目职责：<span>分析和挖掘用户需求，制定所负责产品线的发展蓝图和实施路线图；研究市跨部门配合工作和用户需求用户</span></p>
+          <div class="more-resume" data-selector="more-resume">
+            <a href="https://m.liepin.cn/login/">注册 |</a>
+            <a href="https://m.liepin.cn/register/">登录</a>
+            <span>查看全部内容</span>
+          </div>
+        </div>
+        <div class="project-experience-box">
+          <p>项目名称：<span>某吉林互联网行业公司</span></p>
+          <p>项目时间：<span>XXXX年X月- XXXX年X月</span></p>
+          <p class="responsibilities" data-selector="project-responsibilities">
+            项目职责：<span>分析和挖掘用户需求，制定所负责产品线的发展蓝图和实施路线图；研究市跨部门配合工作和用户需求用户</span></p>
+          <div class="more-resume" data-selector="more-resume">
+            <a href="https://m.liepin.cn/login/">注册 |</a>
+            <a href="https://m.liepin.cn/register/">登录</a>
+            <span>查看全部内容</span>
+          </div>
+        </div>
+      </div>
+      <div class="introduce">
+        <h4 class="section-title">自我介绍</h4>
+        <div class="introduce-box">
+          <p>喜欢打游戏，看小说，刷微博、论坛，也爱参加骑行、
+            骑马、打篮球，羽毛球，乒乓球等户外运动个性开朗开
+            朗，性格活泼，非常正能量。团队精神佳，热爱和大家
+            一起干活！</p>
+          <p>温馨提示：本内容来源于互联网，仅供参考。</p>
+        </div>
+      </div>
+      <div class="related-resume-template">
+        <h4 class="section-title">相关简历模板</h4>
+        <ul>
+          <li>
+            <a href="" title="#">
+              <span>产品设计简历模板</span>
+              <i>></i>
+            </a>
+          </li>
+          <li>
+            <a href="" title="#">
+              <span>产品设计简历模板</span>
+              <i>></i>
+            </a>
+          </li>
+          <li>
+            <a href="" title="#">
+              <span>产品设计简历模板</span>
+              <i>></i>
+            </a>
+          </li>
+          <li>
+            <a href="" title="#">
+              <span>产品设计简历模板</span>
+              <i>></i>
+            </a>
+          </li>
+          <li>
+            <a href="" title="#">
+              <span>产品设计简历模板</span>
+              <i>></i>
+            </a>
+          </li>
+          <li>
+            <a href="" title="#">
+              <span>产品设计简历模板</span>
+              <i>></i>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <!--#include virtual="/fe-mobile-h5/v5/src/includes/v5/footer_c.shtml"-->
+
+  </div>
+  <script src="//s.lietou-static.com/fe-mobile-h5/v5/js/pages/aggregation.resume_detail.js"></script>
+  <!--#include virtual="/fe-mobile-h5/v5/src/includes/v5/statistic.shtml"-->
+
+</body>
+
+</html>

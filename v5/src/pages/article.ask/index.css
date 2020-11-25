@@ -1,0 +1,122 @@
+body{
+  background-color: #eee;
+}
+.breadcrumb{
+  padding: 10px 15px;
+}
+.breadcrumb a{
+  float: left;
+  display: inline-block;
+  font-size: 14px;
+  color: #2c8bba;
+  max-width: 60%;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.breadcrumb span{
+  float: left;
+  margin: 0 5px;
+}
+.breadcrumb a.last{
+  color: #333;
+}
+.question{
+  padding:15px;
+  background: #fff;
+  margin-bottom: 10px;
+}
+.question .question-title{
+  font-size: 18px;
+  color: #333;
+}
+.question .question-content{
+  font-size: 14px;
+  color: #666;
+}
+.answer-num{
+  padding: 10px 15px;
+  border-bottom: 1px solid #e5e5e5;
+  background: #fff;
+}
+.answer-item{
+  padding: 23px 15px;
+  background: #fff;
+  margin-bottom: 10px;
+}
+.answer-item .img-box{
+  margin-bottom: 10px;
+}
+.answer-item .answer-user{
+  margin-bottom: 18px;
+}
+.answer-item .answer-user dt {
+  float: left;
+}
+.answer-item .answer-user dt img{
+  width: 45px;
+  height: 45px;
+  background: #ccc;
+  display: block;
+  margin-right:14px;
+}
+.answer-item .answer-user dd .user-name{
+  font-size: 17px;
+  color: #333;
+  margin-bottom: 7px;
+}
+.answer-item dd .pub-time{
+  color: #666;
+}
+.answer-item dd .pub-time i{
+  margin-right: 5px;
+}
+.answer-item .answer-detail{
+  font-size: 14px;
+  color: #666;
+  line-height: 24px;
+  margin-bottom: 10px;
+}
+.answer-item .detail-height{
+  max-height: 244px;
+  overflow: hidden;
+}
+.answer-item .all{
+  text-align: center;
+  font-size: 14px;
+  color: #666;
+  display: none;
+}
+.answer-item .all i{
+  margin-left: 5px;
+}
+.recommend-list{
+  padding: 15px;
+  background: #fff;
+}
+.recommend-list h3{
+  font-size: 18px;
+  color: #333;
+  border-left: 5px solid #ff5500;
+  line-height: 15px;
+  padding-left: 11px;
+  margin-bottom: 5px;
+}
+.recommend-list ul li{
+  padding: 20px 0;
+  border-bottom: 1px dashed #d2d2d2;
+}
+.recommend-list ul li:last-child{
+  border-bottom: none;
+}
+.recommend-list ul li a{
+  display: block;
+  font-size: 17px;
+  color: #333;
+  margin-bottom: 10px;
+}
+.recommend-list ul li .detail{
+  font-size: 14px;
+  color: #666;
+  line-height: 24px;
+}

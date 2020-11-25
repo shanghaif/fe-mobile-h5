@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>教育经历</title>
+  <!--#include virtual="/fe-mobile-h5/v5/src/includes/v5/resources_c.shtml"-->
+  <link rel="stylesheet" href="//s.lietou-static.com/fe-c-h5/v5/css/pages/lens.intro.css">
+</head>
+
+<body>
+  <div class="view">
+    <div class="topimg">
+      <img src="//s.lietou-static.com/fe-c-h5/v5/static/images/pages/lens.intro/topimg.jpg" alt="">
+    </div>
+    <div class="intro-wrap">
+      <div class="intro">
+        <p>-职位透镜-</p>
+        <p>职位透镜，通过猎聘大数据为您提供职位投递热度、竞争力分析、企业HR偏好等多维度信息，帮助您更好的了解企业招聘需求，从而优化简历、提升应聘几率！</p>
+      </div>
+      <div class="intro">
+        <p>-如何查看-</p>
+        <p>猎聘职场信用分大于600分的用户，享有“职位透镜”查看权限。</p>
+      </div>
+      <div class="warn">
+        抱歉！您暂时无法查看。立即提升信用分，享受更多求职特权。
+      </div>
+    </div>
+    <div class="link">
+      <a href="" onclick="tlog=window.tlog||[];tlog.push('c:C000011565')">提升信用分</a>
+    </div>
+  </div>
+  <script src="//s.lietou-static.com/fe-c-h5/v5/js/pages/lens.intro.js"></script>
+  <!--#include virtual="/fe-mobile-h5/v5/src/includes/v5/statistic.shtml"-->
+
+</body>
+
+</html>

@@ -1,0 +1,41 @@
+export default [{
+  code: '010',
+  name: '北京',
+  salary: '22306',
+}, {
+  code: '020',
+  name: '上海',
+  salary: '21311',
+}, {
+  code: '050090',
+  name: '深圳',
+  salary: '20958',
+}, {
+  code: '050020',
+  name: '广州',
+  salary: '19055',
+}, {
+  code: '070020',
+  name: '杭州',
+  salary: '17503',
+}, {
+  code: '060020',
+  name: '南京',
+  salary: '16366',
+}, {
+  code: '090040',
+  name: '厦门',
+  salary: '16363',
+}, {
+  code: '050050',
+  name: '佛山',
+  salary: '15558',
+}, {
+  code: '280020',
+  name: '成都',
+  salary: '15349',
+}, {
+  code: '090020',
+  name: '福州',
+  salary: '15339',
+}];

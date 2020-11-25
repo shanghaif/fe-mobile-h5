@@ -1,0 +1,30 @@
+/*拉新浮层*/
+.login-mask {
+  position: fixed;
+  bottom: 0;
+  display: none;
+  z-index: 2;
+}
+.login-mask i.icon-close {
+  color: #fff;
+  position: absolute;
+  top: 3px;
+  right: 2%;
+  font-size: 10px;
+}
+.login-mask a.btn-login {
+  position: absolute;
+  display: block;
+  width: 28%;
+  height: 29px;
+  top: 13px;
+  right: 25%;
+}
+.login-mask a.btn-landing {
+  position: absolute;
+  display: block;
+  width: 17%;
+  height: 14px;
+  bottom: 11px;
+  right: 6%;
+}

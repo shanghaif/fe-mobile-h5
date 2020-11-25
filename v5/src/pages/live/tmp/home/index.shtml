@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!--#include virtual="/fe-mobile-h5/v5/src/includes/v5/resources_header.shtml"-->
+  <title></title>
+  <link rel="stylesheet" href="//s.lietou-static.com/fe-mobile-h5/v5/static/css/plugins/neplayer.min.css">
+  <link rel="stylesheet" href="//s.lietou-static.com/fe-mobile-h5/v5/css/pages/live/home.css">
+</head>
+
+<body>
+  <div id="app"></div>
+  <!--#include virtual="/fe-mobile-h5/v5/src/includes/v5/resources_footer.shtml"-->
+  <script crossorigin="anonymous" src="//s.lietou-static.com/fe-mobile-h5/v5/static/js/plugins/neplayer.min.js"></script>
+  <script crossorigin="anonymous" src="//s.lietou-static.com/fe-mobile-h5/v5/js/pages/live/home.js"></script>
+</body>
+
+</html>

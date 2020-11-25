@@ -1,0 +1,187 @@
+#company-list {
+}
+#company-list .card {
+  box-shadow: none;
+  border-radius: 0;
+  margin: 0;
+}
+#company-list .filter-wrap {
+  margin: 10px 0;
+  background: #fff;
+  padding: 10px;
+}
+#company-list .filter-wrap .filter-item {
+  position: relative;
+}
+#company-list .filter-wrap .short {
+  max-height: 54px;
+  overflow: hidden;
+}
+#company-list .filter-wrap .filter-item .filter-title {
+  font-size: 16px;
+  color: #333;
+  position: absolute;
+  left: 0;
+  top: 0;
+  line-height: 22px;
+}
+#company-list .filter-wrap .filter-item .filter-content {
+  padding-left: 40px;
+}
+#company-list .filter-wrap .filter-item .filter-content a {
+  float: left;
+  line-height: 22px;
+  padding: 0 8px;
+  color: #666;
+  margin-bottom: 5px;
+}
+#company-list .filter-wrap .filter-item .filter-content a.active {
+  color: #fff;
+  background: #ff7f00;
+}
+#company-list .filter-wrap .filter-item .more-img {
+  position: absolute;
+  right: 0;
+  bottom: 5px;
+  font-size: 14px;
+  color: #666;
+}
+#company-list .company-list-wrap {
+  padding: 0 0 10px;
+  margin-bottom: 10px;
+}
+#company-list .company-list-wrap .company-list-box {
+}
+#company-list .company-list-wrap .company-list-box li {
+  border-bottom: 1px solid #ddd;
+  padding: 20px;
+}
+#company-list .company-list-wrap .company-list-box li .company-logo {
+  width: 80px;
+  float: left;
+}
+#company-list .company-list-wrap .company-list-box li .company-logo img {
+  border: 1px solid #ddd;
+  display: block;
+}
+#company-list .company-list-wrap .company-list-box li .conpany-list-content {
+  padding-left: 90px;
+}
+#company-list .company-list-wrap .company-list-box li .conpany-list-content .company-list-title, #company-list .company-list-wrap .company-list-box li .conpany-list-content .int, #company-list .company-list-wrap .company-list-box li .conpany-list-content .salary {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  color: #999;
+  font-size: 12px;
+}
+#company-list .company-list-wrap .company-list-box li .conpany-list-content .company-list-title {
+  color: #333;
+  font-size: 14px;
+  margin-bottom: 6px;
+}
+#company-list .company-list-wrap .company-list-box li .conpany-list-content .int {
+  width: 58%;
+  float: left;
+}
+#company-list .company-list-wrap .company-list-box li .conpany-list-content .salary {
+  width: 40%;
+  float: right;
+  text-align: right;
+}
+#company-list .company-list-wrap .company-list-box .company-list-bottom a {
+  color: #666;
+}
+#company-list .company-list-wrap .page-box {
+}
+#company-list .company-list-wrap .page-box p {
+  padding: 15px 30px;
+}
+#company-list .company-list-wrap .page-box p a {
+  color: #fff;
+}
+
+/*
+.hot-links{margin-bottom:10px; padding:0;}
+.hot-links .tab-btn{padding-top:15px;}
+.hot-links .tab-btn p{text-align:center;font-size:16px; color:#999;border-bottom:1px solid #ddd; line-height:36px;}
+.hot-links .tab-btn p.active{color:#666;border-bottom:1px solid #999;}
+.hot-links .tab-content{padding:10px 15px; font-size:12px; display:none;}
+.hot-links .tab-content:first-child{display:block;}
+.hot-links .tab-content a{color:#999;}
+.hot-links .tab-content p{overflow:hidden;text-overflow:ellipsis;white-space: nowrap; padding:0 5px; line-height:20px;}*/
+#inner-link {
+  margin-bottom: 10px;
+  padding: 0;
+  background-color: #fff;
+  border-bottom: 2px solid #d2d4da;
+}
+#inner-link  .tab-btn p {
+  text-align: center;
+  font-size: 14px;
+  color: #999;
+  border-bottom: 1px solid #ddd;
+  line-height: 36px;
+}
+#inner-link .tab-btn p.active {
+  color: #666;
+  border-bottom: 1px solid #999;
+}
+#inner-link .tab-content {
+  padding: 10px 15px;
+  font-size: 12px;
+  display: none;
+}
+#inner-link .tab-content:first-child {
+  display: block;
+}
+#inner-link  .tab-content a {
+  color: #666;
+}
+#inner-link .tab-content p {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  padding: 0 5px;
+  line-height: 20px;
+}
+#company-list .search-wrap {
+  margin-bottom: 10px;
+}
+#company-list .search-wrap .search-main {
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 5px 10px;
+  position: relative;
+}
+#company-list .search-wrap .search-main .search-btn {
+  position: absolute;
+  right: 0;
+  top: 5px;
+  width: 45px;
+  border-left: 1px solid #ddd;
+  color: #ff6500;
+  text-align: center;
+  height: 22px;
+  line-height: 22px;
+  font-size: 18px;
+}
+#company-list .search-wrap .search-main .search-text {
+  padding-right: 56px;
+  height: 22px;
+  overflow: hidden;
+}
+#company-list .search-wrap .search-main .search-text input {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  height: 22px;
+  line-height: 22px;
+  font-size: 14px;
+}
+
+.clearfix {
+  zoom: normal;
+}
+html {
+  direction: inherit;
+}

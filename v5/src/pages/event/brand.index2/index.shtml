@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!--#include virtual="/fe-mobile-h5/v5/src/includes/v5/resources_c.shtml"-->
+  <title>猎聘</title>
+  <link rel="stylesheet" href="//s.lietou-static.com/fe-mobile-h5/v5/css/pages/event/brand.index2.css">
+</head>
+
+<body>
+  <section class="banner-wrap">
+    <i class="logo-img"></i>
+  </section>
+  <section class="main-wrap">
+    <div class="overview-wrap">
+      <h4>前景概要</h4>
+      <p class="section-desc">
+        2019年上半年收官，东方财富Choice发布了截至6月末的中国公司市值年中排名。亿欧整理了排名前100名的公司，总市值合计约为39.22万亿元，其中阿里巴巴以3.03万亿元的市值位列第一，腾讯和工行分列第二位和第三位，末位为市值1145亿元的招商证券。
+      </p>
+    </div>
+
+    <div class="highlight-wrap">
+      <h4>排名亮点</h4>
+      <p class="section-desc">
+        金融以39.21%排名第一，非日常消费以14.06%排名第二信息技术以12.97%排名第三，而数量上以15家排名第二的工业市值占比仅为6.93%，排名第六。<br/>
+        100强中，通常意义所说上的互联网公司有11家，分别是阿里巴巴、腾讯控股、美团点评、京东、百度、网易、小米集团、腾讯音乐、拼多多、三六零和携程。11家互联网公司总市值达到7.97万亿元，占比100强总市值20.32%，但仅阿里和腾讯两家就占比15.26%，其余9家合计仅占比5.06%。<br/>
+        —— 文字来源于亿欧网
+      </p>
+      <i class="chart-img"></i>
+    </div>
+
+    
+    <div class="comp-wrap">
+      <h4>这些公司急招哪些岗位</h4>
+      <p class="section-desc">
+        根据东方财富Choice发布的截至6月末中国上市公司市值年中排名，以及亿欧据此整理的排名前100的榜单，猎聘大数据研究院对这100家上市公司进行研究，对其职能需求和平均薪资进行了分析。
+      </p>
+      <i class="chart-img"></i>
+    </div>
+
+    <div class="comp-list-wrap">
+      <h4>市值列表</h4>
+      <ul class="clearfix" data-selector="comp-list-wrap"></ul>
+    </div>
+  </section>
+  <section class="bot-bg-wrap">
+    <i class="logo-img"></i>
+  </section>
+  <script src="//s.lietou-static.com/fe-mobile-h5/v5/js/pages/event/brand.index2.js"></script>
+</body>
+
+</html>

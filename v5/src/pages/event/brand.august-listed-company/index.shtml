@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!--#include virtual="/fe-mobile-h5/v5/src/includes/v5/resources_c.shtml"-->
+  <title>最新融资上市公司专场</title>
+  <link rel="stylesheet" href="//concat.lietou-static.com/fe-mobile-h5/v5/css/pages/event/brand.august-listed-company.css">
+</head>
+
+<body>
+  <section class="banner-wrap">
+    <i class="banner-bg"></i>
+    <i class="logo-img"></i>
+  </section>
+
+  <section class="data-wrap"></section>
+
+  <section class="top-wrap">
+    <h3></h3>
+    <ul data-selector="top-wrap"></ul>
+  </section>
+
+  <section class="latest-wrap">
+    <h3></h3>
+    <ul class="flexbox" data-selector="latest-wrap"></ul>
+  </section>
+
+  <section class="bot-bg-wrap">
+    <i class="banner-bg"></i>
+    <i class="logo-img"></i>
+  </section>
+  <script src="//concat.lietou-static.com/fe-mobile-h5/v5/js/pages/event/brand.august-listed-company.js"></script>
+</body>
+
+</html>

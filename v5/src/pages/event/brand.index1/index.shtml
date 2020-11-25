@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!--#include virtual="/fe-mobile-h5/v5/src/includes/v5/resources_c.shtml"-->
+  <title>猎聘</title>
+  <link rel="stylesheet" href="//s.lietou-static.com/fe-mobile-h5/v5/css/pages/event/brand.index1.css">
+</head>
+
+<body>
+  <section class="top-logo-wrap">
+    <i></i>
+  </section>
+
+  <section class="title-wrap">
+    <i></i>
+  </section>
+
+  <!-- 人工智能趋势 -->
+  <section class="section-wrap trend-section">
+    <div class="top-bg"></div>
+    <div class="content-wrap">
+      人工智能行业发展增速快人才缺口大，数据统计，目前我国是世界上人工智能投资和融资规模最大的国家，在过去5年里，投融资占到全球60%。而从企业分布来看，中国大部分人工智能企业都集中在北京、上海、广东，四川只有23家。至今年6月份，我国人工智能行业增速已达到75%，与此同时，AI人才缺失越发凸显。数据显示，中国人工智能人才缺口超500万，国内人工智能的人才的供求比例仅为1:10，杰出人才的供求比例为1:100。
+    </div>
+    <div class="bot-bg"></div>
+  </section>
+
+  <!-- 年薪排行 -->
+  <section class="section-wrap ranking-section">
+    <div class="top-bg"></div>
+    <div class="content-wrap">
+      <div class="excel-wrap" data-selector="excel-wrap"></div>
+      <div class="ranking-tip">*数据来源：猎聘大数据研究院</div>
+    </div>
+    <div class="bot-bg"></div>
+  </section>
+
+  <!-- 大厂推荐 -->
+  <section class="section-wrap big-section">
+    <div class="top-bg"></div>
+    <div class="content-wrap">
+      <div class="swiper-container" data-selector="swiper-container">
+        <div class="swiper-wrapper" data-selector="big-wrap"></div>
+      </div>
+      <div class="swiper-pagination"></div>
+    </div>
+    </div>
+    <div class="bot-bg"></div>
+  </section>
+
+  <!-- 黑马 -->
+  <section class="section-wrap black-section">
+    <div class="top-bg"></div>
+    <div class="content-wrap">
+      <ul class="clearfix" data-selector="black-wrap"></ul>
+    </div>
+    <div class="bot-bg"></div>
+  </section>
+
+  <!-- 热招职位 -->
+  <section class="section-wrap hot-wrap">
+    <div class="top-bg"></div>
+    <div class="content-wrap">
+      <ul class="clearfix" data-selector="hot-wrap"></ul>
+    </div>
+    <div class="bot-bg"></div>
+  </section>
+
+  <section class="bottom-logo-wrap">
+    <i></i>
+  </section>
+
+  <section class="bottom-bg-wrap"></section>
+  <script src="//s.lietou-static.com/fe-mobile-h5/v5/js/pages/event/brand.index1.js"></script>
+</body>
+
+</html>

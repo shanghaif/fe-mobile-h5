@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>猎聘</title>
+    <%@ include file="/includes/v5/resources_header.shtml" %>
+    <link rel="stylesheet" href="https://s.lietou-static.com/fe-mobile-h5/v5/css/pages/demo.css">
+</head>
+
+<body>
+<!-- content -->
+<%@ include file="/includes/v5/footer_m.jsp"%>
+<%@include file="/includes/v5/resources_weixin.shtml"%>
+<%@include file="/includes/v5/resources_footer.shtml"%>
+<script crossorigin="anonymous" src="https://s.lietou-static.com/fe-mobile-h5/v5/js/pages/demo.js"></script>
+</body>
+
+</html>

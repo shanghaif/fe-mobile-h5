@@ -1,0 +1,114 @@
+.job-card {
+  position: relative;
+  display: block;
+  padding: 18px 0;
+  border-bottom: 1px solid #eee;
+  text-decoration: none;
+
+  &:last-child {
+    border-bottom: 0 none;
+  }
+  h3 {
+    position: relative;
+    font-size: 16px;
+    font-weight: normal;
+    margin: 0 0 8px 0;
+    padding-right: 130px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+
+    & > a {
+      color: #333;
+    }
+    .job-title {
+      vertical-align: middle;
+      font-weight: bold;
+      display: flex;
+      flex-wrap: row nowrap;
+
+      & > .ellipsis {
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        flex: 0 1 auto;
+      }
+      & > .job-title-label {
+        flex: 0 0 auto;
+        align-self: center;
+      }
+
+      & > a {
+        color: #333;
+      }
+    }
+    .job-title-label {
+      display: inline-block;
+      vertical-align: middle;
+      padding: 1px 3px;
+      color: #fff;
+      font-size: 10px;
+      background-color: #f64;
+      border-radius: 4px 1px 4px 1px;
+      margin-left: 4px;
+      font-weight: normal;
+    }
+    small {
+      position: absolute;
+      right: 0;
+      top: 0;
+      font-size: 16px;
+      color: #f64;
+      font-weight: bold;
+    }
+  }
+
+  &-company {
+    display: block;
+    font-size: 14px;
+    margin-bottom: 8px;
+    color: #666;
+    padding-right: 60px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+  }
+
+  &-labels {
+    margin: 0 -5px 12px;
+    overflow: hidden;
+    height: 22px;
+
+    label,
+    .label {
+      float: left;
+      margin: 0 5px;
+      padding: 3px 6px;
+      border-radius: 2px;
+      background-color: #f8f8f8;
+      color: #999;
+      font-size: 12px;
+    }
+  }
+  &-publisher {
+    line-height: 20px;
+
+    img {
+      float: left;
+      width: 20px;
+      height: 20px;
+      margin-right: 8px;
+      border-radius: 2px;
+      border: 1px solid #eee;
+    }
+  }
+  &-date {
+    font-size: 13px;
+    color: #999999;
+  }
+  &:visited {
+    h3 {
+      color: #999;
+    }
+  }
+}

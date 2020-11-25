@@ -1,0 +1,308 @@
+.condition-filter {
+  position: relative;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 2;
+  border-top: 0;
+  background: #fff;
+}
+.condition-filter .input-fixed {
+  position: static;
+}
+.condition-title a {
+  display: block;
+  line-height: 44px;
+  font-size: 15px;
+  color: #666;
+}
+.condition-title a span {
+  display: inline-block;
+  width: 80%;
+  vertical-align: middle;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.condition-title a i {
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 8px;
+  border: 5px solid transparent;
+  border-top: 5px solid #666;
+  border-bottom: 0;
+  transition: all .3s ease;
+  -webkit-transition: all .3s ease;
+}
+.condition-title a.opened, .condition-title a.text-warning {
+  color: #fc6621;
+}
+.condition-title a.opened i {
+  border-top-color: #fc6621;
+  transform: rotate(180deg);
+  -webkit-transform: rotate(180deg);
+}
+.condition-title a.text-warning i {
+  border-top-color: #fc6621;
+}
+.scroll-wrapper {
+  top: 50px;
+  left: 0;
+  width: 100%;
+}
+.company-information {
+  float: right;
+  width: 77%;
+}
+.company-information h3 {
+  font-size: 16px;
+  font-weight: bold;
+  color: #333;
+}
+.company-information p {
+  margin: 10px 0;
+  color: #666;
+}
+.company-information .company-benefits {
+  height: 24px;
+  overflow: hidden;
+}
+.company-information .company-benefits span {
+  float: left;
+  height: 24px;
+  line-height: 24px;
+  margin: 0 0 5px 5px;
+  padding: 0 5px;
+}
+.company-information .company-benefits span:first-child {
+  margin-left: 0;
+}
+.pull-up {
+  height: 40px;
+  text-align: center;
+  color: #999;
+}
+.pull-up .icon-empty {
+  margin-right: 5px;
+  vertical-align: middle;
+  font-size: 18px;
+}
+.company-list-nodata {
+  padding: 100px 0 500px;
+  text-align: center;
+  background: #fff;
+}
+.company-list-nodata figure img {
+  width: 30%;
+}
+.company-list-nodata figcaption {
+  margin-top: 35px;
+  font-size: 16px;
+  color: #999;
+}
+.company-channel-main {
+  padding: 15px 0 10px;
+  text-align: center;
+}
+.company-channel-main h2 {
+  margin-bottom: 15px;
+}
+.company-channel-main h2 span {
+  font-size: 18px;
+  font-weight: bold;
+  color: #8e8e98;
+}
+.company-channel-main h2 span:before, .company-channel-main h2 span:after {
+  content: '';
+  display: inline-block;
+  width: 23%;
+  height: 1px;
+  vertical-align: middle;
+  margin: -3px 15px 0;
+  background: #8e8e98;
+}
+.company-channel-item {
+  margin: 0 15px 10px;
+  padding: 0 10px;
+  background-color: #fff;
+}
+.company-channel-item h3 {
+  font-size: 16px;
+  font-weight: bold;
+  color: #333;
+  text-align: left;
+  padding: 14px 0 13px 0;
+}
+.company-channel-item h3 a {
+  font-size: 18px;
+  color: #333;
+}
+.company-channel-item h3 .text-icon {
+  vertical-align: middle;
+  margin-right: 10px;
+}
+.company-channel-item h3 .icon-internet {
+  color: #3ca1f1;
+}
+.company-channel-item h3 .icon-building {
+  color: #ed434b;
+}
+.company-channel-item h3 .icon-finance {
+  color: #fdc02d;
+}
+.company-channel-item h3 .icon-consumption {
+  color: #6e49b7;
+}
+.company-channel-item h3 .icon-manufacturing {
+  color: #1266f4;
+}
+.company-channel-item h3 .icon-medical {
+  color: #4fb06b;
+}
+.company-channel-item .logo-links {
+  overflow: hidden;
+  margin-left: -8px;
+}
+.company-channel-item .logo-links a {
+  display: inline-block;
+  width: 30.6%;
+  margin: 0 0 8px 5px;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+.company-channel-item .logo-links img {
+  width: 100%;/*  height: 45px;*/
+  border: 1px solid #cbcbd5;
+  margin-bottom: 5px;
+}
+.company-channel-item .logo-links a p {
+  font-size: 12px;
+  color: #666;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.company-channel-main .bottom-search {
+  margin: 0 15px;
+}
+.company-channel-main .bottom-search .btn {
+  border: 1px solid #cbcbd5;
+  border-radius: 30px;
+}
+
+/*全部行业*/
+.view .all-industry {
+  margin: 0 15px 10px;
+  padding: 0 10px 10px 10px;
+  background-color: #fff;
+}
+.view .all-industry h3 {
+  margin-bottom: 8px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #333;
+  text-align: left;
+  padding: 14px 0;
+}
+.view .all-industry h3 .icon-all-industry {
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  color: #fff;
+  background-color: #e30a20;
+  margin-right: 5px;
+  text-align: center;
+  line-height: 24px;
+}
+.view .all-industry ul {
+  padding: 0 5px;
+}
+.view .all-industry ul.hide-content {
+  display: none;
+}
+.view .all-industry ul li {
+  margin-bottom: 16px;
+}
+.view .all-industry ul li a {
+  font-size: 14px;
+  color: #666;
+  margin-right: 22px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  text-align: left;
+}
+.view .all-industry p {
+  font-size: 15px;
+  color: #999;
+  margin-bottom: 18px;
+}
+.topbar {
+  background-color: #fff;
+  border-bottom: 1px #ccc solid;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 98;
+}
+.topbar.fixed {
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 99;
+}
+.search-box {
+  margin: 0px 15px;
+}
+.topbar .filter-box {
+  height: 44px;
+}
+.topbar .filter-box .flexbox {
+  text-align: center;
+}
+.topbar .filter-box .flexbox > div > a {
+  color: #666;
+  display: block;
+  padding: 12px 0;
+}
+.topbar .filter-box .flexbox > div > a span {
+  max-width: 80%;
+  vertical-align: middle;
+  display: inline-block;
+  font-size: 15px;
+}
+.topbar .filter-box .flexbox > div > a i {
+  font-size: 12px;
+  line-height: normal;
+  vertical-align: middle;
+  margin-top: 3px;
+  margin-left: 1px;
+  -webkit-transform: rotate(0deg);
+  -webkit-transition: all .3s;
+  transform: rotate(0deg);
+  transition: all .3s;
+}
+.topbar .filter-box .flexbox > div > a.active {
+  color: #fc6621;
+}
+.topbar .filter-box .flexbox > div > a.active i {
+  color: #fc6621;
+  -webkit-transform: rotate(180deg);
+  -webkit-transition: all .3s;
+  transform: rotate(180deg);
+  transition: all .3s;
+}
+.topbar .filter-box .flexbox > div > a.selected i {
+  color: #fc6621;
+  -webkit-transform: rotate(0deg);
+  -webkit-transition: all .3s;
+  transform: rotate(0deg);
+  transition: all .3s;
+}
+
+.navbars {
+  text-align: left;
+  margin-bottom: 10px;
+  background-color: #fff;
+}

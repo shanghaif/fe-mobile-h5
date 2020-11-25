@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <!--   <meta http-equiv="x-dns-prefetch-control" content="on">
+  <link rel="dns-prefetch" href="//s.lietou-static.com">
+  <link rel="dns-prefetch" href="//image0.lietou-static.com"> -->
+  <link rel="preconnect" href="//s.lietou-static.com" />
+  <link rel="preconnect" href="//image0.lietou-static.com" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+  <meta name="format-detection" content="telephone=no, email=no" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="white" />
+  <link rel="icon" href="//s.lietou-static.com/fe-mobile-h5/v5/static/images/favicon.ico" type="image/x-icon" />
+  <script src="//s.lietou-static.com/fe-mobile-h5/v5/static/js/loader.js"></script>
+  <script src="//s.lietou-static.com/fe-mobile-h5/v5/static/js/femonitor.min.js"></script>
+  <link rel="stylesheet" href="//s.lietou-static.com/fe-mobile-h5/v5/css/common/common.css">
+  <title>密码登录</title>
+  <link type="text/css" rel="stylesheet" href="//s.lietou-static.com/fe-mobile-h5/v5/css/pages/login.css" />
+</head>
+
+<body class="flexbox-v">
+  <div class="login-wrap flex-1">
+    <div class="login-title">
+      <h1>密码登录</h1>
+    </div>
+    <form>
+      <!-- 禁止浏览器自动填充 -->
+      <input type="password" autocomplete="new-password" style="position: absolute; top: -999px;">
+      <input type="hidden" name="backurl" value="https://m.liepin.cn/" />
+      <div class="flexbox inputzone">
+        <input data-selector="username" autocomplete="off" class="flex-1" type="text" name="login" autocomplete="off"
+          value="" placeholder="请输入登录手机号或邮箱" validate-title="登录手机号或邮箱" validate-rules="[['required','请输入$']]" />
+        <a href="javascript:;" data-selector="username-close" class="text-icon icon-new-close"></a>
+        <ul data-selector="emails" class="emails none"></ul>
+      </div>
+      <div class="flexbox inputzone">
+        <input data-selector="password" autocomplete="new-password" class="flex-1" type="password" placeholder="请输入密码"
+          validate-title="密码" validate-rules="[['required']]" />
+        <a href="javascript:;" data-selector="username-close" class="text-icon icon-new-close"></a>
+        <i data-selector="visible" class="text-icon icon-new-eye-close show-hide-pass"></i>
+      </div>
+      <button data-selector="submit-btn" type="submit" class="btn btn-submit btn-primary-disabled">登录</button>
+      <div class="login2page-wrap">
+        <a href="/register/?return_url=https%3A%2F%2Fm.liepin.cn%2F" class="float-left">手机验证码登录/注册</a>
+        <a href="https://passport.liepin.cn/forgetpwd/m/v1/index/" class="float-right">找回密码</a>
+      </div>
+    </form>
+  </div>
+  <script src="//s.lietou-static.com/fe-mobile-h5/v5/static/js/vendor.js"></script>
+  <script src="//s.lietou-static.com/fe-mobile-h5/v5/js/common/common.js"></script>
+  <script src="//s.lietou-static.com/fe-mobile-h5/v5/js/pages/login.js"></script>
+  <script type="text/javascript">
+    window.FeLoader && FeLoader.get('//s.lietou-static.com/fe-mobile-h5/v5/static/js/tlog.min.js');
+  </script>
+  <script>
+    var _hmt = _hmt || [];
+    (function () {
+      var hm = document.createElement("script");
+      hm.src = "//hm.baidu.com/hm.js?a2647413544f5a04f00da7eee0d5e200";
+      var s = document.getElementsByTagName("script")[0];
+      s.parentNode.insertBefore(hm, s);
+    })();
+  </script>
+
+</body>
+
+</html>

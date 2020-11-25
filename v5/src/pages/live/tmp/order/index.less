@@ -1,0 +1,171 @@
+body {
+  background-color: #fff;
+}
+
+.live-schedule-wrap {
+  padding-bottom: 100px;
+
+  .schedule-banner-wrap {
+    position: relative;
+    padding: 22.73333%;
+    background-color: #f2f2f2;
+
+    .schedule-banner {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+    }
+  }
+
+  .landing-info-wrap {
+    padding: 15px 18px 32px;
+
+    dt {
+      margin-bottom: 5px;
+      line-height: 28px;
+      font-size: 20px;
+      font-weight: bold;
+      color: #000;
+    }
+
+    dd {
+      display: flex;
+      align-items: center;
+      line-height: 18px;
+      color: #666;
+
+      i {
+        flex-shrink: 0;
+        margin-right: 4px;
+        width: 8px;
+        height: 12px;
+        background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAYCAMAAADEfo0+AAAAM1BMVEUAAAD/Z0T/ZkP/ZkT/ZkX/Zkb/Z0P/ZUT/Z0L/ZkT/ZUT/YkX/ZkT/ZkT/ZkT/Z0X/ZkRlzFenAAAAEHRSTlMACZ701F8qyz40Ihrq6K2rovbH0gAAAFNJREFUGNOVkFkOgCAMBcEd13f/02qIyWgbI8wfkz66hALiNL/eaZOaGGDURTcglGl7I+4YIscQxBDE9OSwQsuf2P2nvq0fjHKz3Pf6aaWcE1ZxAp8WCq3jxp2aAAAAAElFTkSuQmCC) center / 100% 100%;
+      }
+    }
+  }
+
+  h3 {
+    padding-bottom: 16px;
+    font-size: 18px;
+    line-height: 25px;
+  }
+
+  .landing-host-wrap {
+    padding-bottom: 16px;
+
+    h3 {
+      padding: 0 18px;
+    }
+
+    overflow: hidden;
+
+    .landing-host-scroll-wrap {
+      height: 125px;
+      overflow: hidden;
+
+      .landing-host-scroller {
+        padding: 16px 18px;
+        height: 150px;
+        white-space: nowrap;
+        overflow: auto;
+
+        dl {
+          display: inline-flex;
+          align-items: center;
+          border-radius: 4px;
+          padding: 24px 15px;
+          height: 93px;
+          width: 220px;
+          margin-right: 13px;
+          box-shadow: 0 0 25px rgba(0, 0, 0, 0.05);
+
+          dt {
+            flex-shrink: 0;
+            margin-right: 13px;
+
+            img {
+              display: block;
+              width: 45px;
+              height: 45px;
+              border-radius: 50%;
+            }
+          }
+
+          dd {
+            .host-name {
+              margin-bottom: 4px;
+              line-height: 22px;
+              font-size: 16px;
+              font-weight: bold;
+              color: #2F2E2E;
+            }
+
+            .host-desc {
+              line-height: 18px;
+              font-size: 13px;
+              color: #666;
+            }
+          }
+
+          &:last-child {
+            margin: 0;
+          }
+        }
+      }
+    }
+  }
+
+  .landing-desc-wrap {
+    padding: 0 18px 40px;
+    line-height: 28px;
+
+    .desc-content-wrap {
+      overflow: hidden;
+      max-height: 112px;
+      font-size: 18px;
+
+      .desc-content-pre {
+        font-size: 15px;
+        line-height: 28px;
+        word-break: break-all;
+        white-space: pre-wrap;
+        font-family: inherit;
+        color: inherit;
+
+        &.overflowed {
+          -webkit-line-clamp: 4;
+          display: -webkit-box;
+          /*! autoprefixer: off */
+          -webkit-box-orient: vertical;
+          /* autoprefixer: on */
+          overflow: hidden;
+          text-overflow: ellipsis;
+        }
+      }
+    }
+
+    .btn-show-all {
+      display: inline-block;
+      margin-top: 13px;
+      color: #f64;
+      font-size: 15px;
+    }
+  }
+
+  .landing-job-list-wrap {
+    h3 {
+      padding-left: 18px;
+      padding-right: 18px;
+    }
+
+    .live-company-card {
+      padding-left: 18px;
+      padding-right: 18px;
+      &:first-of-type {
+        padding-top: 0;
+      }
+    }
+  }
+}

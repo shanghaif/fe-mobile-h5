@@ -1,0 +1,134 @@
+
+.nav-container {
+  min-height: 60px;
+  position: sticky;
+  top: 0;
+  left: 0;
+  z-index: 9;
+}
+
+.so-job {
+  &-container {
+    background-color: #f8f8f8;
+    padding-bottom: 20px;
+
+    .job-list-page-bar {
+      padding: 24px 33px 24px;
+      display: flex;
+      flex-direction: row;
+      text-align: center;
+      font-size: 15px;
+      background-color: #fff;
+
+      & > a {
+        color: #ff6644;
+        text-decoration: none;
+
+        &.disabled {
+          color: #999999;
+          cursor: not-allowed;
+        }
+      }
+      .page-num {
+        flex: 1;
+        text-align: center;
+      }
+    }
+  }
+
+  &-filter {
+    overflow: hidden;
+    height: 62px;
+    background-color: #fff;
+    border-bottom: .5px solid #eee;
+
+    &-wrap {
+      padding: 10px 18px;
+      white-space: nowrap;
+      overflow: auto;
+      height: 90px;
+      -webkit-overflow-scrolling: touch;
+      
+
+      & > a {
+        display: inline-flex;
+        padding: 7px 14px;
+        background-color: #f8f8f8;
+        font-size: 13px;
+        margin-right: 12px;
+        border-radius: 2px;
+        
+        &.active {
+          color: #f64;
+        }
+
+        & > em {
+          font-style: normal;
+          color: #f64;
+        }
+      }
+      &:after {
+        display: table;
+        content: '';
+        clear: both;
+      }
+    }
+  }
+  &-company-list {
+    padding: 18px 0 18px 18px;
+    margin-bottom: 8px;
+    background-color: #fff;
+
+    .profile-card-desc {
+      & > span {
+        font-size: 13px;
+
+        &:after {
+          display: inline-flex;
+          content: '';
+          width: 1px;
+          height: 9px;
+          margin: 0 9.5px;
+          background-color: #ddd;
+        }
+        &:last-child {
+          &:after {
+            display: none;
+          }
+        }
+      }
+    }
+  }
+
+  &-no-result {
+     height: 40px;
+     background-color: #ffebd7;
+     padding: 10px 18px;
+     font-size: 14px;
+     color: #715a4a;
+  }
+
+  &-job-list {
+
+    .job-card {
+      padding: 18px;
+      margin-bottom: 8px;
+      border-bottom: 0 none;
+    }
+  
+    .job-list-empty {
+        padding: 74vw 0 115px;
+        background: #fff url(./images/empty.png) center 27vw no-repeat;
+        background-size: 50vw 47vw;
+        text-align: center;
+
+        p {
+          text-align: center;
+          margin: 28px 0;
+        }
+    }
+  }
+
+}
+
+

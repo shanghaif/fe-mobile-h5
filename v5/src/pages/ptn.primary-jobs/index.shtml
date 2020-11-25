@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title></title>
+    <!--#include virtual="/fe-mobile-h5/v5/src/includes/v5/resources_c.shtml"-->
+    <link rel="stylesheet" href="//s.lietou-static.com/fe-mobile-h5/v5/css/pages/ptn.primary-jobs.css">
+  </head>
+  <body>
+    <section class="banner"></section>
+    <ul class="flexbox tab-bar text-center" data-selector="tabBar">
+      <li data-type="campus" class="selected">校招</li>
+      <li data-type="society">社招</li>
+    </ul>
+    <section class="job-list campus-job-list show" data-selector="campus">
+      <dl>
+        <dt class="flexbox job-title ellipsis">
+          <span class="ellipsis">java工程师</span>
+          <em class="fire-icon"></em>
+        </dt>
+        <dd class="flexbox job-publish-info ellipsis">
+          <span class="job-company ellipsis">爆头事业部</span>
+          <span class="job-publish-date">07月18日</span>
+        </dd>
+        <dd class="job-info">
+          <span>北京</span>
+          <span>面议</span>
+        </dd>
+      </dl>
+    </section>
+    <section class="job-list society-job-list" data-selector="society">
+      <dl class="flexbox">
+        <dt>
+          <img src="" >
+        </dt>
+        <dd class="ellipsis">
+          <div class="flexbox job-top ellipsis">
+            <span class="flexbox job-title ellipsis">
+              <span class="ellipsis">UI设计师</span>
+              <em class="text-icon icon-hurry"></em>
+            </span>
+            <span class="job-salary">10-20k</span>
+          </div>
+          <p class="job-company ellipsis">曙光互娱</p>
+          <p class="job-info ellipsis">
+            <span>33分钟前</span>
+            <span>北京</span>
+            <span>3年以上</span>
+            <span>统招本科</span>
+          </p>
+        </dd>
+      </dl>
+    </section>
+    <a href="javascript:;" class="more-job text-center" data-selector="more">查看更多</a>
+    <script src="//s.lietou-static.com/fe-mobile-h5/v5/js/pages/ptn.primary-jobs.js"></script>
+    <!--#include virtual="/fe-mobile-h5/v5/src/includes/v5/statistic.shtml"-->
+  </body>
+</html>

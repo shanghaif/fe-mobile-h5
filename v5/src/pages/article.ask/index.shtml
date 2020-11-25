@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>问答</title>
+  <!--#include virtual="/fe-mobile-h5/v5/src/includes/v5/resources_c.shtml"-->
+  <link rel="stylesheet" href="//s.lietou-static.com/fe-mobile-h5/v5/css/pages/article.ask.css">
+</head>
+<body>
+<div class="view">
+  <!--#include virtual="/fe-mobile-h5/v5/src/includes/header.shtml"-->
+  <div class="breadcrumb clearfix">
+    <a href="https://m.liepin.cn/" title="猎聘网">猎聘网</a>
+    <span> &gt;</span>
+    <a href="https://m.liepin.cn/qiuzhi/" title="article">article</a>
+    <span>&gt;</span>
+    <a href="" title="#" class="last">产品经理</a>
+  </div>
+  <section class="question">
+    <h3 class="question-title">华为加班到底有多恐怖?</h3>
+    <p class="question-detail">不同部门之间一样吗？地方不同呢？比如上海和北京一个</p>
+  </section>
+  <section class="answer-list">
+    <p class="answer-num">2条回答</p>
+    <div class="answer-item">
+      <dl class="answer-user">
+        <dt>
+          <img src="" alt="">
+        </dt>
+        <dd>
+          <p class="user-name">猎聘用户</p>
+          <p class="pub-time"><i class="text-icon icon-clock"></i><span>2018年06月25日17:07:22</span></p>
+        </dd>
+      </dl>
+      <div class="answer-detail" data-selector="answer-detail">
+        既然说到长假,就有一定的气数.企业命运也一样,走的稳,根基扎实,不虚夸,不浮华,出点问题也能挺过去.若根基不稳,一旦出现漏洞,恐怕不是人才就能解决的了的,这是因果的问题.企业好的时候,人才能锦上添花,窟窿大的时候,果的问题.企业好的时候,人才能锦上添花,窟窿大的时候
+        才能锦上添花,窟窿大的时候才能锦上添花,窟窿大的时候才能锦上添花,窟窿大的时候才能锦上添花,窟窿大的时候才能锦上添花,窟窿大的时候
+      </div>
+      <p class="all" data-selector="all">查看全部<i class="text-icon icon-down"></i></p>
+    </div>
+  </section>
+  <section class="recommend-list">
+    <h3>相关推荐</h3>
+    <ul>
+      <li>
+        <a href="#" title="#">面试时被问到独立负责过什么项目，应该如何
+            作答更突出个人的独立性和不可替代性呢？</a>
+        <p class="detail">
+          要么你在一家公司已经没有上升的空间，无法学到更多的东西；要么你已学到足够的知识，可以在新领域或新平台上一展身手你在一家公司已经没有上升的空间你。
+        </p>
+      </li>
+      <li>
+          <a href="#" title="#">面试时被问到独立负责过什么项目，应该如何
+              作答更突出个人的独立性和不可替代性呢？</a>
+          <p class="detail">
+            要么你在一家公司已经没有上升的空间，无法学到更多的东西；要么你已学到足够的知识，可以在新领域或新平台上一展身手你在一家公司已经没有上升的空间你。
+          </p>
+        </li>
+        <li>
+            <a href="#" title="#">面试时被问到独立负责过什么项目，应该如何
+                作答更突出个人的独立性和不可替代性呢？</a>
+            <p class="detail">
+              要么你在一家公司已经没有上升的空间，无法学到更多的东西；要么你已学到足够的知识，可以在新领域或新平台上一展身手你在一家公司已经没有上升的空间你。
+            </p>
+          </li>
+    </ul>
+  </section>
+</div>
+<script src="//s.lietou-static.com/fe-mobile-h5/v5/js/pages/article.ask.js"></script>
+</body>
+</html>

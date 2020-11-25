@@ -1,0 +1,68 @@
+.live-company-card {
+  display: flex;
+  padding: 20px 0;
+
+  .live-company-logo {
+    flex-shrink: 0;
+    width: 45px;
+    height: 45px;
+    margin-right: 14px;
+    border: 1px solid #ECECEC;
+    border-radius: 2px;
+  }
+  .live-company-info {
+    h5 {
+      margin-bottom: 4px;
+      line-height: 22px;
+      font-weight: normal;
+      font-size: 16px;
+    }
+    .live-company-selector {
+      line-height: 18px;
+      font-size: 13px;
+      color: #666;
+      .require-item {
+        height: 18px;
+        position: relative;
+        margin-left: 9px;
+        padding-left: 10px;
+        &:before {
+          content: "";
+          position: absolute;
+          left: 0;
+          top: 50%;
+          height: 10px;
+          width: 1px;
+          transform: translate(0, -50%);
+          background-color: #999;
+        }
+        &:first-child {
+          margin-left: 0;
+          padding-left: 0;
+          &:before {
+            display: none;
+          }
+        }
+      }
+      .show-job-btn {
+        flex-shrink: 0;
+        padding: 0 10px;
+        margin-right: -10px;
+        .shown-text {
+          color: #f64;
+          margin-right: 6px;
+        }
+        .text-icon {
+          transform: rotate(90deg);
+          font-size: 8px;
+          color: #ccc;
+        }
+        &.active {
+          .text-icon {
+            transform: rotate(270deg);
+          }
+        }
+      }
+    }
+  }
+}

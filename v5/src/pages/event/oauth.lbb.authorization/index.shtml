@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<!--#include virtual="/fe-mobile-h5/v5/src/includes/v5/resources_header.shtml"-->
+	<title>求贤季·高薪定制</title>
+	<link rel="stylesheet" href="//s.lietou-static.com/fe-mobile-h5/v5/css/pages/event/oauth.lbb.authorization.css"/>
+</head>
+
+<body class="flexbox-v">
+	<div class="register-wrap flex-1">
+		<div class="register-title">
+			<h1>手机号注册/登录</h1>
+		</div>
+		<form growing-ignore="true">
+			<div class="flexbox inputzone">
+				<input data-selector="name" autocomplete="off" class="validcode flex-1" type="text" placeholder="请输入姓名" name="name" validate-title="姓名" validate-rules="[['required'],['dyncheck','CheckName']]" />
+			</div>
+			<div class="flexbox inputzone">
+				<div class="flexbox area-code-box" data-selector="area-code-box">
+					<span class="select-result">+86</span>
+					<input type="hidden" data-selector="area-code" value="0086" validate-title="区号" validate-rules="[['required']]" />
+					<i class="text-icon icon-new-down2"></i>
+				</div>
+				<input data-selector="username" name="tel" class="flex-1" autocomplete="off" type="tel" placeholder="请输入手机号" validate-title="手机号" validate-rules="[['required'],['dynrule','CheckPhone']]" validate-type="change">
+				<a href="javascript:;" data-selector="username-close" class="text-icon icon-new-close"></a>
+			</div>
+			<div class="flexbox inputzone">
+				<input maxlength="6" data-selector="validcode" autocomplete="off" class="validcode flex-1" type="tel" name="smsCode" placeholder="请输入验证码" validate-title="验证码" validate-rules="['required']" />
+				<a href="javascript:;" data-selector="username-close" class="text-icon icon-new-close"></a>
+				<a href="javascript:;" data-selector="get-checkcode" class="get-checkcode disabled">获取验证码</a>
+			</div>
+			<button data-selector="submit-btn" type="button" class="btn btn-submit btn-primary-disabled">进入猎聘</button>
+		</form>
+	</div>
+	<div style="display: none;">
+		<form action="/oauth/lbb/accessToken/" method="POST" data-selector="access-form">
+			<input type="hidden" name="redirectUri" value="" data-selector="redirectUri" />
+			<input type="hidden" name="extInfo" value="" data-selector="extInfo" />
+			<input type="hidden" name="state" value="" data-selector="state" />
+			<button></button>
+		</form>
+	</div>
+	<div class="bottom-section">
+		<p class="foreign-tips">登录即代表您同意
+			<a class="agreement-text" href="https://m.liepin.com/user/agreement/">《猎聘用户服务协议》</a>
+			<a class="agreement-text" href="https://www.liepin.com/user/privacy_policy_agreement_h5.shtml">《隐私条款》</a> </p>
+	</div>
+	<!--#include virtual="/fe-mobile-h5/v5/src/includes/v5/resources_footer.shtml"-->
+	<script crossorigin="anonymous"
+		src="//s.lietou-static.com/fe-mobile-h5/v5/js/pages/event/oauth.lbb.authorization.js"></script>
+</body>
+
+</html>

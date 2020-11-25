@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!--#include virtual="/fe-mobile-h5/v5/src/includes/v5/resources_c.shtml"-->
+  <title>猎奇超能所</title>
+  <link rel="stylesheet" href="//s.lietou-static.com/fe-mobile-h5/v5/css/pages/event/brand.fantanstic-company.ke.css">
+</head>
+
+<body>
+  <section class="banner-wrap">
+    <!-- <i></i> -->
+  </section>
+
+  <section class="info-wrap">
+    <h3></h3>
+    <i class="info-text"></i>
+    <i class="info-decoration"></i>
+  </section>
+
+  <section class="company-wrap">
+    <h3></h3>
+    <div class="video-wrap">
+      <div id="video"></div>
+    </div>
+    <i class="company-text"></i>
+    <i class="company-decoration"></i>
+  </section>
+
+  <section class="job-section">
+    <h3></h3>
+    <ul data-selector="job-section">
+      <li></li>
+    </ul>
+    <div class="flexbox btn-wrap">
+      <a href="javascript:;" data-selector="company-card" data-id="8461883">查看更多</a>
+    </div>
+    <i class="job-decoration"></i>
+  </section>
+
+  <section class="qa-section">
+    <h3></h3>
+    <i class="q1"></i>
+    <i class="a1"></i>
+    <i class="q2"></i>
+    <i class="a2"></i>
+  </section>
+  <section class="bot-wrap"><i></i></section>
+
+  <script src="//player.polyv.net/script/polyvplayer.min.js"></script>
+  <script src="//s.lietou-static.com/fe-mobile-h5/v5/static/js/vendor.js"></script>
+  <script src="//s.lietou-static.com/fe-mobile-h5/v5/js/common/common.js"></script>
+  <script src="//s.lietou-static.com/fe-mobile-h5/v5/js/pages/event/brand.fantanstic-company.ke.js"></script>
+</body>
+
+</html>

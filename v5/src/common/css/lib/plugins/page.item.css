@@ -1,0 +1,13 @@
+.page-item{
+  background: #fff;
+  padding:12px;
+  margin-bottom: 10px;
+}
+.page-item .page-title{
+  font-size: 17px;
+  color: #333;
+  border-left: 3px solid #ff5f00;
+  line-height: 17px;
+  padding-left: 10px;
+  margin-bottom: 10px;
+}

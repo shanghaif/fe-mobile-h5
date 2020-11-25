@@ -1,0 +1,76 @@
+body {
+  height: 100%;
+  background-color: #fff;
+}
+.login-wrap {
+  box-sizing: border-box;
+  padding: 0 32px;
+  .login-title {
+    padding: 40px 0 30px;
+    h1 {
+      margin: 0;
+      padding: 0;
+      color: #333;
+      font-size: 32px;
+      letter-spacing: 0;
+      line-height: 38.5px;
+      padding-left: 2px;
+    }
+  }
+  .inputzone {
+    box-sizing: border-box;
+    position: relative;
+    border-bottom: 1px solid #eee;
+    height: 60px;
+    line-height: 60px;
+    &.focus {
+      border-color: #f64;
+    }
+    [type="text"],
+    [type="password"] {
+      box-sizing: border-box;
+      padding: 0;
+      font-size: 16px;
+      border: none;
+      line-height: 20px;
+      color: #333;
+      caret-color: #f64;
+    }
+    ul.emails {
+      position: absolute;
+      top: 60px;
+      left: 0;
+      width: 100%;
+      background-color: #fff;
+      border: 1px solid #eee;
+      z-index: 2;
+      li {
+        padding: 8px 20px;
+      }
+    }
+    .text-icon {
+      color: #ccc;
+      display: none;
+      margin-left: 18px;
+      font-size: 18px;
+    }
+  }
+  .btn-submit {
+    margin: 50px 0 18px;
+    display: block;
+    border-radius: 0;
+    line-height: 50px;
+    height: 50px;
+    font-size: 16px;
+    border-radius: 2px;
+  }
+  .login2page-wrap {
+    a {
+      color: #333;
+      font-size: 16px;
+    }
+  }
+  .none {
+    display: none;
+  }
+}

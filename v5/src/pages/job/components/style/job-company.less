@@ -1,0 +1,52 @@
+.job-company-info {
+
+  &-base {
+
+    dd.profile-card {
+      a {
+        color: #333;
+      }
+      .profile-card-desc {
+        span {
+          position: relative;
+          padding: 0 10px;
+          white-space: nowrap;
+          font-size: 13px;
+
+          &:before {
+            position: absolute;
+            content: '';
+            top: 50%;
+            transform: translateY(-50%);
+            left: 0;
+            width: 1px;
+            height: 9px;
+            background-color: #ddd;
+          }
+
+          &:first-child {
+            padding-left: 0;
+
+            &:before {
+              display: none;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  &-describe {
+    margin-bottom: 40px;
+
+    dt {
+      margin-bottom: 13px;
+      font-size: 20px;
+    }
+
+    dd {
+      font-size: 15px;
+      line-height: 1.7;
+    }
+  }
+}

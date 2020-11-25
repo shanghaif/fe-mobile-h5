@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!--#include virtual="/fe-mobile-h5/v5/src/includes/v5/resources_c.shtml"-->
+  <title>中国BAT领投公司招聘专场</title>
+  <link rel="stylesheet" href="//s.lietou-static.com/fe-mobile-h5/v5/css/pages/event/brand.bat-lead-recruit.css">
+</head>
+
+<body>
+  <section class="banner-wrap">
+    <i class="logo-img"></i>
+    <i class="main-img"></i>
+  </section>
+  <section class="main-wrap">
+    <div class="latest-wrap">
+      <div class="title-banner"></div>
+      <div class="latest-bg">
+        <i class="latest-text"></i>
+      </div>
+    </div>
+    <div class="center-wrap">
+      <div class="title-banner"></div>
+      <ul class="center-company-wrap" data-selector="center-company-wrap"></ul>
+      <ul class="pagination-wrap" data-selector="pagination-wrap"></ul>
+    </div>
+    <div class="ali-wrap">
+      <div class="title-banner"></div>
+      <ul class="flexbox job-card-list-wrap" data-selector="ali-wrap"></ul>
+    </div>
+    <div class="tencent-wrap">
+      <div class="title-banner"></div>
+      <ul class="flexbox job-card-list-wrap" data-selector="tencent-wrap"></ul>
+    </div>
+    <div class="baidu-wrap">
+      <div class="title-banner"></div>
+      <ul class="flexbox job-card-list-wrap" data-selector="baidu-wrap"></ul>
+    </div>
+    <div class="single-wrap">
+      <div class="title-banner"></div>
+      <div class="job-section" data-selector="single-wrap">
+        <i class="decorate-right-top"></i>
+      </div>
+      <i class="decorate-left-bot"></i>
+      <i class="decorate-right-bot"></i>
+    </div>
+  </section>
+  <section class="bot-bg-wrap">
+    <i class="logo-img"></i>
+  </section>
+  <script src="//s.lietou-static.com/fe-mobile-h5/v5/js/pages/event/brand.bat-lead-recruit.js"></script>
+</body>
+
+</html>

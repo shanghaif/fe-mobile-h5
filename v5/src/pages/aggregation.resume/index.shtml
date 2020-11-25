@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <!--#include virtual="/fe-mobile-h5/v5/src/includes/v5/resources_c.shtml"-->
+  <title></title>
+  <link rel="stylesheet" href="//s.lietou-static.com/fe-mobile-h5/v5/css/pages/aggregation.resume.css">
+</head>
+
+<body>
+  <div class="view">
+    <!--#include virtual="/fe-mobile-h5/v5/src/includes/v5/header.shtml"-->
+    <div class="navbars clearfix">
+      <a href="https://m.liepin.cn/bj/" class="home_link ">北京招聘</a>
+      <i>&gt;</i>
+      <a href="https://m.liepin.cn/bj/360331/" class="home_link ">北京系统工程师招聘</a>
+      <i>&gt;</i>
+      <a href="https://m.liepin.cn/job/1912691029.shtml">当前职位</a>
+    </div>
+    <h3 class="page-title">北京产品经理薪资待遇</h3>
+    <div class="link-navbar flexbox">
+      <a href="#" title="#" class="flex-1">主页</a>
+      <a href="#" title="#" class="flex-1">招聘信息</a>
+      <a href="#" title="#" class="flex-1">薪资待遇</a>
+      <a href="#" title="#" class="flex-1">简历模板</a>
+    </div>
+    <section>
+      <!-- 本身无结果  推荐 -->
+      <div class="no-result-tips">
+        <p>暂无产品经理简历模板。</p>
+        <p>以下是为您推荐的“<span>产品经理</span>”相关简历模板：</p>
+      </div>
+      <p class="recommend-tips">以下是为您推荐的“<span>产品经理</span>”相关简历模板</p>
+      <section class="recommend-resume item">
+        <ul class="recommend-list">
+          <li>
+            <a href="#" title="#" class="clearfix">
+              <span class="user-name">张先生</span>
+              <span class="job-name">助理产品经理</span>
+              <span class="job-salary">1年经验 | 12万年薪</span>
+            </a>
+          </li>
+          <li>
+            <a href="#" title="#" class="clearfix">
+              <span class="user-name">张先生</span>
+              <span class="job-name">助理产品经理</span>
+              <span class="job-salary">1年经验 | 12万年薪</span>
+            </a>
+          </li>
+          <li>
+            <a href="#" title="#" class="clearfix">
+              <span class="user-name">张先生</span>
+              <span class="job-name">助理产品经理</span>
+              <span class="job-salary">1年经验 | 12万年薪</span>
+            </a>
+          </li>
+        </ul>
+      </section>
+      <!-- 本身无结果结束 -->
+      <div class="flexbox screen">
+        <div class="flex-1 select" data-selector="salary-select">
+          <i class="text-icon icon-completeness"></i>
+          <span>不限</span>
+          <i class="text-icon icon-narrow-down"></i>
+          <ul class="select-content" data-selector="select-content">
+            <li>
+              <a href="#">不限</a>
+            </li>
+            <li>
+              <a href="#">10万以下</a>
+            </li>
+            <li>
+              <a href="#">10-15万</a>
+            </li>
+            <li>
+              <a href="#">15-20万</a>
+            </li>
+            <li>
+              <a href="#">20-30万</a>
+            </li>
+            <li>
+              <a href="#">30-50万</a>
+            </li>
+          </ul>
+        </div>
+        <div class="flex-1 select" data-selector="year-select">
+          <i class="text-icon icon-salary"></i>
+          <span>不限</span>
+          <i class="text-icon icon-narrow-down"></i>
+          <ul class="select-content" data-selector="select-content">
+            <li>
+              <a href="#">不限</a>
+            </li>
+            <li>
+              <a href="#">1年以下</a>
+            </li>
+            <li>
+              <a href="#">1-3年</a>
+            </li>
+            <li>
+              <a href="#">3-5年</a>
+            </li>
+            <li>
+              <a href="#">5-10年</a>
+            </li>
+            <li>
+              <a href="#">10年以上</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <!-- 有结果 -->
+      <div class="resume">
+        <div class="resume-list">
+          <ul class="resume-first-list">
+            <li>
+              <a class="list clearfix" href="">
+                <img src="//s.lietou-static.com/fe-mobile-h5/v5/static/images/man.png" alt="">
+                <div class="list-info">
+                  <p class="name"><span>王先生</span><span>产品经理</span></p>
+                  <p class="experience"><span>2年经验</span><span>|</span><span>15万年薪</span></p>
+                  <p class="describe">负责AXXXX相关产品的工作，分析和挖掘用户需负责相关产品的工作，分析和挖掘用户需</p>
+                </div>
+              </a>
+            </li>
+          </ul>
+          <ul class="recommend-list">
+            <li>
+              <a href="#" title="#" class="clearfix">
+                <span class="user-name">张先生</span>
+                <span class="job-name">助理产品经理</span>
+                <span class="job-salary">1年经验 | 12万年薪</span>
+              </a>
+            </li>
+            <li>
+              <a href="#" title="#" class="clearfix">
+                <span class="user-name">张先生</span>
+                <span class="job-name">助理产品经理</span>
+                <span class="job-salary">1年经验 | 12万年薪</span>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="more-resume">
+          <a href="" title="点击加载更多">点击加载更多&gt;&gt;</a>
+        </div>
+      </div>
+      <!-- 筛选后有结果且推荐 -->
+      <p class="recommend-tips">以下是为您推荐的“<span>产品经理</span>”相关简历模板</p>
+      <section class="recommend-resume item">
+        <ul class="recommend-list">
+          <li>
+            <a href="#" title="#" class="clearfix">
+              <span class="user-name">张先生</span>
+              <span class="job-name">助理产品经理</span>
+              <span class="job-salary">1年经验 | 12万年薪</span>
+            </a>
+          </li>
+        </ul>
+      </section>
+      <!-- 筛选后无结果 推荐 -->
+      <div class="no-result-tips">
+        <p>暂无产品经理简历模板。</p>
+        <p>以下是为您推荐的“<span>产品经理</span>”相关简历模板：</p>
+      </div>
+      <section class="recommend-resume item">
+        <ul class="recommend-list">
+          <li>
+            <a href="#" title="#" class="clearfix">
+              <span class="user-name">张先生</span>
+              <span class="job-name">助理产品经理</span>
+              <span class="job-salary">1年经验 | 12万年薪</span>
+            </a>
+          </li>
+        </ul>
+      </section>
+    </section>
+    <!--筛选后无结果 推荐结束  -->
+    <section class="related-resume item">
+      <h4 class="section-title">相关简历模板</h4>
+      <ul class="related-list">
+        <li>
+          <a href="#" title="#" class="clearfix">
+            <span>品设计简历模板</span>
+            <i class="text-icon icon-go-ahead"></i>
+          </a>
+        </li>
+        <li>
+          <a href="#" title="#" class="clearfix">
+            <span>品设计简历模板</span>
+            <i class="text-icon icon-go-ahead"></i>
+          </a>
+        </li>
+      </ul>
+    </section>
+    <section class="new-recruitment item">
+      <h4 class="section-title">最新招聘信息</h4>
+      <div class="new-recruitment-list">
+        <ul>
+          <li>
+            <a href="">
+              <p class="professional">百度产品经理(第三方)</p>
+              <p class="company"><span>广东联通通信建设有限公司</span><span>12-25万</span></p>
+              <p class="address"><span>北京-朝阳区</span><i>|</i><span>3年以上经验</span><i>|</i><span>学历不限</span></p>
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div class="more-resume">
+        <a href="" title="查看更多在招职位">查看更多在招职位&gt;&gt;</a>
+      </div>
+    </section>
+  </div>
+  <script src="//s.lietou-static.com/fe-mobile-h5/v5/js/pages/aggregation.resume.js"></script>
+  <!--#include virtual="/fe-mobile-h5/v5/src/includes/v5/statistic.shtml"-->
+</body>
+
+</html>

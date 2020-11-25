@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!--#include virtual="/fe-mobile-h5/v5/src/includes/v5/resources_c.shtml"-->
+  <title>硬核涨薪礼包</title>
+  <link rel="stylesheet" href="https://s.lietou-static.com/fe-mobile-h5/v5/css/pages/event/brand.rise-salary.gift-package.css">
+</head>
+
+<body>
+  <div class="gift-package-container">
+    <section class="gift-bg"></section>
+    <section class="meeting-gift-container">
+      <h3 class="package-title">
+        <p class="flexbox">硬核见面礼</p>
+      </h3>
+      <div class="gift-package-content">
+        <div class="resume-diagnosis">
+          <div class="flexbox diagnosis-content">
+            <div class="resume-pro">
+              <p>免费简历诊断一次</p>
+              <p>一份好简历<strong>涨薪40%</strong></p>
+            </div>
+            <div class="resume-salary">
+              <span>价值</span>
+              <span><strong>59</strong>元</span>
+            </div>
+          </div>
+        </div>
+       <div class="btn-container" data-selector="click-operation" data-different="free-receive"><span>点击免费领取</span></div>
+      </div>
+    </section>
+    <section class="etiquette-gift-container">
+        <h3 class="package-title">
+          <p class="flexbox">硬核进阶豪礼</p>
+        </h3>
+      <div class="gift-package-content">
+        <div class="gold-card-img"></div>
+        <div class="job-card-img"></div>
+        <div class="btn-container" data-selector="click-operation" data-different="share-friends"><span>邀好友领硬核求职礼包</span></div>
+        <!-- 活动已经结束 -->
+        <!-- <div class="btn-container btn-container-disabled"><span>该活动已结束</span></div> -->
+      </div>
+    </section>
+    <section class="job-expressway-container">
+        <h3 class="package-title">
+          <p class="flexbox">求职快车道</p>
+        </h3>
+      <div class="gift-package-content">
+        <ul class="job-expressway flexbox">
+          <li>
+            <div class="resume-consultant job-expressway-box">
+              <div class="expressway-container">
+                <div class="expressway-content">
+                  <p>简历顾问</p>
+                  <p>让HR看到你的“美”</p>
+                </div>
+              </div>
+            </div>
+            <div class="look-more" data-selector="click-operation" data-different="resume-adviser"><span>点击查看</span></div>
+          </li>
+          <li>
+            <div class="interview-coach job-expressway-box">
+              <div class="expressway-container">
+                <div class="expressway-content">
+                  <p>面试教练</p>
+                  <p>拿到更满意的offer</p>
+                </div>
+              </div>
+            </div>
+            <div class="look-more" data-selector="click-operation" data-different="interview-coach"><span>点击查看</span></div>
+          </li>
+        </ul>
+        <ul class="expressway-line"></ul>
+        <ul class="job-expressway flexbox">
+          <li>
+            <div class="career-counseling job-expressway-box">
+              <div class="expressway-container">
+                <div class="expressway-content">
+                  <p>生涯咨询</p>
+                  <p>高效解决职业困惑</p>
+                </div>
+              </div>
+            </div>
+            <div class="look-more" data-selector="click-operation" data-different="career-consult"><span>点击查看</span></div>
+          </li>
+          <li>
+            <div class="card-service job-expressway-box">
+              <div class="expressway-container"> 
+                <div class="expressway-content">
+                  <p>金卡服务</p>
+                  <p>求职特权 增加曝光度</p>
+                </div>
+              </div>
+            </div>
+            <div class="look-more" data-selector="click-operation" data-different="jobCard-service"><span>点击查看</span></div>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <section class="rules-container">
+        <p class="rules-title flexbox">活动规则</p>
+        <p class="rules-time">活动时间：<span>2019年9月22日至</span>2019年10月22</p>
+        <ul class="rules-content">
+          <li>1.用户登陆即可获得简历免费诊断一次。</li>
+          <li>2.用户邀请好友登录猎聘可以获得相应的奖励。</li>
+          <li>3.活动期间禁止使用任何舞弊行为，一经发现将取消活动资格。</li>
+          <li>4.活动奖励有限发完为止，是否获赠成功以实际结果为准。</li>
+          <li>5.活动奖励仅限个人使用，禁止转售，一经发现将取消活动资格。</li>
+          <li>6.奖励将在成功邀请相应数量的好友登录自动开通，三个工作日内以短信形式告知成功开通，请注意查收及时领取。</li>
+          <li>7.获得后的奖励限7天有效，请及时下载猎聘app完善简历后使用；因用户未使用导致过期的情况，猎聘将不对此后果负责。</li>
+        </ul>
+    </section>
+  </div>
+  <script src="https://s.lietou-static.com/fe-mobile-h5/v5/static/js/vendor.js"></script>
+  <script src="https://s.lietou-static.com/fe-mobile-h5/v5/js/common/common.js"></script>
+  <script src="https://s.lietou-static.com/fe-mobile-h5/v5/js/pages/event/brand.rise-salary.gift-package.js"></script>
+</body>
+
+</html>

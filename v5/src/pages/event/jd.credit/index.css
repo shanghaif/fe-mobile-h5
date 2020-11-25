@@ -1,0 +1,91 @@
+body{
+  background-color: #F8F8F8;
+  font-family: PingFangSC-Regular;
+}
+.logo-part{
+  width: 100%;
+  text-align: center;
+  padding: 34px 0;
+  background-color: #fff;
+}
+.logo-part .logo-item{
+  display: inline-block;
+}
+.logo {
+  height: 60px;
+  height: 60px;
+  margin-bottom: 10px;
+}
+.arrows{
+  height: 26px;
+  width: 31px;
+  margin: 0 18px;
+  position: relative;
+  top: -40px;
+}
+.info-list{
+  padding-top: 40px;
+  padding-left: 21%;
+  margin-bottom: 70px;
+}
+.info-list .tips{
+  font-size: 14px;
+  color: #333;
+  letter-spacing: 0;
+  margin-bottom: 25px;
+}
+.info-list ul li{
+  margin-bottom: 20px;
+}
+.info-list ul li .circle{
+  display: inline-block;
+  width: 4px;
+  height: 4px;
+  border-radius: 100%;
+  background-color: #999;
+  font-size: 14px;
+  color: #333;
+  vertical-align: middle;
+}
+.info-list ul li .title{
+  font-family: PingFangSC-Medium;
+  font-size: 14px;
+  color: #333;
+  line-height: 28px;
+}
+.info-list ul li .detail{
+  font-size: 14px;
+  color: #666;
+  line-height: 26px;
+  padding-left: 8px;
+}
+.bottom-part{
+  text-align: center;
+}
+button{
+  width: 90%;
+  margin: 0 auto;
+  line-height: 44px;
+  height: 44px;
+  background: #FF6644;
+  font-family: PingFangSC-Regular;
+  font-size: 16px;
+  color: #fff;
+  line-height: 32px;
+  border: none;
+  margin-bottom: 12px;
+}
+.btn-cancel{
+  display: block;
+  font-size: 13px;
+  color: #333;
+  line-height: 26px;
+  margin-bottom: 12px;
+  text-decoration: underline;
+}
+.friendly-tips{
+  font-family: PingFangSC-Regular;
+  font-size: 12px;
+  color: #999;
+  line-height: 24px;
+}

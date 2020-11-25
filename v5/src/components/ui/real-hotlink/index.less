@@ -1,0 +1,66 @@
+.real-hot-links-container {
+  padding: 0 18px 8px;
+  background-color: #fff;
+  .hot-links-content {
+    li {
+      .hot-links-tab {
+        justify-content: space-between;
+        padding: 19px 0 14px;
+        .operation {
+          display: none;
+        }
+        span {
+          line-height: 20px;
+          font-size: 14px;
+          color: #999;
+          i {
+            font-size: 12px;
+            margin-left: 4px;
+          }
+          &:first-child {
+            line-height: 23px;
+            font-size: 16px;
+            color: #333;
+          }
+        }
+      }
+      .tab-content {
+        clear: both;
+        overflow: hidden;
+        padding-bottom: 3px;
+        p {
+          float: left;
+          max-width: 100%;
+          margin: 0 24px 10px 0;
+          line-height: 20px;
+          font-size: 14px;
+          white-space: nowrap;
+          overflow: hidden;
+          text-overflow: ellipsis;
+          a {
+          color: #666;
+          }
+        }
+        &.cut-off {
+          max-height: 93px;
+          overflow: hidden;
+          text-overflow: ellipsis;
+        }
+      }
+    }
+    &.hot-links-hide {
+      li {
+        display: none;
+        &:first-child {
+          display: block;
+        }
+      }
+    }
+  }
+  .current-link {
+    padding: 20px 0 16px;
+    font-size: 14px;
+    line-height: 20px;
+    color: #999;
+  }
+}

@@ -1,0 +1,417 @@
+body {
+  position: relative;
+  background: #0a0a32 url(./images/banner.png) center 72px no-repeat;
+  background-size: 100% auto;
+}
+
+.top-logo-wrap {
+  position: relative;
+  padding: 15px 0 26px;
+
+  i {
+    display: block;
+    margin: auto;
+    width: 94px;
+    height: 36px;
+    background: url(./images/logo.png) center / contain no-repeat;
+  }
+}
+
+.title-wrap {
+  position: relative;
+  margin: auto;
+  width: 88.53%;
+  padding: 61.8% 0;
+
+  i {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url(./images/title.png) center top / contain no-repeat;
+  }
+}
+
+.section-wrap {
+  z-index: 1;
+  position: relative;
+  width: 90.666%;
+  margin: 0 auto 20px;
+
+  .top-bg {
+    width: 100%;
+    background-size: 100% 100%;
+  }
+
+  .content-wrap {
+    padding: 4.411% 6.323% 0.3%;
+    background: url(./images/section-mid.png);
+    background-size: 100% 100%;
+    color: #fff;
+    line-height: 26px;
+    font-size: 14px;
+  }
+
+  .bot-bg {
+    width: 100%;
+    padding: 1.617% 0;
+    background-size: 100% 100%;
+    background-image: url(./images/section-bot.png);
+  }
+}
+
+.trend-section {
+  .top-bg {
+    padding: 10.294% 0;
+    background-image: url(./images/trend-top.png);
+  }
+
+  .content-wrap {
+    line-height: 24px;
+    font-size: 14px;
+  }
+}
+
+.ranking-section {
+  .top-bg {
+    padding: 11.544% 0;
+    background-image: url(./images/rank-top.png);
+  }
+
+  .content-wrap {
+    padding-right: 0;
+    padding-left: 0;
+    font-size: 14px;
+    line-height: 22px;
+
+    .excel-item {
+      display: flex;
+      align-items: center;
+
+      .excel-title {
+        padding-left: 10px;
+        text-align: right;
+        flex-shrink: 0;
+      }
+
+      .excel-bar {
+        margin: 0 10px;
+        height: 8px;
+        flex: 1;
+        width: 0;
+
+        .bar-status {
+          height: 100%;
+          background-color: #ff5932;
+        }
+      }
+
+      .excel-data {
+        text-align: left;
+        flex-shrink: 0;
+      }
+    }
+
+    .ranking-tip {
+      text-align: center;
+      font-size: 12px;
+      opacity: 0.5;
+    }
+  }
+}
+
+.big-section {
+  .top-bg {
+    padding: 8.382% 0;
+    background-image: url(./images/big-top.png);
+  }
+
+  .content-wrap {
+    padding-left: 0;
+    padding-right: 0;
+
+    .swiper-slide {
+      box-sizing: border-box;
+      padding: 0 6.323%;
+    }
+
+    .comp-wrap {
+      display: flex;
+
+      .info-wrap {
+        flex: 1;
+        width: 0;
+        margin-right: 10px;
+
+        .comp-name {
+          margin-bottom: 8px;
+          font-size: 17px;
+          font-weight: bold;
+        }
+
+        .label-wrap {
+          margin-bottom: 5px;
+
+          li {
+            list-style: none;
+            float: left;
+            width: 5em;
+            line-height: 16px;
+            text-align: center;
+            font-size: 12px;
+            background: linear-gradient(to right, rgba(108, 46, 253, 1), rgba(108, 46, 253, 0.9), rgba(108, 46, 253, 0.05));
+
+            &:last-child {
+              margin-left: 8px;
+            }
+          }
+        }
+      }
+
+      .img-wrap {
+        flex-shrink: 0;
+        width: 73px;
+        height: 73px;
+        border-radius: 4px;
+        overflow: hidden;
+
+        img {
+          width: 100%;
+          height: 100%;
+        }
+      }
+    }
+
+    .comp-desc {
+      margin: 0.5em 0 1em;
+      font-size: 12px;
+      line-height: 18px;
+    }
+
+    .job-list {
+      li {
+        list-style: none;
+        padding: 14px 10px;
+        margin-bottom: 10px;
+        font-size: 12px;
+        background: linear-gradient(135deg, rgba(114, 57, 225, 0.9), rgba(60, 15, 193, 0.75));
+        color: #fff;
+
+        &:last-child {
+          margin: 0;
+        }
+
+        .job-title {
+          margin-bottom: 6px;
+          line-height: 19px;
+          font-size: 15px;
+          font-weight: bold;
+        }
+
+        .info-wrap {
+          display: flex;
+          align-items: center;
+          overflow: hidden;
+          .job-info-wrap {
+            flex: 1;
+            width: 0;
+            margin-right: 8px;
+            height: 14px;
+            overflow: hidden;
+
+            .job-info {
+              box-sizing: border-box;
+              max-width: 100%;
+              vertical-align: top;
+              display: inline-block;
+              padding: 0 18px 0 8px;
+              line-height: 14px;
+              border-radius: 7px;
+              background: linear-gradient(to right, rgba(140, 97, 240, 1), rgba(140, 97, 240, 1), rgba(140, 97, 240, 0));
+            }
+          }
+
+          .job-salary {
+            flex-shrink: 0;
+            padding: 0 10px;
+            height: 16px;
+            font-weight: bold;
+            line-height: 16px;
+            border-radius: 9px;
+            background: linear-gradient(to right, #f15731, #f13135);
+          }
+        }
+      }
+    }
+
+    .swiper-pagination {
+      position: relative;
+      padding: 15px 0 10px;
+      text-align: center;
+
+      .swiper-pagination-bullet {
+        background-color: transparent;
+        border: 1px solid #fff;
+        opacity: 1;
+        margin: 0 5px;
+        width: 4px;
+        height: 4px;
+
+        &.swiper-pagination-bullet-active {
+          background-color: #fff;
+        }
+      }
+    }
+  }
+}
+
+.black-section {
+  .top-bg {
+    padding: 8.529% 0;
+    background-image: url(./images/black-top.png);
+  }
+
+  .content-wrap {
+    background-image: url(./images/black-bg.png);
+
+    ul {
+      li {
+        box-sizing: border-box;
+        float: left;
+        width: 50%;
+        text-align: center;
+
+        &:nth-child(odd) {
+          padding: 0 3.3% 10px 0;
+        }
+
+        &:nth-child(even) {
+          padding: 0 0 10px 3.3%;
+        }
+
+        dl {
+          padding: 10px;
+          background: linear-gradient(135deg, rgba(114, 56, 219, 0.95), rgba(60, 15, 193, 0.75));
+
+          dt {
+            width: 80px;
+            height: 80px;
+            margin: auto;
+            border-radius: 4px;
+            overflow: hidden;
+
+            img {
+              width: 100%;
+              height: 100%;
+            }
+          }
+
+          dd {
+            font-weight: bold;
+
+            .company-name {
+              line-height: 35px;
+              font-size: 15px;
+            }
+
+            .allpy-btn {
+              width: 92px;
+              line-height: 22px;
+              border-radius: 11px;
+              margin: auto;
+              text-align: center;
+              background: linear-gradient(to right, #ff5c24, #ff3329)
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+.hot-wrap {
+  .top-bg {
+    padding: 9.191% 0;
+    background-image: url(./images/hot-top.png);
+  }
+
+  .content-wrap {
+    background-image: url(./images/black-bg.png);
+
+    ul {
+      li {
+        padding: 10px;
+        margin-bottom: 10px;
+        background: linear-gradient(135deg, rgba(114, 56, 219, 0.95), rgba(60, 15, 193, 0.75));
+        color: #fff;
+
+        .job-title {
+          line-height: 25px;
+          font-size: 15px;
+          font-weight: bold;
+        }
+
+        .other-info {
+          display: flex;
+          line-height: 24px;
+          font-size: 12px;
+          align-items: center;
+          overflow: hidden;
+
+          .company-name {
+            flex-shrink: 0;
+            font-size: 14px;
+          }
+
+          .job-info-wrap {
+            flex: 1;
+            width: 0;
+            margin-left: 8px;
+            height: 16px;
+
+            .job-info {
+              display: inline-block;
+              padding: 0 18px 0 8px;
+              line-height: 16px;
+              border-radius: 8px;
+              background: linear-gradient(to right, rgba(140, 97, 240, 1), rgba(140, 97, 240, 1), rgba(140, 97, 240, 0));
+            }
+          }
+
+          .job-salary {
+            flex-shrink: 0;
+            padding: 0 10px;
+            height: 18px;
+            font-weight: bold;
+            line-height: 18px;
+            border-radius: 9px;
+            background: linear-gradient(to right, #f15731, #f13135);
+          }
+        }
+      }
+    }
+  }
+}
+
+.bottom-logo-wrap {
+  position: relative;
+  padding: 47px 0 68px;
+
+  i {
+    display: block;
+    margin: auto;
+    width: 70px;
+    height: 27px;
+    background: url(./images/logo.png) center / contain no-repeat;
+  }
+}
+
+.bottom-bg-wrap {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 39.8% 0;
+  background: url(./images/bottom-bg.png) center bottom / contain no-repeat;
+}

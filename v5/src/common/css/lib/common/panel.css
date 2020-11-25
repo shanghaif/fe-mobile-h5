@@ -1,0 +1,28 @@
+/* ===view , Panels === */
+.panel {
+  display: none;
+  position: fixed;
+  background: #fff;
+  top: 0;
+  bottom: auto;
+  height: 100%;
+  right: 0;
+  width: 260px;
+  font-size: 15px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  overflow: auto;
+  -webkit-overflow-scrolling: touch;
+  z-index: 99;
+}
+.panel.panel-right {
+  -webkit-transform: translateX(260px);
+  transform: translateX(260px);
+}
+.panel.panel-left {
+  -webkit-transform: translateX(-260px);
+  transform: translateX(-260px);
+  left: 0;
+  right: auto;
+}

@@ -1,0 +1,19 @@
+/*face && logo*/
+img.round {
+  border-radius: 50%;
+}
+img.miniFace, img.tinyFace {
+  vertical-align: middle;
+  border-radius: 50%;
+}
+img.miniFace, img.miniLogo {
+  width: 40px;
+  height: 40px;
+}
+img.tinyFace, img.tinyLogo {
+  width: 50px;
+  height: 50px;
+}
+img.circle {
+  border-radius: 50%;
+}

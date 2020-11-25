@@ -1,0 +1,449 @@
+body {
+  background-color: #f0f0f0;
+}
+
+/*修改placeholder的默认颜色*/
+input::-webkit-input-placeholder {
+  color: #999 !important;
+}
+input:-moz-placeholder {
+  color: #999 !important;
+}
+input::-moz-placeholder {
+  color: #999 !important;
+}
+input:-ms-input-placeholder {
+  color: #999 !important;
+}
+input, .select-result {
+  color: #303030;
+  font-weight: normal;
+}
+.complete-tips {
+  width: 100%;
+  text-align: center;
+  position: relative;
+  font-size: 18px;
+  color: #fff;
+  line-height: 44px;
+  background-color: #025681;
+}
+.dec-text {
+  font-size: 14px;
+  color: #3d9ccc;
+  line-height: 20px;
+  padding: 8px 15px;
+}
+.complete-tips i {
+  font-size: 12px;
+  position: absolute;
+  top: 6%;
+  right: 3%;
+}
+.work-info {
+  font-size: 14px;
+  color: #303030;
+  background-color: #dbdbdb;
+  padding: 7px 10px;
+}
+.work-info .company-info span {
+  color: #fc6621;
+}
+.name-card li:last-child {
+  border-bottom: none;
+}
+.name-card .common-email input, .work-exp .now-company input, .work-exp .job-name input, .edu-exp .major-name input {
+  right: 1%;
+}
+.name-card .common-email {
+  position: relative;
+}
+.placeholder {
+  color: #999;
+}
+.icon-go-ahead {
+  color: #999;
+}
+ul.items {
+  padding: 0 5px 0 7px;
+  background-color: #fff;
+  font-size: 15px;
+  color: #303030;
+}
+ul.items li {
+  padding: 0 2%;
+  height: 45px;
+  line-height: 45px;
+  border-bottom: 1px solid #dcdcdc;
+  position: relative;
+}
+ul.items li label {
+  display: block;
+}
+ul.items li label input {
+  width: 30%;
+}
+ul.items li .user-select {
+  float: right;
+}
+ul.items .real-name {
+  position: relative;
+}
+ul.items .real-name input {
+  text-align: left;
+  float: right;
+  width: 50%;
+  text-align: right;
+  font-size: 14px;
+  margin-right: 25%;
+  color: #303030;
+  right: 6%;
+}
+ul.items .real-name .gender {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+ul.items .real-name .gender input {
+  opacity: 0;
+}
+ul.items .real-name .gender em {
+  display: inline-block;
+  width: 45px;
+  height: 28px;
+  line-height: 28px;
+  text-align: center;
+  background-color: #f0f0f0;
+  border-radius: 0 3px 3px 0;
+  font-size: 14px;
+  color: #777;
+}
+ul.items .real-name .gender em:first-child {
+  border-radius: 3px 0 0 3px;
+}
+ul.items .real-name .gender em.active {
+  background-color: #3d9ccc;
+  color: #fff;
+}
+ul.items input {
+  text-align: right;
+}
+ul.items li input {
+  width: 74%;
+  position: absolute;
+  right: 2%;
+  top: 3px;
+}
+ul.items li.times span {
+  display: inline-block;
+  width: 90px;
+  height: 31px;
+  line-height: 31px;
+  text-align: center;
+  vertical-align: middle;
+  border: 1px solid #dcdcdc;
+  border-radius: 3px;
+}
+ul.items li.times em {
+  color: #999;
+}
+ul.items li.times input {
+  position: static;
+  width: 29%;
+  border: 1px solid #dcdcdc;
+  text-align: left;
+  height: 27px;
+  line-height: 27px;
+  border-radius: 3px;
+}
+ul.items li.times .times-input {
+  float: right;
+}
+ul.items li.times .times-input em {
+  color: #999;
+}
+p.tips {
+  font-size: 14px;
+  color: #3d9ccc;
+  line-height: 40px;
+  padding-left: 12px;
+}
+.work-exp {
+  margin-bottom: 10px;
+}
+.work-exp li:last-child {
+  border-bottom: none;
+}
+.now-salary .salary-input {
+  margin-left: 20%;
+  color: #666;
+}
+.now-salary .month-salary {
+  position: static;
+  width: 26%;
+  border: 1px solid #dcdcdc;
+  height: 31px;
+  line-height: 31px;
+  border-radius: 3px;
+}
+.now-salary .month-amount {
+  position: static;
+  width: 15%;
+  border: 1px solid #dcdcdc;
+  height: 31px;
+  line-height: 31px;
+  border-radius: 3px;
+  text-align: center;
+}
+.work-exp .secret {
+  display: inline-block;
+  width: 65px;
+  height: 30px;
+  line-height: 30px;
+  background: #d5d5d5;
+  border-radius: 3px;
+  position: absolute;
+  top: 8px;
+  right: 2%;
+}
+.work-exp .secret input {
+  opacity: 0;
+}
+.work-exp .secret .icon-check {
+  width: 30px;
+  margin: 2px;
+  line-height: 26px;
+  text-align: center;
+  color: #fff;
+  background: #fff;
+  border-radius: 3px;
+}
+.work-exp .secret .secret-text {
+  float: right;
+  color: #fff;
+  font-size: 14px;
+  width: 30px;
+  text-align: left;
+}
+.work-exp .secret-on {
+  background: #ff7f00;
+}
+.work-exp .secret-on .secret-text {
+  float: left;
+  color: #fff;
+  font-size: 14px;
+  width: 30px;
+  text-align: right;
+}
+.work-exp .secret-on .icon-check {
+  float: right;
+}
+.work-exp .industry-job .user-select {
+  width: 75%;
+  height: 46px;
+  line-height: 46px;
+}
+.work-exp .industry-job .select-result {
+  display: inline-block;
+  width: 92%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  text-align: right;
+}
+.work-exp .industry-job .text-icon {
+  float: right;
+}
+.industry-job .user-select {
+  width: 75%;
+  height: 46px;
+  line-height: 46px;
+}
+.industry-job .select-result {
+  display: inline-block;
+  width: 92%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  text-align: right;
+}
+.industry-job .text-icon {
+  float: right;
+}
+.work-exp .industry-job .user-select {
+  width: 75%;
+  height: 46px;
+  line-height: 46px;
+}
+
+/*教育*/
+.edu-exp {
+  margin-bottom: 10px;
+}
+.edu-exp li:last-child {
+  border-bottom: none;
+}
+.edu-exp .secret {
+  display: inline-block;
+  width: 65px;
+  height: 30px;
+  line-height: 30px;
+  background: #d5d5d5;
+  border-radius: 3px;
+  position: absolute;
+  top: 8px;
+  right: 2%;
+}
+.edu-exp .secret input {
+  opacity: 0;
+}
+.edu-exp .secret .icon-check {
+  width: 30px;
+  margin: 2px;
+  line-height: 26px;
+  text-align: center;
+  color: #fff;
+  background: #fff;
+  border-radius: 3px;
+}
+.edu-exp .secret .secret-text {
+  float: right;
+  color: #fff;
+  font-size: 14px;
+  width: 30px;
+  text-align: left;
+}
+.edu-exp .secret-on {
+  background: #ff7f00;
+}
+.edu-exp .secret-on .secret-text {
+  float: left;
+  color: #fff;
+  width: 30px;
+  text-align: right;
+}
+.edu-exp .secret-on .icon-check {
+  float: right;
+  font-size: 14px;
+  color: #fc6621;
+}
+ul.items li.school-time span {
+  display: inline-block;
+  width: 90px;
+  height: 27px;
+  line-height: 27px;
+  text-align: center;
+  vertical-align: middle;
+  border: 1px solid #dcdcdc;
+  border-radius: 3px;
+}
+ul.items li.school-time em {
+  color: #999;
+}
+ul.items li.school-time .school-input {
+  float: right;
+}
+.btn-box {
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+.btn-box  .btn-submit {
+  width: 200px;
+  background-color: #3d9ccc;
+  font-size: 16px;
+  color: #fff;
+  line-height: 44px;
+  border-radius: 3px;
+}
+.mask {
+  width: 100%;
+  height: 43px;
+  line-height: 43px;
+  font-size: 16px;
+  position: fixed;
+  bottom: 0;
+  display: none;
+}
+.mask .conserve {
+  height: 41px;
+  line-height: 41px;
+  color: #fc6621;
+  background-color: #fff;
+  text-align: center;
+  border: 1px solid #ccc;
+  box-shadow: 0 -2px 11px #e2e2e2;
+}
+.mask .mask-submit {
+  background-color: #fc6621;
+  color: #fff;
+  text-align: center;
+}
+ul.items .suggest-main {
+  background: #fff;
+  position: absolute;
+  width: 100%;
+  left: -7px;
+  top: 46px;
+  padding: 0 6px 0;
+  z-index: 2;
+}
+ul.items .suggest-main dd, ul.items .suggest-main li {
+  line-height: 40px;
+  height: 40px;
+  border-bottom: 1px dashed #eee;
+  text-align: right;
+  padding: 0 10px;
+  position: relative;
+}
+ul.items .suggest-main dd span, ul.items .suggest-main li span {
+  position: absolute;
+  left: 0;
+  top: 0;
+  color: #aaa;
+}
+.update {
+  line-height: 45px;
+  background-color: #fff;
+  padding-left: 12px;
+}
+.update .is-update {
+  float: right;
+}
+.update .text {
+  margin-right: 10px;
+}
+.update input {
+  opacity: 0;
+}
+.update em {
+  display: inline-block;
+  width: 45px;
+  height: 28px;
+  line-height: 28px;
+  text-align: center;
+  background-color: #f0f0f0;
+  font-size: 14px;
+  color: #777;
+  border-radius: 3px;
+}
+.update em:first-child {
+  margin-right: 5px;
+}
+.update em.active {
+  background-color: #3d9ccc;
+  color: #fff;
+}
+.btn-box {
+  text-align: center;
+}
+.btn-box .btn-report {
+  background-color: #3d9ccc;
+  color: #fff;
+  padding: 10px 40px;
+  font-size: 17px;
+  outline: none;
+  border-radius: 3px;
+  border: none;
+  margin-bottom: 20px;
+}

@@ -1,0 +1,397 @@
+#static-city a, #static-industry a {
+  color: #333;
+  display: block;
+}
+.nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 99;
+}
+.navbars {
+  background-color: #fff;
+  position: fixed;
+  top: 48px;
+  left: 0;
+  border-bottom: 1px solid #ddd;
+  width: 100%;
+  z-index: 99;
+}
+.navbars a.hide {
+  display: none;
+}
+.navbars i.hide {
+  display: none;
+}
+.topbar {
+  border-bottom: 1px solid #ddd;
+  background-color: #fff;
+  position: fixed;
+  top: 79px;
+  left: 0;
+  border-bottom: 1px solid #ddd;
+  width: 100%;
+  z-index: 99;
+}
+
+/*筛选器*/
+.topbar .filter-box {
+  height: 44px;
+}
+.topbar .filter-box .flexbox {
+  text-align: center;
+}
+.topbar .filter-box .flexbox > div > a {
+  color: #666;
+  display: block;
+  padding: 12px 0;
+}
+.topbar .filter-box .flexbox > div > a span {
+  max-width: 78%;
+  vertical-align: middle;
+  display: inline-block;
+  font-size: 15px;
+}
+.topbar .filter-box .flexbox > div > a i {
+  font-size: 12px;
+  line-height: normal;
+  vertical-align: middle;
+  margin-top: 3px;
+  margin-left: 1px;
+  -webkit-transform: rotate(0deg);
+  -webkit-transition: all .3s;
+  transform: rotate(0deg);
+  transition: all .3s;
+}
+.topbar .filter-box .flexbox > div > a.active {
+  color: #fc6621;
+}
+.topbar .filter-box .flexbox > div > a.active i {
+  color: #fc6621;
+  -webkit-transform: rotate(180deg);
+  -webkit-transition: all .3s;
+  transform: rotate(180deg);
+  transition: all .3s;
+}
+.topbar .filter-box .flexbox > div > a.selected i {
+  color: #fc6621;
+  -webkit-transform: rotate(0deg);
+  -webkit-transition: all .3s;
+  transform: rotate(0deg);
+  transition: all .3s;
+}
+.topbar .filter-box .flexbox .compkind-box, .topbar .filter-box .flexbox .compscale-box {
+  position: relative;
+}
+.topbar .filter-box .flexbox .compkind-box ul, .topbar .filter-box .flexbox .compscale-box ul {
+  display: none;
+  position: absolute;
+  text-align: left;
+  left: 8px;
+  top: 44px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+}
+.topbar .filter-box .flexbox .compkind-box ul {
+  width: 130px;
+  left: -15px;
+}
+.topbar .filter-box .flexbox .compscale-box ul {
+  width: 120px;
+  left: -30px;
+}
+.topbar .filter-box .flexbox .compkind-box ul li.active a, .topbar .filter-box .flexbox .compscale-box ul li.active a {
+  color: #fc6621;
+}
+.topbar .filter-box .flexbox .compkind-box ul li, .topbar .filter-box .flexbox .compscale-box ul li {
+  padding: 0 10px;
+  border-bottom: 1px solid #ddd;
+  line-height: 40px;
+}
+.topbar .filter-box .flexbox .compkind-box ul li a, .topbar .filter-box .flexbox .compscale-box ul li a {
+  color: #333;
+  font-size: 15px;
+  display: block;
+}
+#bcompany .card {
+  box-shadow: none;
+  border-radius: 0;
+  margin: 0;
+}
+#bcompany .filter-wrap {
+  margin: 10px 0;
+  background: #fff;
+}
+#bcompany .filter-wrap .filter-item {
+  position: relative;
+}
+#bcompany .filter-wrap .short {
+  max-height: 54px;
+  overflow: hidden;
+}
+#bcompany .filter-wrap .filter-item .filter-title {
+  font-size: 16px;
+  color: #333;
+  position: absolute;
+  left: 0;
+  top: 0;
+  line-height: 22px;
+}
+#bcompany .filter-wrap .filter-item .filter-content {
+  padding-left: 40px;
+}
+#bcompany .filter-wrap .filter-item .filter-content a {
+  float: left;
+  line-height: 22px;
+  padding: 0 8px;
+  color: #666;
+  margin-bottom: 5px;
+}
+#bcompany .filter-wrap .filter-item .filter-content a.active {
+  color: #fff;
+  background: #ff7f00;
+}
+#bcompany .filter-wrap .filter-item .more-img {
+  position: absolute;
+  right: 0;
+  bottom: 5px;
+  font-size: 14px;
+  color: #666;
+}
+#bcompany .company-list-wrap {
+  padding: 120px 0 10px;
+  margin-bottom: 10px;
+}
+#bcompany .company-list-wrap .company-list-box {
+  margin-bottom: 10px;
+}
+#bcompany .company-list-wrap .company-list-box li {
+  border-bottom: 1px solid #ddd;
+  padding: 20px;
+}
+#bcompany .company-list-wrap .company-list-box li:last-child {
+  border-bottom: none;
+  padding-bottom: 10px;
+}
+#bcompany .company-list-wrap .company-list-box li .company-logo {
+  width: 80px;
+  float: left;
+}
+#bcompany .company-list-wrap .company-list-box li .company-logo img {
+  border: 1px solid #ddd;
+  display: block;
+}
+#bcompany .company-list-wrap .company-list-box li .conpany-list-content {
+}
+#bcompany .company-list-wrap .company-list-box li .conpany-list-content .company-list-title, #bcompany .company-list-wrap .company-list-box li .conpany-list-content .int, #bcompany .company-list-wrap .company-list-box li .conpany-list-content .salary {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  color: #999;
+  font-size: 12px;
+}
+#bcompany .company-list-wrap .company-list-box li .conpany-list-content .company-list-title {
+  display: block;
+  color: #333;
+  font-size: 14px;
+  margin-bottom: 6px;
+}
+#bcompany .company-list-wrap .company-list-box li .conpany-list-content .int {
+  width: 58%;
+  float: left;
+}
+#bcompany .company-list-wrap .company-list-box li .conpany-list-content .int a {
+  color: #666;
+}
+#bcompany .company-list-wrap .company-list-box li .conpany-list-content .salary {
+  width: 40%;
+  float: right;
+  text-align: right;
+}
+#bcompany .company-list-wrap .page-box p {
+  padding: 15px 30px;
+}
+#bcompany .search-wrap {
+  margin-bottom: 10px;
+}
+#bcompany .search-wrap .search-main {
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 5px 10px;
+  position: relative;
+}
+#bcompany .search-wrap .search-main .search-btn {
+  position: absolute;
+  right: 0;
+  top: 5px;
+  width: 45px;
+  border-left: 1px solid #ddd;
+  color: #ff6500;
+  text-align: center;
+  height: 22px;
+  line-height: 22px;
+  font-size: 18px;
+}
+#bcompany .search-wrap .search-main .search-text {
+  padding-right: 56px;
+  height: 22px;
+  overflow: hidden;
+}
+#bcompany .search-wrap .search-main .search-text input {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  height: 22px;
+  line-height: 22px;
+  font-size: 14px;
+}
+#bcompany .none-tips {
+  padding: 20px 0 10px;
+  text-align: center;
+  font-size: 14px;
+  color: #666;
+}
+
+/*可能感兴趣的职位*/
+#bcompany .recommend-job {
+  padding: 20px 15px 15px;
+  background-color: #fff;
+  margin-bottom: 10px;
+}
+#bcompany .recommend-job  h3 {
+  border-left: 4px solid #ff7f00;
+  padding-left: 12px;
+  font-size: 17px;
+  color: #333;
+  margin-bottom: 10px;
+}
+#bcompany .recommend-job  h3 a.change-btn {
+  font-size: 16px;
+  color: #666;
+  float: right;
+}
+#bcompany .recommend-job .recommend-list a {
+  display: block;
+  padding: 15px;
+  background-color: #fff;
+  border-radius: 2px;
+  color: #666;
+  line-height: 1.8em;
+  position: relative;
+  border-bottom: 1px solid #dfdfdf;
+}
+#bcompany .recommend-job .recommend-list a:last-child {
+  border: none;
+}
+#bcompany .recommend-job .recommend-list a .job-title {
+  height: 25px;
+  font-size: 17px;
+  color: #333;
+}
+#bcompany .recommend-job .recommend-list a .job-title span {
+  float: left;
+  width: 70%;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+#bcompany .recommend-job .recommend-list a p {
+  font-size: 12px;
+  color: #666;
+}
+#bcompany .recommend-job .recommend-list a p span {
+  padding: 0 10px;
+}
+#bcompany .recommend-job .recommend-list a p span:first-child {
+  padding-left: 0;
+}
+
+.hot-links .tab-btn p:nth-last-child(1), .hot-links p:nth-last-child(2) {
+  display: none;
+}
+.hot-links .tab-box .tab-content:nth-last-child(1), .hot-links .tab-box .tab-content:nth-last-child(2) {
+  display: none;
+}
+
+/*同行业名企招聘*/
+
+/*同行业热门公司招聘*/
+.hot-company {
+  background: #fff;
+  margin-bottom: 10px;
+  padding: 10px;
+}
+.hot-company .recommend-company-list {
+  width: 100%;
+}
+.hot-company .recommend-company-list a.company-card {
+  border: 1px solid #ddd;
+  padding: 10px;
+  width: 40%;
+  display: block;
+  float: left;
+  margin-right: 7px;
+  margin-bottom: 5px;
+}
+.hot-company .recommend-company-list a img {
+  width: 40%; /* border: 1px solid #eaebef;*/
+  float: left;
+  margin: 0 5%;
+}
+.hot-company .recommend-company-list a p.company-name {
+  width: 45%;
+  font-size: 12px;
+  color: #666;
+  float: left;
+  height: 30px;
+  overflow: hidden;
+  text-align: left;
+}
+.h3-title {
+  border-left: 4px solid #ff7f00;
+  padding-left: 12px;
+  font-size: 17px;
+  color: #333;
+  margin-bottom: 10px;
+}
+.h3-title  span {
+  float: right;
+  font-size: 14px;
+  margin-top: 2px;
+}
+.h3-title  span i {
+  margin-right: 3px;
+}
+
+.aui-localdataui .aui-localdataui-scroll li a {
+  position: relative;
+  line-height: 44px;
+  height: 45px;
+  font-size: 15px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.aui-localdataui .aui-localdataui-scroll:only-child li[data-selected="selected"] .text-icon, .aui-localdataui .aui-localdataui-scroll+.aui-localdataui-scroll li[data-selected="selected"] .text-icon {
+  right: 0;
+}
+.aui-localdataui .aui-localdataui-scroll {
+  overflow-y: scroll;
+}
+.aui-localdataui .aui-localdataui-scroll ul {
+  overflow-y: scroll;
+}
+.aui-localdataui .aui-localdataui-select-box {
+  overflow-y: scroll;
+}
+.search-box .input .input-wrap input{
+  padding-left: 40px;
+}
+.search-box {
+  padding: 10px;
+  margin-top: 10px;
+}

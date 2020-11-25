@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!--#include virtual="/fe-mobile-h5/v5/src/includes/v5/resources_c.shtml"-->
+  <title>猎奇第二季·揭秘Soul</title>
+  <link rel="stylesheet" href="//s.lietou-static.com/fe-mobile-h5/v5/css/pages/event/demo.css">
+</head>
+
+<body>
+  <i class="left-decorate"></i>
+  <i class="right-decorate"></i>
+
+  <section class="banner-section"><i></i></section>
+
+  <section class="news-section">
+    <div class="banner-bg"></div>
+    <div class="text-bg"></div>
+    <div class="point-decorate"></div>
+  </section>
+
+  <section class="comp-section">
+    <div class="banner-bg"></div>
+    <div class="video-wrap">
+      <div class="video-inner">
+        <div id='plv_2f0990bf800e7e6869f6b2eb78ec0663_2' class="video-player"></div>
+      </div>
+    </div>
+    <div class="text-bg"></div>
+    <div class="point-decorate"></div>
+  </section>
+
+  <section class="job-section">
+    <div class="banner-bg"></div>
+    <ul data-selector="job-wrap"></ul>
+    <a href="javascript:;" data-id="9594289" data-selector="more-btn" class="more-btn">查看更多</a>
+    <div class="point-decorate"></div>
+  </section>
+
+  <section class="secret-section">
+    <div class="banner-bg"></div>
+    <div class="q1"></div>
+    <div class="a1"></div>
+    <div class="q2"></div>
+    <div class="a2"></div>
+    <div class="point-decorate"></div>
+  </section>
+  <section class="bot-bg"><i class="logo"></i></section>
+  <script src="//player.polyv.net/script/polyvplayer.min.js"></script>
+  <script src="//s.lietou-static.com/fe-mobile-h5/v5/js/pages/event/demo.js"></script>
+</body>
+
+</html>

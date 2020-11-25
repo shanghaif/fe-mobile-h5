@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>岗位职责</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <!--#include virtual="/fe-mobile-h5/v5/src/includes/v5/resources_c.shtml"-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0, viewport-fit=cover">
+  <link rel="stylesheet" href="//s.lietou-static.com/fe-mobile-h5/v5/css/common/common.css">
+  <link rel="stylesheet" href="//s.lietou-static.com/fe-mobile-h5/v5/css/pages/aggregation.home.css">
+</head>
+
+<body>
+  <!--#include virtual="/fe-mobile-h5/v5/src/includes/v5/header.shtml"-->
+  <div class="aggregation-home">
+    <div class="breadcrumb">
+      <a href="https://m.liepin.cn/" title="招值网">招聘网</a>&gt;
+      <a href="https://m.liepin.cn/qiuzhi/" title="求职网">PHP就业前景</a>&gt;
+      <a href="javascript:;" title="#" class="last">PHP薪资待遇</a>
+    </div>
+    <div class="profession">PHP就业前景</div>
+    <div class="link-navbar flexbox">
+      <a href="#" title="主页">主页</a>
+      <a href="#" title="招聘信息">招聘信息</a>
+      <a href="#" title="薪资待遇">薪资待遇</a>
+      <a href="#" title="简历模板" class="active">岗位职责</a>
+    </div>
+    <div class="duty-desc">
+      <h4>php程序岗位职责</h4>
+      <p>php程序员 php程序员 中金本科及以上新大聚合，书记接机动车结婚登记php程序员 中金本科及以上新大聚合，书记接机动车结婚登记</p>
+    </div>
+    <div class="salary">
+      <div class="salary-distribution-container">
+        <h6 class="job-duty-salary-title">月均薪资分布</h6>
+        <p>PHP薪资待遇数据详情<span data-selector="look-salary-info" class="text-icon icon-questionmask"></span></p>
+        <div class="echarts-salary" id="echarts-salary"></div>
+        <!-- 未登录 -->
+        <p class="salary-prompt">您的薪资在XX行业处于XX水平，登录/注册查看详细数据。<a href="">去登录/注册〉</a></p>
+        <!-- 已登录-是完简用户  -->
+        <!-- todo: 链接区分.com和.cn -->
+        <!-- <p class="salary-prompt">您的薪资在XX行业处于XX水平，下图为XX行业整体薪资数据及您当前所处的位置，<a href="https://m-c.liepin.com/activity/active-recruiter-topic/job-page">投递这些优选职位，可提高薪资水平〉</a></p> -->
+        <!-- 已登录，不是完简用户 -->
+        <!-- <p class="salary-prompt">您的薪资在XX行业处于XX水平，完善简历查看详细数据<a href="">去完善〉</a></p> -->
+      </div>
+    </div>
+    <!--#include virtual="/fe-mobile-h5/v5/src/includes/v5/footer_c.shtml"-->
+    <div class="echarts-bar-container">
+      <div class="edu-echarts" id="edu-echarts"></div>
+    </div>
+    <div class="related-job-recommend">
+      <h4>PHP程序相关职位职责</h4>
+      <ul>
+        <li>
+          <a href="/gw/phpyingyonggongchengshi/" title="#" class="clearfix flexbox">
+            <span class="job-name flex-1">PHP应用工程师岗位职责</span>
+            <i class="text-icon icon-go-ahead"></i>
+          </a>
+        </li>
+        <li>
+          <a href="/gw/phpbiancheng/" title="#" class="clearfix flexbox">
+            <span class="job-name flex-1">php编程岗位职责</span>
+            <i class="text-icon icon-go-ahead"></i>
+          </a>
+        </li>
+      </ul>
+    </div>
+    <!-- 无数据展示 -->
+    <!-- <div class="no-result">
+    <p class="no-result-tips">暂无数据，以下是为您推荐相关岗位职责</p>
+    <section class="gw-content">
+      <h4>产品经理岗位职责</h4>
+      <p><span>PHP程序员 广州区块链研究院HP程序员 广州区块链研究院</span>
+        <a href="">查看更多</a>
+      </p>
+    </section>
+    <section class="gw-content">
+      <h4>产品经理岗位职责</h4>
+      <p>PHP程序员 广州区块链研究院HP程序员 广州区块链研究院
+        <a href="">查看更多</a>
+      </p>
+    </section>
+    <section class="related-job-recommend">
+      <ul>
+        <li>
+          <a href="#" title="#" class="clearfix flexbox">
+            <span class="job-name flex-1">助理产品经理岗位职责</span>
+            <i class="text-icon icon-go-ahead"></i>
+          </a>
+        </li>
+        <li>
+          <a href="#" title="#" class="clearfix flexbox">
+            <span class="job-name flex-1">助理产品经理岗位职责</span>
+            <i class="text-icon icon-go-ahead"></i>
+          </a>
+        </li>
+      </ul>
+    </section>
+  </div> -->
+    <!-- 无数据展示结束 -->
+  </div>
+  <script>
+    var $CONFIG = {
+      pageSymbol: 'gwzz',
+      isLogined: false,
+      salaryData: [
+        { name: "后端开发", value: 52 },
+        { name: "高端技术职位", value: 14 },
+        { name: "测试", value: 13 },
+        { name: "前端开发", value: 11 },
+        { name: "运维/技术支持", value: 10 },
+      ],
+      eduData: [
+        { name: "大专", value: 52 },
+        { name: "本科", value: 14 },
+        { name: "平均", value: 13 },
+      ],
+      keyWord: 'PHP程序设计'
+    }
+  </script>
+  <script src="https://concat.lietou-static.com/fe-mobile-h5/v5/babel-polyfill/6.8.0/polyfill.min.js"></script>
+  <script crossorigin="anonymous" src="https://concat.lietou-static.com/fe-lib-h5/v5/femonitor/femonitor.min.js"></script>
+  <script src="https://s.lietou-static.com/fe-mobile-h5/v5/static/js/react.min.js"></script>
+  <script src="https://s.lietou-static.com/fe-mobile-h5/v5/static/js/react-dom.min.js"></script>
+  <script src="https://s.lietou-static.com/fe-mobile-h5/v5/static/js/vendor.js"></script>
+  <script src="https://s.lietou-static.com/fe-mobile-h5/v5/js/common/common.js"></script>
+  <script src="https://s.lietou-static.com/fe-mobile-h5/v5/static/js/echarts.min.js"></script>
+  <script src="//s.lietou-static.com/fe-mobile-h5/v5/js/pages/aggregation.home.js"></script>
+  <!--#include virtual="/fe-mobile-h5/v5/src/includes/v5/statistic.shtml"-->
+</body>
+
+</html>

@@ -1,0 +1,278 @@
+.guquan-container {
+  /* 公用title样式 */
+  .h3-title {
+    border-left: 4px solid #ff7f00;
+    padding-left: 12px;
+    font-size: 17px;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  .h3-title  span {
+    float: right;
+    font-size: 14px;
+    margin-top: 2px;
+  }
+  .h3-title  span i {
+    margin-right: 3px;
+  }
+  /*面包屑导航*/
+  .navbars {
+    line-height: 18px;
+    font-size: 12px;
+    background-color: transparent;
+    padding: 0 15px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    color: #fff;
+    background: #20272b;
+    a, i {
+      line-height: 30px;
+      vertical-align: middle;
+    }
+    a {
+      display: inline;
+      font-size: 12px;
+      color: #fff;
+      line-height: 30px;
+    }
+    a.home_link {
+      color: #fff;
+    }
+    .icon-line-right {
+      display: inline;
+      font-size: 24px;
+      color: #e9e9e9;
+      font-style: normal;
+    }
+    .icon-go-ahead {
+      font-size: 30px;
+      display: inline;
+      color: #e9e9e9;
+    }
+  }
+  /*上方公司名片*/
+  .company-info {
+    position: relative;
+    background: url(../../static/images/pages/company/company_bg.jpg) no-repeat center top;
+    background-size: cover;
+    padding: 30px 15px 18px;
+    .info-main {
+    }
+    .info-main .company-logo {
+      width: 60px;
+      height: 60px;
+      float: left;
+    }
+    .info-main .info-content {
+      padding-left: 70px;
+    }
+    .info-main .info-content .company-name {
+      color: #fff;
+      font-size: 16px;
+      line-height: 16px;
+      margin-bottom: 10px;
+    }
+    .info-main .info-content .favorite-main {
+    }
+    .operations .btn {
+      height: 28px;
+      line-height: 28px;
+      padding: 0 15px;
+      background: #fd904f;
+      color: #fff;
+      font-size: 14px;
+      display: inline-block;
+      width: auto;
+      border: 0 none;
+      vertical-align: middle;
+      margin-right: 10px;
+    }
+    .operations .btn.active {
+      background: #ccc;
+    }
+    .operations .follow-count {
+      color: #fff;
+      line-height: 28px;
+      display: inline-block;
+      vertical-align: middle;
+    }
+    .operations .follow-count i {
+      font-style: normal;
+    }
+  }
+  /*漂浮导航*/
+  .tab-main {
+    background: #fff;
+    &.fixed{
+      position: fixed;
+      width: 100%;
+      top:0;
+      z-index: 3;
+    }
+    a{
+      display: block;
+      color: #666;
+      font-size: 14px;
+      text-align: center;
+      border-bottom: 1px solid #d9d9d9;
+      padding: 4px 0;
+      line-height: 26px;
+    }
+    a.active{
+      border-bottom: 2px solid #fd904f;
+    }
+    a span{
+      display: block;
+      border-right: 1px solid #d9d9d9;
+    }
+    a:last-child span{
+      border-right: none;
+    }
+  }
+  /* 公用盒子 info-box */
+  .info-box {
+    background-color: #fff;
+    padding: 18.5px 10px 0;
+    margin-bottom: 10px;
+    .info-title {
+      color: #666;
+      font-weight: bold;
+      padding-left: 9px;
+      line-height: 20px;
+      border-left: 3px solid #f64;
+    }
+    .info-content {
+      /* 股东信息 */
+      &.shareholder-info-wrap {
+        padding: 0 9.5px 16px;
+        dt {
+          color: #333;
+          font-size: 14px;
+          padding: 18px 0 10px;
+          > span {
+            font-size: 12px;
+          }
+        }
+        dd {
+          border: 1px solid #eee;
+          border-left: 0;
+          border-right: 0;
+          text-align: center;
+          > div {
+            position: relative;
+            &:before {
+              content: "";
+              position: absolute;
+              left: 0;
+              top: 50%;
+              width: 1px;
+              height: 24px;
+              margin-top: -12px;
+              background-color: #eee;
+            }
+            h5 {
+              color: #999;
+              font-size: 12px;
+              padding: 10px 0 5px;
+            }
+            p {
+              padding-bottom: 10px;
+            }
+          }
+          /* 隐藏第一条线 */
+          > div:first-child {
+            &:before {
+              display: none;
+            }
+          }
+        }
+
+      }
+      /* 对外投资 */
+      &.outside-invest-wrap {
+        dl {
+          padding-bottom: 6px;
+          border-bottom: 1px solid #eee;
+          &:last-child {
+            border-bottom: 0;
+          }
+          dt {
+            > a {
+              display: inline-block;
+              color: #333;
+              font-size: 15px;
+              padding: 18px 0 10px;
+              text-decoration: none;
+            }
+          }
+          dd {
+            color: #666;
+            font-size: 12px;
+            padding-bottom: 10px;
+          }
+        }
+      }
+      /* 分公司 */
+      &.subsidiary-company-wrap {
+        ul {
+          padding: 18px 0;
+          li {
+            > a {
+              color: #666;
+              font-size: 14px;
+            }
+            padding-bottom: 10px;
+          }
+        }
+      }
+    }
+  }
+  /* 同行业热门公司 */
+  .hot-company {
+    background: #fff;
+    margin-bottom: 10px;
+    padding: 10px;
+  }
+  .hot-company .h3-title a{
+    font-size: 15px;
+    color: #666;
+    float: right;
+  }
+  .hot-company .recommend-company-list {
+    width: 100%;
+  }
+  .hot-company .recommend-company-list a.company-card {
+    border: 1px solid #ddd;
+    padding: 10px;
+    width: 40%;
+    display: block;
+    float: left;
+    margin-right: 7px;
+    margin-bottom: 5px;
+  }
+  .hot-company .recommend-company-list a img {
+    width: 40%; /* border: 1px solid #eaebef;*/
+    float: left;
+    margin: 0 5%;
+  }
+  .hot-company .recommend-company-list a p.company-name {
+    width: 45%;
+    font-size: 12px;
+    color: #666;
+    float: left;
+    height: 30px;
+    overflow: hidden;
+    text-align: left;
+  }
+  /* 热门职位等seo tab */
+  .hot-links {
+    margin-bottom: -20px;
+  }
+  .hot-links .tab-btn p:nth-last-child(1), .hot-links p:nth-last-child(2) {
+    display: none;
+  }
+  .hot-links .tab-box .tab-content:nth-last-child(1), .hot-links .tab-box .tab-content:nth-last-child(2) {
+    display: none;
+  }
+}

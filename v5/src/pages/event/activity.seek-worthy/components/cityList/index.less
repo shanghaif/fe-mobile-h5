@@ -1,0 +1,123 @@
+.city-list-container {
+  position: relative;
+  justify-content: space-between;
+  min-height: 100%;
+  .city-banner {
+    width: 100%;
+    padding: 27.267% 0;
+    &.city-banner0 {
+      background: url(../../images/bj-banner.png) no-repeat 0 0 / cover;
+    }
+    &.city-banner1 {
+    background: url(../../images/sh-banner.png) no-repeat 0 0 / cover;
+    }
+    &.city-banner2 {
+      background: url(../../images/sz-banner.png) no-repeat 0 0 / cover;
+    }
+    &.city-banner3 {
+      background: url(../../images/gz-banner.png) no-repeat 0 0 / cover;
+    }
+    &.city-banner4 {
+      background: url(../../images/hz-banner.png) no-repeat 0 0 / cover;
+    }
+    &.city-banner5 {
+      background: url(../../images/nj-banner.png) no-repeat 0 0 / cover;
+    }
+    &.city-banner6 {
+      background: url(../../images/xm-banner.png) no-repeat 0 0 / cover;
+    }
+
+    &.city-banner7 {
+      background: url(../../images/fs-banner.png) no-repeat 0 0 / cover;
+    }
+    &.city-banner8 {
+      background: url(../../images/cd-banner.png) no-repeat 0 0 / cover;
+    }
+    &.city-banner9 {
+      background: url(../../images/fz-banner.png) no-repeat 0 0 / cover;
+    }
+  }
+  .city-list-content {
+    width: 100%;
+    flex-grow: 1;
+    padding: 0 20px;
+    .city-list {
+      flex-grow: 1;
+      padding: 20px;
+      border-radius: 4px;
+      background-color: #fff7f4;
+      .city-list-item {
+        padding: 20px 0;
+        .city-info {
+          justify-content: space-between;
+          margin-bottom: 10px;
+          .city-job-title {
+            flex-grow: 1;
+            margin-right: 5px;
+            color: #000;
+          }
+          .city-job-salary {
+            flex-shrink: 0;
+            color: #f34d19;
+          }
+        }
+        .city-job-comp {
+          margin-bottom: 10px;
+          font-size: 13px;
+          color: #999;
+        }
+        .city-job-require {
+          span {
+            display: inline-block;
+            padding: 2px 6px;
+            margin: 0 10px 5px 0;
+            font-size: 12px;
+            color: #999;
+            background-color: #efefef;
+            border-radius: 20px;
+          }
+        }
+        dl {
+          margin-top: 5px;
+          dt {
+            width: 20px;
+            height: 20px;
+            margin-right: 6px;
+            img {
+              width: 100%;
+              height: 100%;
+              border-radius: 50%;
+            }
+          }
+          dd {
+            font-size: 12px;
+            color: #000;
+          }
+        }
+        border-top: 1px solid #cfcfcf;
+        &:first-child {
+          border-top: none;
+        }
+      }
+    }
+  }
+  .foot-logo-container {
+    position: relative;
+    width: 100%;
+    padding: 46px 0 60px;
+    text-align: center;
+    background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAABkBAMAAABnUk0LAAAAGFBMVEXzTRnyRxbxQxTxPhLuLgvwORDvNQ7sJgjN8dpEAAAAyElEQVQ4y7WSQQ6CMBBFrcR9wQuMGPcVgydodCtB3RvBK3B9E//vYmJCTJzO5mcYwutjuvi1PGLDtkGUCDw2r8qrdieqdZjmrQMhT2TDtmdm9T3KrL4Ns9Q5EnISpT9m8V3rr16D8huC8iyNfMmskS8yI/IubEUxaxv21s8ILs8BaetLz7TJoQMzBtVOFxxQ+LKYsikYlWAxdUiOW1Hrdia+LibBDv/4gSNMn3TtHtNbsNB1ZDsKkl0kX7BXaft63dWfd6r3X4JvppEYMUaKFrMAAAAASUVORK5CYII=) repeat-x center bottom / 14px auto;
+    .foot-logo {
+      display: inline-block;
+      width: 109px;
+      height: 35px;
+      background: url(../../images/city-logo.png) no-repeat 0 0 / cover;
+    }
+  }
+  .foot-word {
+    flex-shrink: 0;
+    margin-top: 6px;
+    width: 100%;
+    height: 10px;
+  }
+}

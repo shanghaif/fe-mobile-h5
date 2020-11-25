@@ -1,0 +1,14 @@
+/*===字体颜色===*/
+.muted {
+  color: #999;
+}
+.text-warning {
+  color: #fa0;
+}
+.text-error {
+  color: rgba(255, 59, 59, 0.95);
+}
+.text-info {
+  color: #45b1ff;
+}
+

@@ -1,0 +1,99 @@
+.live-score-container {
+  padding: 0 18px;
+  padding-bottom: constant(safe-area-inset-bottom);
+  padding-bottom: env(safe-area-inset-bottom);
+  .live-score-title {
+    padding: 18px 0;
+    margin: 0 -18px;
+    font-weight: bold;
+    font-family: "PingFangSC-Medium,PingFang SC";
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+    border-bottom: 1px solid #eee;
+  }
+  .live-score-star {
+    dt {
+      padding: 10px 0 16px;
+      text-align: center;
+      span {
+        margin: 0 8px;
+        font-size: 27px;
+        color: #DDD;
+        &.star-active {
+          color: #FFBC44;
+        }
+      }
+    }
+    dd {
+      padding-bottom: 16px;
+      color: #999;
+      font-size: 13px;
+      line-height: 18px;
+      text-align: center;
+      &.tag-title-active {
+        color: #F64;
+      }
+    }
+  }
+  .tag-content {
+    padding: 16px 0 8px;
+    overflow: hidden;
+    li {
+      float: left;
+      margin: 0 8px 12px 0;
+      background-color:rgba(248,248,248,1);
+      border-radius: 2px;
+      span {
+        display: inline-block;
+        padding: 7px 14px;
+        color: #333;
+        font-size: 13px;
+        line-height: 18px;
+      }
+      &.tag-active {
+        background-color: #f64;
+        span {
+          color: #fff;
+        }
+      }
+      &.tag-success {
+        background-color: transparent;
+        border: 1px solid #f64;
+        span {
+          color: #f64;
+        }
+      }
+    }
+  }
+  .violet-textarea-wrap {
+    height: 93px;
+    padding: 10px 0;
+    background-color: rgba(248,248,248,1);
+    .score-textarea {
+      min-height: auto;
+      max-height: auto;
+      height: 100%;
+      padding-left: 10px;
+      background: transparent;
+      &::-webkit-input-placeholder{
+        color: #aaa;
+      }
+    }
+    .violet-textarea-content {
+      border: none;
+    }
+    .violet-textarea-tips {
+      margin: -20px 10px 0 0;
+      color: #999;
+    }
+  }
+  button {
+    width: 100%;
+    margin: 23px 0 14px;
+  }
+  button.violet-btn[disabled] {
+    background-color: #FFB2A1;
+    border-color: #FFB2A1 !important;
+  }
+}

@@ -1,0 +1,279 @@
+// 空页样式
+html, body {
+  height: 100%;
+}
+.empty-wrap {
+  padding-bottom: 120px;
+  min-height: 100%;
+  text-align: center;
+  background-color: #fff;
+  i {
+    display: block;
+    width: 138px;
+    height: 95px;
+    margin: 110px auto 0;
+    background: url(./images/empty-bg.png) 0 0 / cover;
+  }
+  h4 {
+    line-height: 41px;
+    font-size: 25px;
+    color: #2d2e34;
+  }
+  h5 {
+    margin-bottom: 50px;
+    line-height: 32px;
+    font-size: 16px;
+    color: #666;
+  }
+  a {
+    display: block;
+    width: 63.2%;
+    margin: auto;
+    line-height: 44px;
+    font-size: 14px;
+    border-radius: 4px;
+    font-weight: bold;
+    background-color: #f64;
+    color: #fff;
+  }
+}
+
+.result-wrap {
+  padding-bottom: 120px;
+  .banner-wrap {
+    position: relative;
+    padding: 44% 0;
+    background: url(./images/banner.png) center / 100% 100%;
+    color: #fff;
+    h3 {
+      position: absolute;
+      left: 15px;
+      bottom: 77.5757%;
+      line-height: 28px;
+      padding: 0 20px;;
+      font-size: 18px;
+      &:before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        border: 1px solid #fff;
+        border-radius: 15px;
+        background-color: rgba(255, 255, 255, 0.1);
+        opacity: 0.5;
+      }
+    }
+    h4 {
+      position: absolute;
+      left: 15px;
+      bottom: 55%;
+      font-size: 20px;
+      i {
+        font-size: 40px;
+        color: #ff6f4f;
+        font-style: normal;
+      }
+    }
+    h5 {
+      position: absolute;
+      left: 15px;
+      bottom: 46.2121%;
+      font-size: 13px;
+      font-weight: normal;
+    }
+  }
+  .thumbnail-wrap {
+    position: relative;
+    margin-top: -107px;
+    .chart-section {
+      margin: 15px;
+      padding: 20px 47px 37px 20px;
+      border-radius: 6px;
+      background-color: #fff;
+      box-shadow: 0 0 12px rgba(28, 18, 63, 0.07);
+      text-align: left;
+      h4 {
+        padding-bottom: 18px;
+        line-height: 20px;
+        font-size: 16px;
+      }
+      .canvas-wrap {
+        position: relative;
+        canvas {
+          width: 100%;
+          height: 120px;
+        }
+        i {
+          visibility: hidden;
+          position: absolute;
+          left: 0;
+          top: 0;
+          padding: 0 7px;
+          line-height: 20px;
+          border-radius: 3px;
+          font-size: 10px;
+          color: #fff;
+          background-color: #2d2e34;
+          font-style: normal;
+          &:after {
+            content: "";
+            position: absolute;
+            right: 0;
+            top: 50%;
+            border-left: 4px solid #2d2e34;
+            border-top: 5px solid transparent;
+            border-bottom: 5px solid transparent;
+            transform: translate(100%, -50%);
+          }
+        }
+      }
+    }
+  }
+  .data-wrap {
+    margin: 0 15px;
+    .data-section {
+      margin-bottom: 15px;
+      padding: 18px 15px;
+      border-radius: 6px;
+      background-color: #fff;
+      h4 {
+        line-height: 26px;
+        font-size: 16px;
+        color: #333;
+      }
+      h5 {
+        margin-bottom: 18px;
+        line-height: 23px;
+        font-size: 13px;
+        color: #666;
+        font-weight: normal;
+      }
+      ul{
+        padding: 10px;
+        border-radius: 6px;
+        background-color: #fafbfc;
+        font-size: 11px;
+        line-height: 33px;
+        color: #999;
+        li {
+          font-size: 11px;
+          line-height: 33px;
+          .item-title {
+            flex-shrink: 0;
+            width: 5em;
+          }
+          .scroller {
+            position: relative;
+            height: 15px;
+            margin: 0 10px;
+            border-radius: 8px;
+            background-color: #f1f1f2;
+            span {
+              position: absolute;
+              top: 0;
+              left: 0;
+              bottom: 0;
+              border-radius: 8px;
+              i {
+                position: absolute;
+                right: 0;
+                bottom: 90%;
+                margin-right: -20px;
+                padding: 0 7px;
+                line-height: 20px;
+                border-radius: 3px;
+                font-size: 10px;
+                color: #fff;
+                background-color: #2d2e34;
+                font-style: normal;
+                white-space: nowrap;
+                &:after {
+                  content: "";
+                  position: absolute;
+                  bottom: 0;
+                  left: 50%;
+                  border-top: 4px solid #2d2e34;
+                  border-left: 5px solid transparent;
+                  border-right: 5px solid transparent;
+                  transform: translate(-50%, 100%);
+                }
+              }
+            }
+          }
+          h3 {
+            width: 4em;
+            flex-shrink: 0;
+            font-weight: normal;
+          }
+        }
+      }
+      
+      ul.industry-wrap {
+        span {
+          background: linear-gradient(to right,#6a8bde, #9ab9fe);
+        }
+      }
+      ul.work-wrap {
+        span {
+          background: linear-gradient(to right,#fd8a62,#ffc77e);
+        }
+      }
+
+      ul.dq-wrap {
+        span {
+          background: linear-gradient(to right,#64bfed, #9ce1ef);
+        }
+      }
+
+      ul.edu-wrap {
+        span {
+          background: linear-gradient(to right,#64daa3, #afe7c6);
+        }
+      }
+    }
+  }
+  .btn-wrap {
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding: 8px 10px 12px;
+    box-shadow: 0 0 13px rgba(28, 18, 63, 0.1);
+    text-align: center;
+    background-color: #fff;
+    p {
+      line-height: 39px;
+      font-size: 12px;
+      color: #333;
+    }
+    a {
+      display: block;
+      width: 100%;
+      margin: auto;
+      line-height: 44px;
+      font-size: 16px;
+      border-radius: 4px;
+      font-weight: bold;
+      background-color: #f64;
+      color: #fff;
+    }
+  }
+}
+a.more-btn {
+  display: block;
+  line-height: 60px;
+  color: #666;
+  font-size: 16px;
+  text-decoration: underline;
+  text-align: center;
+}
+@media only screen and (device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3) {
+  .result-wrap {
+    padding-bottom: 154px;
+    .btn-wrap {
+      padding-bottom: 46px;
+    }
+  }
+}

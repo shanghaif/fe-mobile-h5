@@ -1,0 +1,26 @@
+/*面包屑导航*/
+.navbars {
+  background-color: #fff;
+  padding: 20px 18px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.navbars a,
+.navbars i {
+  float: left;
+  font-size: 13px;
+  color: #999;
+}
+.navbars i {
+  margin: 0 5px;
+}
+.navbars .icon-go-ahead {
+  font-size: 30px;
+  display: inline;
+  color: #e9e9e9;
+}
+/*面包屑导航end*/
+
+/*内链模块样式开始*/
+

@@ -1,0 +1,154 @@
+html,
+body {
+  background-color: #fff;
+}
+
+body {
+  padding-bottom: 32px;
+}
+.ellipsis {
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+.banner {
+  padding: 20.73% 0;
+  background: url(./images/banner.jpg) center / 100% 100%;
+}
+
+.tab-bar {
+  line-height: 44px;
+  border-bottom: 1px solid #e7e7e7;
+  background-color: #fff;
+  font-size: 18px;
+  li {
+    flex: 1;
+    &.selected {
+      position: relative;
+      &:after {
+        content: "";
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        transform: translate(-50%, 0);
+        width: 28px;
+        height: 4px;
+        background-color: #f64;
+      }
+    }
+  }
+}
+
+.job-list {
+  display: none;
+  padding: 0 16px;
+  &.show {
+    display: block;
+  }
+  dl {
+    padding: 13px 0;
+    border-bottom: 1px solid #e7e7e7;
+  }
+  &.campus-job-list {
+    .job-title {
+      font-size: 16px;
+      line-height: 22px;
+      span {
+        flex-shrink: 1;
+      }
+      .fire-icon {
+        display: inline-block;
+        width: 18px;
+        height: 16px;
+        margin-left: 8px;
+        flex-shrink: 0;
+        background: url(./images/fire.png) center / 100% 100%;
+      }
+    }
+    .job-publish-info {
+      line-height: 28px;
+      font-size: 12px;
+      color: #616161;
+      .job-company {
+        flex: 1;
+      }
+      .job-publish-date {
+        margin-left: 8px;
+        flex-shrink: 0;
+      }
+    }
+    .job-info {
+      color: #82B646;
+      font-size: 12px;
+      span {
+        margin-left: 6px;
+        &:first-child {
+          margin: 0;
+        }
+      }
+    }
+  }
+  &.society-job-list {
+    dt {
+      flex-shrink: 0;
+      width: 48px;
+      height: 48px;
+      margin-right: 14px;
+      img {
+        display: block;
+        width: 100%;
+        height: 100%;
+      }
+    }
+    dd {
+      flex: 1;
+      .job-top {
+        font-size: 16px;
+        line-height: 18px;
+        .job-title {
+          flex: 1;
+          span {
+            flex-shrink: 1;
+          }
+          .text-icon {
+            flex-shrink: 0;
+            margin-left: 4px;
+            color: #f00;
+          }
+        }
+        .job-salary {
+          flex-shrink: 0;
+          margin-left: 8px;
+          color: #f64;
+        }
+      }
+      .job-company {
+        line-height: 28px;
+        color: #3c3c3c;
+        font-size: 12px;
+      }
+      .job-info {
+        line-height: 16px;
+        font-size: 12px;
+        color: #999;
+        span {
+          display: inline-block;
+          margin-left: 5px;
+          &:first-child {
+            margin: 0;
+          } 
+        }
+      }
+    }
+  }
+}
+
+.more-job {
+  display: block;
+  width: 66.67%;
+  margin: 20px auto 0;
+  line-height: 44px;
+  font-size: 16px;
+  color: #fff;
+  background-color: #f64;
+}

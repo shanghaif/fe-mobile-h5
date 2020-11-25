@@ -1,0 +1,140 @@
+.live-desc-wrap {
+  z-index: 1;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  padding: 15px 18px 0;
+  overflow: visible;
+  color: #fff;
+  .live-desc-content {
+    position: relative;
+  }
+  h5 {
+    line-height: 28px;
+    font-weight: bold;
+    font-size: 20px;
+  }
+  .live-info-wrap {
+    justify-content: space-between;
+    align-items: flex-end;
+    line-height: 15px;
+    font-size: 11px;
+    a {
+      padding: 8px 0 0 40px;
+      color: inherit;
+    }
+    .text-icon {
+      font-size: 8px;
+      margin-left: 5px;
+    }
+  }
+  .desc-bg {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: -2px;
+    height: 120px;
+    background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAu4AAADwCAMAAABogBE6AAAAq1BMVEUAAAAAAAAAAAAAAAAAAAYAAAQAAAAECh4DChwDChsDCRsDCRoDCBoECBkDCRgDCBgDCBYDCBYDBxUDBxUDBxQCBhQCBhMCBhICBhECBRACBRACBg8CBQ8CBA4BBA4BBA0ABAsAAwwAAwoAAwsAAwkAAAUAAAUAAAMAAAADCh0AAQcAAwkAAQcAAwoAAggDCRwAAAAAAAAECBkDCBcCBhQCBREBBA0AAwkECh5TDCWeAAAAOHRSTlMjBQwSQDod++/q5eDb1M/Kw765tK+qo56Zko2Ig355cm1oZF5SNjErF/ZIV0RbTPInANjHp5Z2T773SEcAAAMzSURBVHja7NKBAAAADAShYc2f7EGuGLqHDN0J0Z0Q3QnRnRDdCdGdEN0J0Z0Q3QnRnRDdCdGdEN0J0Z0Q3QnRnRDdCdGdEN0J0Z0Q3QnRnRDdCdGdEN0J0Z0Q3QnRnRDdCdGdEN0J0Z0Q3QnRnRDdCdGdEN0J0Z0Q3QnRnRDdCdGdEN0J0Z0Q3QnRnRDdCdGdEN0J0Z0Q3QnRnRDdCdGdEN0J0Z0Q3QnRnRDdCdGdEN0J0Z0Q3QnRnRDdCdGdEN0J0Z0Q3QnRnRDdCdGdEN0J0Z0Q3QnRnRDdCdGdEN0J0Z0Q3ccunZswFARREBxP9xXGtxak/HOTQJZSUFfBsgPPbULkTojcCZE7IXInRO6EyJ0QuRMid0LkTojcCZE7IXInRO6EyJ0QuRMid0LkTojcCZE7IXInRO6EyJ0QuRMid0LkTojcCZE7IXInRO6EyJ0QuRMid0LkTojcCZE7IXInRO6EyJ0QuRMid0LkTojcCZE7IXInRO6EyJ0QuRMid0LkTojcCZE7IXInRO6EyJ2Q2UGG3AmZDTLm89ba1uf7Xr/WZrf/zz4LMmYPGXInZA6QIXdC5ggZcidkTpAhd0LmDBlyJ2SekDEXyJA7IXOFDLkTMjfIkDsh84KMuUOG3AmZB2TInXe79JVSTRAAYbS8wQX8OQczJhQM+9+ZYwDnovhu1zlM6OZ7rSL5ADXMnSL5CDXMnSL5BDXMnSL5DDXMnSK5ghr5AjXMnSL5CjXMnSL5BjXMnSK5hhr5DjXMnSL5ATXMnSL5CTXMnSL5BTXMnSL5DTXMnSL5AzXMnSK5gRr5CzXMnSL5BzXMnSL5DzXMnSLZgRrmTpHsQg1zp0jOoEam9+TB4//s+T6Zvro+Ts8J1Mge1DB3iuQWauQcauT43v3p4fDypuvj9BxDjZxCjazmt9WT2VnXx+lZQY2s1uv5fbpt0vVxetZQw9wpkn2oYe4UyQHUMHeK5BBqmDtFcgE18iZdH7lDsW1dH6lvQw1zp0iOoIa5UyRLqGHuFMlibrl8cdb1cXqmd/ZMNs+bj66/654F1MgW1Mj0Lmb3xez7eNT1YXq2XnP5fNT1cXouocYd02QKmkVG7hkAAAAASUVORK5CYII=) center / 100% 100%;
+    // background: linear-gradient(180deg,rgba(5,1,29,1) 0%,rgba(0,0,0,0) 100%,rgba(7,15,40,0) 100%);
+  }
+  .desc-notice-bg {
+    height: 170px;
+  }
+}
+.live-hidden-desc-wrap {
+  padding-top: 0;
+  padding-left: 0;
+  padding-right: 0;
+  .popup-desc-wrap {
+    display: flex;
+    flex-direction: column;
+    h2 {
+      flex-shrink: 0;
+      padding: 0 18px;
+      line-height: 58px;
+      font-size: 20px;
+      text-align: left;
+      font-weight: bold;
+    }
+    .popup-desc-scroller {
+      flex: 1;
+      height: 0;
+      padding: 0 18px;
+      overflow-y: auto;
+      .live-host-title {
+        padding-top: 32px;
+      }
+    }
+    .live-title {
+      margin-top: 17px;
+      line-height: 24px;
+      font-size: 20px;
+      color: #000;
+      font-weight: bold;
+    }
+    h3 {
+      font-size: 18px;
+      line-height: 25px;
+    }
+    .landing-host-scroll-wrap {
+      height: 125px;
+      overflow: hidden;
+      margin: 0 -18px;
+      .landing-host-scroller {
+        padding: 16px 18px;
+        height: 150px;
+        white-space: nowrap;
+        overflow: auto;
+
+        dl {
+          display: inline-flex;
+          align-items: center;
+          border-radius: 4px;
+          padding: 24px 15px;
+          height: 93px;
+          width: 220px;
+          margin-right: 13px;
+          box-shadow: 0 0 25px rgba(0, 0, 0, 0.05);
+          dt {
+            flex-shrink: 0;
+            margin-right: 13px;
+            img {
+              display: block;
+              width: 45px;
+              height: 45px;
+              border-radius: 50%;
+            }
+          }
+          dd {
+            .host-name {
+              margin-bottom: 4px;
+              line-height: 22px;
+              font-size: 16px;
+              font-weight: bold;
+              color: #2F2E2E;
+            }
+            .host-desc {
+              line-height: 18px;
+              font-size: 13px;
+            }
+          }
+          &:last-child {
+            margin: 0;
+          }
+        }
+      }
+    }
+    .desc-title {
+      padding: 21px 0 13px;
+    }
+    pre {
+      font-size: 15px;
+      line-height: 28px;
+      white-space: pre-wrap;
+      word-wrap: break-word;
+      font-family: inherit;
+      color: inherit;
+    }
+  }
+}

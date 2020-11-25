@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>【北京东方起点医疗投资管理有限公司2019招聘信息】_猎聘网</title>
+    <!--#include virtual="/fe-mobile-h5/v5/src/includes/v5/resources_c.shtml"-->
+    <link
+      type="text/css"
+      rel="stylesheet"
+      href="//s.lietou-static.com/fe-mobile-h5/v5/css/pages/gs.guquanjiegou.css"
+    />
+  </head>
+  <body data-page-id="" data-info="" id="company-home">
+    <div class="view guquan-container">
+      <nav class="nav">
+        <a class="left" href="/"
+          ><img
+            src="//s.lietou-static.com/fe-mobile-h5/v5/static/images/logo_icon.png"
+        /></a>
+        <h1>北京东方起点医疗投资管理有限公司</h1>
+        <a class="right" data-nick="nav-right-btn" href="javascript:;"
+          ><i class="text-icon icon-user"></i
+        ></a>
+      </nav>
+      <div class="navbars clearfix" data-selector="crumbs-link">
+        <a href="https://m.liepin.cn/companylist/" class="home_link "
+          >企业黄页</a
+        >
+        <i>&gt;</i>
+
+        <a href="https://m.liepin.cn/companylist-000/" class="home_link "
+          >企业黄页</a
+        >
+        <i>&gt;</i>
+
+        <a href="https://m.liepin.cn/company/gs6718/">当前企业</a>
+      </div>
+      <section class="company-info clearfix">
+        <div class="info-main clearfix">
+          <img
+            class="company-logo"
+            src="https://image0.lietou-static.com/middle_/5848f4d745cee5c93c219ba602c.png"
+          />
+          <div class="info-content">
+            <h2 class="company-name">北京东方起点医疗投资管理有限公司</h2>
+            <div class="operations">
+              <a class="btn" href="javascript:;" data-selector="add-favorite"
+                >关注</a
+              >
+              <span class="follow-count"><i>51</i>人已关注</span>
+            </div>
+          </div>
+        </div>
+      </section>
+      <div class="tab-main flexbox" data-selector="tab-main">
+        <a href="javascript:;" class="flex-1"><span>介绍</span></a>
+        <a href="/company/gs6718/zhaopin/" class="flex-1"><span>职位</span></a>
+
+        <a href="/company/gs6718/pinglun/" class="flex-1"><span>评论</span></a>
+        <a href="javascript:;" class="flex-1 active"><span>股权结构</span></a>
+      </div>
+      <!-- 股东信息 -->
+      <div class="info-box">
+        <h3 class="info-title">股东信息</h3>
+        <div class="info-content shareholder-info-wrap">
+          <dl>
+            <dt>马化腾<span>(自然人)</span></dt>
+            <dd class="flexbox">
+              <div class="flex-1">
+                <h5>持股比例</h5>
+                <p class="text-warning" data-selector="login-to-see">?%</p>
+              </div>
+              <div class="flex-1">
+                <h5>股东类型</h5>
+                <p>自然人</p>
+              </div>
+              <div class="flex-1">
+                <h5>认缴出资额</h5>
+                <p>200万元</p>
+              </div>
+            </dd>
+          </dl>
+          <dl>
+            <dt>马化腾<span>(自然人)</span></dt>
+            <dd class="flexbox">
+              <div class="flex-1">
+                <h5>持股比例</h5>
+                <p>24%</p>
+              </div>
+              <div class="flex-1">
+                <h5>股东类型</h5>
+                <p>自然人</p>
+              </div>
+              <div class="flex-1">
+                <h5>认缴出资额</h5>
+                <p>200万元</p>
+              </div>
+            </dd>
+          </dl>
+          <dl>
+            <dt>马化腾<span>(自然人)</span></dt>
+            <dd class="flexbox">
+              <div class="flex-1">
+                <h5>持股比例</h5>
+                <p>24%</p>
+              </div>
+              <div class="flex-1">
+                <h5>股东类型</h5>
+                <p>自然人</p>
+              </div>
+              <div class="flex-1">
+                <h5>认缴出资额</h5>
+                <p>200万元</p>
+              </div>
+            </dd>
+          </dl>
+        </div>
+      </div>
+      <!-- 对外投资 -->
+      <div class="info-box">
+        <h3 class="info-title">对外投资</h3>
+        <div class="info-content outside-invest-wrap">
+          <dl>
+            <dt><a href="javascript:;">京东信息科技有限公司</a></dt>
+            <dd>法人代表：刘强东</dd>
+            <dd>注册资本：5000万人民币</dd>
+            <dd>投资金额：2000万人民币</dd>
+            <dd>持股比例：<span class="text-warning" data-selector="login-to-see">?%</span></dd>
+          </dl>
+          <dl>
+            <dt><a href="javascript:;">京东信息科技有限公司</a></dt>
+            <dd>法人代表：刘强东</dd>
+            <dd>注册资本：5000万人民币</dd>
+            <dd>投资金额：2000万人民币</dd>
+            <dd>持股比例：92%</dd>
+          </dl>
+          <dl>
+            <dt><a href="javascript:;">京东信息科技有限公司</a></dt>
+            <dd>法人代表：刘强东</dd>
+            <dd>注册资本：5000万人民币</dd>
+            <dd>投资金额：2000万人民币</dd>
+            <dd>持股比例：92%</dd>
+          </dl>
+        </div>
+      </div>
+      <!-- 分公司 -->
+      <div class="info-box">
+        <h3 class="info-title">分公司</h3>
+        <div class="info-content subsidiary-company-wrap">
+          <ul>
+            <li><a href="javascript:;">百度网讯信息科技有限公司</a></li>
+            <li><a href="javascript:;">百度网讯信息科技有限公司2</a></li>
+            <li><a href="javascript:;">百度网讯信息科技有限公司3</a></li>
+            <li><a href="javascript:;">百度网讯信息科技有限公司4</a></li>
+            <li><a href="javascript:;">百度网讯信息科技有限公司5</a></li>
+          </ul>
+        </div>
+      </div>
+      <!-- 这里放同行业热门公司招聘的模块 -->
+      <!-- 这里放底部seo的模块 -->
+    </div>
+    <!-- share -->
+    <!-- footer -->
+    <script src="//s.lietou-static.com/fe-mobile-h5/v5/js/pages/gs.guquanjiegou.js"></script>
+    <!-- stat -->
+  </body>
+</html>

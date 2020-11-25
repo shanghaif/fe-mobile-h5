@@ -1,0 +1,74 @@
+/*内链模块样式结束*/
+.mod-nav {
+  position: relative;
+  width: 100%;
+  height: 48px;
+  background-color: #3a4349;
+  vertical-align: middle;
+  font-size: 17px;
+  z-index: 99;
+}
+
+.mod-nav h1 {
+  font-size: 18px;
+  margin: 0;
+  padding: 13px 70px;
+}
+.mod-nav .page-title {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  /*! autoprefixer: off */
+  -webkit-line-clamp: 1;  /* number of lines to show */
+  -webkit-box-orient: vertical;
+}
+.mod-nav a {
+  position: absolute;
+  color: #fff;
+}
+.mod-nav .nav-back {
+  display: none;
+  left: 9px;
+  padding: 14px 0;
+  font-size: 14px;
+}
+.mod-nav .nav-back .icon {
+  font-size: 17px;
+}
+.mod-nav .nav-profile {
+  display: none;
+  right: 9px;
+  padding: 14px 0;
+  line-height: 20px;
+  text-align: right;
+  font-size: 14px;
+  margin-right: 2px;
+  width: 70px;
+}
+.mod-nav .nav-collect {
+  right: 1rem;
+  padding: 12px 0;
+  text-align: right;
+  font-size: 17px;
+  margin-right: 2px;
+  width: 44px;
+}
+.mod-nav .nav-right-btn {
+  top: 0;
+  right: 1rem;
+  padding: 16px 0;
+  text-align: right;
+  font-size: 14px;
+  margin-right: 2px;
+}
+.mod-nav .cancel-favorite {
+  color: #ff7f00;
+}
+.mod-nav .nav-con {
+  color: #fff;
+  text-align: center;
+  padding: 0 9px;
+}
+.mod-nav .isLogin {
+  color: #ff8b26;
+}

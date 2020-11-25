@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <!--#include virtual="/fe-mobile-h5/v5/src/includes/v5/resources_c.shtml"-->
+  <title>是程序员就闯5关</title>
+  <link rel="stylesheet" href="https://s.lietou-static.com/fe-mobile-h5/v5/css/pages/brand/it-answer/received-award.css">
+</head>
+
+<body class="luck-draw-20191024">
+  <i class="right-top-icon"></i>
+  <i class="right-bottom-icon"></i>
+  <div class="content-wrap luck-draw-index-wrap">
+    <section class="prise-result">
+      <div class="question-wrap">
+          <div class="question-title">
+            <i class="left-decoration"></i>
+            <span>提示</span>
+            <i class="right-decoration"></i>
+          </div>
+          <div class="result-info">
+            <p class="result-title">您已领取过奖品</p>
+            <p>奖品将在七个工作日内</p>
+            <p>安排发放</p>
+            <a href="javascript:;" class="luck-draw-btn look-other-btn" data-selector="look-other-prise">偷看其他奖品</a>
+            <a href="javascript:;" class="luck-draw-btn" data-selector="change-salary-job">换份高薪工作</a>
+          </div>
+        </div>
+    </section>
+  </div>
+  <div class="bottom-tip">
+    <span class="nesting-item"></span>
+    <span class="nesting-item second-nesting-item"></span>
+    <span class="nesting-item third-nesting-item"></span>
+    <span class="nesting-item final-nesting-item">
+      <i class="liepin-logo"></i>
+    </span>
+  </div>
+  <i class="left-top-icon"></i>
+  <i class="left-bottom-icon"></i>
+</body>
+<script src="https://s.lietou-static.com/fe-mobile-h5/v5/static/js/vendor.js"></script>
+<script src="https://s.lietou-static.com/fe-mobile-h5/v5/js/common/common.js"></script>
+<script src="https://s.lietou-static.com/fe-mobile-h5/v5/js/pages/brand/it-answer/received-award.js"></script>
+</html>

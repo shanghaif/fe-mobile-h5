@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>company</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <!--#include virtual="/fe-mobile-h5/v5/src/includes/v5/resources_c.shtml"-->
+  <meta name="viewport"
+    content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0, viewport-fit=cover">
+  <link rel="stylesheet" href="//s.lietou-static.com/fe-mobile-h5/v5/css/common/common.css">
+  <link rel="stylesheet" href="//s.lietou-static.com/fe-mobile-h5/v5/css/pages/aggregation.home.css">
+</head>
+
+<body>
+  <!--#include virtual="/fe-mobile-h5/v5/src/includes/v5/header.shtml"-->
+
+  <div class="aggregation-home">
+    <div class="breadcrumb">
+      <a href="https://m.liepin.cn/" title="招值网">招聘网</a>&gt;
+      <a href="https://m.liepin.cn/qiuzhi/" title="求职网">PHP就业前景</a>&gt;
+      <a href="javascript:;" title="#" class="last">PHP薪资待遇</a>
+    </div>
+    <div class="profession">PHP就业前景</div>
+    <div class="link-navbar flexbox">
+      <a href="#" title="主页">主页</a>
+      <a href="#" title="招聘信息">招聘信息</a>
+      <a href="#" title="薪资待遇" class="active">薪资待遇</a>
+      <a href="#" title="简历模板">岗位职责</a>
+    </div>
+    <div class="salary">
+      <div class="salary-info">
+        <h6>月平均薪资</h6>
+        <p class="salary-level">￥6863</p>
+        <p class="salary-example">
+          <span>取自35433份</span>
+          <span>可信度：较高</span>
+        </p>
+        <!-- 已登录 -->
+        <p class="salary-summary">您的薪资在PHP处于低下水平，下图为PHP整体薪资数据</p>
+        <!-- 未登录 -->
+        <!-- <p class="salary-summary">您暂未登录无法评估您的薪资水平，去<a href="">登录>></a></p> -->
+        <!-- 未登录  -->
+      </div>
+      <div class="salary-distribution-container">
+        <h6>月均薪资分布</h6>
+        <p>PHP薪资待遇数据详情<span data-selector="look-salary-info" class="text-icon icon-questionmask"></span></p>
+        <div class="echarts-salary" id="echarts-salary"></div>
+        <!-- 未登录 -->
+        <p class="salary-prompt">您的薪资在XX行业处于XX水平，登录/注册查看详细数据。<a href="">去登录/注册〉</a></p>
+        <!-- 已登录-是完简用户  -->
+        <!-- todo: 链接区分.com和.cn -->
+        <!-- <p class="salary-prompt">您的薪资在XX行业处于XX水平，下图为XX行业整体薪资数据及您当前所处的位置，<a href="https://m-c.liepin.com/activity/active-recruiter-topic/job-page">投递这些优选职位，可提高薪资水平〉</a></p> -->
+        <!-- 已登录，不是完简用户 -->
+        <!-- <p class="salary-prompt">您的薪资在XX行业处于XX水平，完善简历查看详细数据<a href="">去完善〉</a></p> -->
+      </div>
+    </div>
+    <!--#include virtual="/fe-mobile-h5/v5/src/includes/footer_c.shtml"-->
+    <div class="echarts-bar-container">
+      <div class="work-years-echarts" id="work-years-echarts"></div>
+      <div class="legend">
+        <p class="legend-0">该职位工作时间1年以下月薪9999元</p>
+        <p class="legend-1">该职位工作时间1年以下月薪9999元</p>
+        <p class="legend-2">该职位工作时间1年以下月薪9999元</p>
+        <p class="legend-3">该职位工作时间1年以下月薪9999元</p>
+        <p class="legend-4">该职位工作时间1年以下月薪9999元</p>
+      </div>
+    </div>
+    <div class="echarts-bar-container">
+      <div class="edu-echarts" id="edu-echarts"></div>
+      <div class="legend">
+        <p class="legend-0">该职位工作时间1年以下月薪9999元</p>
+        <p class="legend-1">该职位工作时间1年以下月薪9999元</p>
+        <p class="legend-2">该职位工作时间1年以下月薪9999元</p>
+        <p class="legend-3">该职位工作时间1年以下月薪9999元</p>
+        <p class="legend-4">该职位工作时间1年以下月薪9999元</p>
+      </div>
+    </div>
+  </div>
+  <script>
+    var $CONFIG = {
+      pageSymbol: 'salary',
+      isLogined: true,
+      nowSalaryInterval: '6k-8k',
+      salaryData: [
+        { name: "4.5k-6k", value: 52 },
+        { name: "6k-8k", value: 14 },
+        { name: "8k-10k", value: 13 },
+        { name: "10k-12k", value: 11 },
+        { name: "12k以上", value: 10 },
+      ],
+      workYearData: [
+        { name: "1年以下", value: 52 },
+        { name: "1-3年", value: 14 },
+        { name: "3-5年", value: 13 },
+        { name: "5年以上", value: 11 },
+        { name: "平均", value: 10 },
+      ],
+      eduData: [
+        { name: "1年以下", value: 52 },
+        { name: "1-3年", value: 14 },
+        { name: "3-5年", value: 13 },
+        { name: "5年以上", value: 11 },
+        { name: "平均", value: 10 },
+      ],
+      keyWord: 'PHP程序设计'
+    }
+  </script>
+  <script src="https://concat.lietou-static.com/fe-mobile-h5/v5/babel-polyfill/6.8.0/polyfill.min.js"></script>
+  <script crossorigin="anonymous"
+    src="https://concat.lietou-static.com/fe-lib-h5/v5/femonitor/femonitor.min.js"></script>
+  <script src="https://s.lietou-static.com/fe-mobile-h5/v5/static/js/react.min.js"></script>
+  <script src="https://s.lietou-static.com/fe-mobile-h5/v5/static/js/react-dom.min.js"></script>
+  <script src="https://s.lietou-static.com/fe-mobile-h5/v5/static/js/vendor.js"></script>
+  <script src="https://s.lietou-static.com/fe-mobile-h5/v5/js/common/common.js"></script>
+  <script src="https://s.lietou-static.com/fe-mobile-h5/v5/static/js/echarts.min.js"></script>
+  <script src="//s.lietou-static.com/fe-mobile-h5/v5/js/pages/aggregation.home.js">
+  </script>
+  <!--#include virtual="/fe-mobile-h5/v5/src/includes/v5/statistic.shtml"-->
+</body>
+
+</html>

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!--#include virtual="/fe-mobile-h5/v5/src/includes/v5/resources_c.shtml"-->
+  <title>高薪直聊</title>
+  <link rel="stylesheet" href="https://s.lietou-static.com/fe-mobile-h5/v5/css/pages/event/brand.rise-salary.hunter-and-boss.css">
+</head>
+
+<body>
+  <div class="salary-hunter-container">
+    <section class="sarlary-bg"></section>
+    <section class="boss-container">
+      <h3 class="boss-title">
+        <p class="title-core flexbox">硬核老板</p>
+        <p class="title-content">好职位，拿高薪，和真老板聊</p>
+      </h3>
+      <div class="boss-box"></div>
+    </section>
+    <section class="hunter-container">
+      <h3 class="boss-title">
+        <p class="title-core flexbox">硬核猎头</p>
+        <p class="title-content">帮你找到更适合你的职位</p>
+      </h3>
+      <div class="hunter-box"></div>
+    </section>
+  </div>
+  <script src="https://s.lietou-static.com/fe-mobile-h5/v5/static/js/vendor.js"></script>
+  <script src="https://s.lietou-static.com/fe-mobile-h5/v5/js/common/common.js"></script>
+  <script src="https://s.lietou-static.com/fe-mobile-h5/v5/js/pages/event/brand.rise-salary.hunter-and-boss.js"></script>
+</body>
+
+</html>

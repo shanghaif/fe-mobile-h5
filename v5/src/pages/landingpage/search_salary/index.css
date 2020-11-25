@@ -1,0 +1,535 @@
+html {
+  font-size: 20px;
+}
+body{
+  background-color: #e7e8ed;
+}
+.part-top {
+  padding-bottom: 1.5rem;
+  position: relative;
+}
+.part-top  .back-box {
+  display: none;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  height: 20px;
+  line-height: 20px;
+}
+.part-top  .back-box i.icon-back {
+  float: left;
+  font-size: 12px;
+  color: #666;
+  margin-right: 2px;
+}
+.part-top  .back-box span {
+  float: left;
+  color: #666;
+  font-size: 15px;
+}
+
+/*.view .home-logo {
+  padding: 45px 0 23px 0;
+  text-align: center;
+}*/
+.view .home-logo {
+  padding: 1.5rem 0 1.2rem 0;
+  text-align: center;
+}
+.view .home-logo img {
+  width: 8rem;
+  height: 2rem;
+  transition: all .4s;
+  -moz-transition: all .4s; /* Firefox 4 */
+  -webkit-transition: all .4s; /* Safari 和 Chrome */
+  -o-transition: all .4s; /* Opera */
+}
+.view .search-box {
+  padding: 0 27px;
+}
+
+/*搜索框浮*/
+.view .search-box-fixed {
+  width: 86%;
+  position: fixed;
+  top: 0;
+  background-color: #e8e8e8;
+  box-shadow: 0 2px 0 #d2d4da;
+  padding: 10px 27px;
+  z-index: 99;
+}
+.view .search-box form {
+  width: 100%;
+}
+.view .search-box .search-main {
+  width: 100%;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+  border-right: none;
+  height: 36px;
+  line-height: 36px;
+  position: relative;
+}
+.view .search-box .search-main i {
+  font-size: 20px;
+  color: #ff7f00;
+  margin-left: 8px;
+}
+.view .search-box .btn-search {
+  float: right;
+  height: 36px;
+  text-align: center;
+  padding: 0 9px;
+  border-radius: 0 3px 3px 0;
+  background-color: #ff7f00;
+  font-size: 17px;
+  color: #fff;
+  border: none;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.view .search-box .search-input {
+  width: 60%;
+  color: #999;
+  font-size: 13px;
+  border: none;
+  outline: none;
+  height: 22px;
+  line-height: 22px;
+}
+.view .tab {
+  background-color: #fff;
+}
+.view .tab a {
+  display: block;
+  font-size: 12px;
+  color: #666;
+  text-align: center;
+  padding: 15px 0 9px 0;
+  border-bottom: 2px solid #ddd;
+  position: relative;
+}
+.view .tab a .line:after {
+  content: ' ';
+  height: 23px;
+  border-style: solid;
+  border-color: #ddd;
+  border-width: 0 1px 0 0;
+  position: absolute;
+  top: 10px;
+  right: 0;
+}
+.view .tab a.active {
+  border-bottom: 2px solid #ff7f00;
+}
+.view .tab a i {
+  font-size: 16px;
+  color: #ff7f00;
+}
+.view .company-content {
+  background-color: #fff;
+}
+.view .content-box {
+  height: 250px;
+  padding-bottom: 6rem;
+  padding-bottom: 20%;
+  position: relative;
+  background-color: #fff;
+  transition: all .4s;
+  -moz-transition: all .4s; /* Firefox 4 */
+  -webkit-transition: all .4s; /* Safari 和 Chrome */
+  -o-transition: all .4s; /* Opera */
+}
+.view .tab-content:first-child {
+  opacity: 1;
+  z-index: 2;
+}
+.view .tab-content {
+  width: 96%;
+  position: absolute;
+  top: 0;
+  left: 2%;
+  opacity: 0;
+  padding-top: 19px;
+  transition: all .4s;
+  -moz-transition: all .4s; /* Firefox 4 */
+  -webkit-transition: all .4s; /* Safari 和 Chrome */
+  -o-transition: all .4s; /* Opera */
+}
+.view .tab-content .items {
+  padding: 0 15px 0 8px;
+  margin-right: -10px;
+}
+.view .tab-content .items a {
+  display: block;
+  margin: 0 10px 5px 0;
+  border: 1px dashed #e4e4e4;
+  padding: 8px 3px 8px 0;
+}
+.view .tab-content .items a img {
+  float: left;
+  width: 40%;
+}
+.view .tab-content .items a .company-info {
+  float: right;
+  width: 60%;
+  text-align: right;
+}
+.view .tab-content .items a .company-info .job-name {
+  font-size: 12px;
+  color: #666;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.view .tab-content .items a .company-info .job-salary {
+  font-size: 14px;
+  color: #ff7f00;
+}
+.view .link-box {
+  padding: 0 25px 30px 25px;
+}
+.view .link-box .link {
+  width: 100%;
+}
+.view .link-box a.login-link {
+  display: block;
+  height: 44px;
+  line-height: 44px;
+  color: #fff;
+  background-color: #ff7f00;
+  text-align: center;
+  border-radius: 3px;
+  font-size: 18px;
+  margin-bottom: 13px;
+}
+.view .link-box p {
+  text-align: right;
+}
+.view .link-box a.landing-link {
+  font-size: 14px;
+  color: #666;
+}
+
+/*搜索结果*/
+.view .search-content .result-none {
+  padding: 0 20px;
+}
+.view .search-content .result-none .tips {
+  font-size: 16px;
+  color: #999;
+  margin-bottom: 20px;
+  padding-left: 5px;
+}
+.view .search-content .result-none .tips span {
+  display: inline-block;
+  max-width: 30%;
+  color: #fc6621;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  vertical-align: bottom;
+}
+.view .search-content .result-none p.commend-text {
+  font-size: 18px;
+  color: #666;
+}
+.view .job-list {
+  padding: 10px 10px 70px 10px;
+}
+.view .job-list  div.list-item {
+  background-color: #fff;
+  padding: 15px;
+  box-shadow: 0 2px 0 #d2d4da;
+  margin-bottom: 6px;
+  color: #666;
+  font-size: 14px;
+  line-height: 22px;
+}
+.view .job-list  div.list-item a {
+  color: #ff7f00;
+  display: inline-block;
+}
+.view .job-list  div.list-item i.icon-go-ahead {
+  color: #fff;
+  font-size: 12px;
+}
+.view .job-list  div.list-item span {
+  display: inline-block;
+  width: 18px;
+  height: 18px;
+  line-height: 18px;
+  border-radius: 50%;
+  background-color: #ff7f00;
+  text-align: center;
+}
+.view .job-list  div.list-item .fat-salary {
+  margin-right: 13px;
+}
+.view .job-list  a.list-item {
+  background-color: #fff;
+  display: block;
+  padding: 15px;
+  position: relative;
+  box-shadow: 0 2px 0 #d2d4da;
+  margin-bottom: 6px;
+}
+.view .job-list  a.list-item h3 {
+  margin-bottom: 4px;
+  padding-right: 10px;
+  overflow: hidden;
+  font-size: 17px;
+}
+.view .job-list  a.list-item h3 span.job-name {
+  display: block;
+  color: #333;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.view .job-list  a.list-item h3 span.job-salary {
+  display: block;
+  text-align: right;
+  color: #fc6621;
+}
+.view .job-list  a.list-item span.job-type-company {
+  width: 34px;
+  height: 34px;
+  text-align: right;
+  padding: 3px 3px 0 0;
+  color: #fff;
+  border-top-right-radius: 2px;
+  font-size: 12px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  background: -o-linear-gradient(45deg, transparent 50%, #feb92c 50%);
+  background: -moz-linear-gradient(45deg, transparent 50%, #feb92c 50%);
+  background: -webkit-linear-gradient(45deg, transparent 50%, #feb92c 50%);
+  background: linear-gradient(45deg, transparent 50%, #feb92c 50%);
+}
+.view .job-list  a.list-item span.job-type-h {
+  width: 34px;
+  height: 34px;
+  text-align: right;
+  padding: 3px 3px 0 0;
+  color: #fff;
+  border-top-right-radius: 2px;
+  font-size: 12px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  background: -o-linear-gradient(45deg, transparent 50%, #1960f1 50%);
+  background: -moz-linear-gradient(45deg, transparent 50%, #1960f1 50%);
+  background: -webkit-linear-gradient(45deg, transparent 50%, #1960f1 50%);
+  background: linear-gradient(45deg, transparent 50%, #1960f1 50%);
+}
+.view .job-list  a.list-item p {
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 4px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/*弹窗*/
+.show {
+}
+.show i.text-icon {
+  color: #666;
+  font-size: 12px;
+}
+.info-mask a {
+  display: block;
+  text-align: center;
+}
+.info-mask .company-logo {
+  width: 70px;
+  height: 35px;
+  margin-bottom: 12px;
+}
+.info-mask  h3 {
+  text-align: center;
+  font-size: 14px;
+  color: #333;
+  margin-bottom: 16px;
+}
+.info-mask  .boon-box {
+  border-bottom: 1px dashed #c6c6c6;
+  margin-bottom: 15px;
+  height: 40px;
+  overflow: hidden;
+  position: relative;
+}
+.info-mask  .boon-box .boon {
+  float: left;
+  display: inline-block;
+  border: 1px solid #ff7f00;
+  border-radius: 2px 3px 3px 2px;
+  border-left: none;
+  padding: 0 2px 0 1px;
+  line-height: 20px;
+  position: relative;
+  margin-right: 13px;
+  margin-bottom: 18px;
+  color: #ff7f00;
+  margin-left: 10px;
+}
+.info-mask  .boon-box .boon:before, .info-mask .boon-box .boon:after {
+  content: "";
+  display: inline-block;
+  border-style: solid;
+  border-width: 11px;
+  border-color: transparent #ff7f00 transparent transparent;
+  position: absolute;
+  left: -21px;
+  top: -1px;
+}
+.info-mask .boon-box .boon:after {
+  border-width: 10px;
+  border-color: transparent #fff transparent transparent;
+  position: absolute;
+  left: -19px;
+  top: 0px;
+}
+.info-mask .job-box  p {
+  margin-bottom: 5px;
+}
+.info-mask .job-box {
+  margin-bottom: 10px;
+}
+.info-mask .job-box .job-name {
+  float: left;
+  font-size: 14px;
+  color: #666;
+  width: 70%;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  text-align: left;
+  margin-right: 5%;
+}
+.info-mask .job-box .job-salary {
+  float: right;
+  font-size: 14px;
+  color: #ff9500;
+}
+.info-mask  .link-box {
+  text-align: center;
+}
+.info-mask .link-box a.btn-login {
+  padding: 0 56px;
+  height: 42px;
+  line-height: 42px;
+  font-size: 16px;
+  color: #fff;
+  background-color: #ff9500;
+  border-radius: 3px;
+}
+
+/*拉新浮层样式*/
+.login-mask-box {
+  display: none;
+  padding: 12px 15px;
+  background-color: rgba(48, 58, 64, 0.8);
+  position: fixed;
+  bottom: 0;
+}
+.login-mask {
+}
+.login-mask .result-word {
+  display: inline-block;
+  max-width: 3rem;
+  line-height: 12px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.login-mask .login-tips {
+  width: 63%;
+  font-size: 14px;
+  color: #fff;
+  float: left;
+  line-height: 22px;
+}
+.login-mask .btn-login {
+  display: block;
+  float: right;
+  background-color: #ff7f00;
+  padding: 0 25px;
+  height: 33px;
+  line-height: 33px;
+  color: #fff;
+  margin-top: 5px;
+}
+.search-tips {
+  display: none;
+  position: absolute;
+  width: 100%;
+  background: #fff;
+  border-radius: 5px;
+  box-shadow: 0px 1px 7px rgba(0, 0, 0, .3);
+  z-index: 3;
+  top: 47px;
+  padding: 10px 0;
+  color: #666;
+  line-height: 28px;
+}
+.search-tips:after {
+  content: " ";
+  display: inline-block;
+  position: absolute;
+  border-width: 10px;
+  border-style: solid;
+  border-color: transparent transparent #fff;
+  left: 40px;
+  top: -20px;
+}
+.search-tips .tips-item {
+  text-align: center;
+}
+.search-tips .tips-item .hot {
+  color: #ff7f00;
+}
+@-webkit-keyframes pulse {
+  0% {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1)
+  }
+  50% {
+    -webkit-transform: scale3d(1.55, 1.55, 1.55);
+    transform: scale3d(1.55, 1.55, 1.55)
+  }
+  100% {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1)
+  }
+}
+@keyframes pulse {
+  0% {
+    -webkit-transform: scale3d(1, 1, 1);
+    -ms-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1)
+  }
+  50% {
+    -webkit-transform: scale3d(1.55, 1.55, 1.55);
+    -ms-transform: scale3d(1.55, 1.55, 1.55);
+    transform: scale3d(1.55, 1.55, 1.55)
+  }
+  100% {
+    -webkit-transform: scale3d(1, 1, 1);
+    -ms-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1)
+  }
+}
+.pulse {
+  -webkit-animation-name: pulse;
+  animation-name: pulse;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both
+}

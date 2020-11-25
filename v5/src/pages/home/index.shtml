@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8" />
+	<meta charset="UTF-8">
+	<meta http-equiv="x-dns-prefetch-control" content="on">
+	<link rel="dns-prefetch" href="https://s.lietou-static.com">
+	<link rel="dns-prefetch" href="https://image0.lietou-static.com">
+	<link rel="preconnect" href="https://s.lietou-static.com" />
+	<link rel="preconnect" href="https://image0.lietou-static.com" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+	<meta name="format-detection" content="telephone=no, email=no" />
+	<meta name="apple-mobile-web-app-capable" content="yes" />
+	<meta name="apple-mobile-web-app-status-bar-style" content="white" />
+	<link rel="icon" href="https://s.lietou-static.com/fe-mobile-h5/v5/static/images/favicon.ico" type="image/x-icon" />
+	<script src="https://s.lietou-static.com/fe-mobile-h5/v5/static/js/loader.js"></script>
+	<script crossorigin="anonymous" src="https://s.lietou-static.com/fe-lib-h5/v5/femonitor/femonitor.min.js"></script>
+	<link rel="stylesheet" href="https://s.lietou-static.com/fe-mobile-h5/v5/css/common/common.css">
+	<title>【猎聘】招聘_找工作_精英职业发展平台</title>
+	<meta name="keywords" content="猎聘,招聘,找工作,招聘网" />
+	<meta name="description"
+		content="猎聘为招聘中高端人才提供超过500万条精英职业找工作信息,70000多位猎头在线为您提供找工作服务,覆盖40多个招聘行业,发布世界500强企业招聘信息。猎聘,精英职业发展平台!" />
+	<meta name="applicable-device" content="mobile">
+	<link rel="canonical" href="https://www.liepin.com/">
+	<link type="text/css" rel="stylesheet" href="https://s.lietou-static.com/fe-mobile-h5/v5/css/pages/home.css" />
+	<link type="text/css" rel="stylesheet" href="https://s.lietou-static.com/fe-mobile-h5/v5/css/pages/home.css" />
+</head>
+
+<body>
+	<div class="home-container">
+		<!-- 滑动吸顶nav -->
+		<div class="search-fix-nav-wrap">
+			<div class="flexbox">
+				<div class="fix-logo"></div>
+				<div class="flex-1">
+					<div class="search-fix-input-wrap flexbox">
+						<a href="https://m.liepin.com/city/" class="search-dq"><span>北京</span><i
+								class="text-icon icon-new-down2"></i></a>
+						<div class="search-input flex-1"><input data-selector="fix-search-input" type="text" placeholder="搜职位、搜公司">
+						</div>
+					</div>
+				</div>
+				<div class="fix-userinfo">
+					<a class="users-btn" data-selector="fix-users-btn" href="javascript:;">
+						<i class="text-icon icon-user"></i>
+					</a>
+				</div>
+			</div>
+		</div>
+		<!-- 顶部功能区 -->
+		<div class="home-header-wrap">
+			<section class="userinfo-wrap flexbox">
+				<div class="userinfo-left flex-1">
+					<img src="https://s.lietou-static.com/fe-mobile-h5/v5/static/images/logo_home.png" alt="logo">
+				</div>
+				<div class="userinfo-right flex-1">
+					<a class="users-btn" data-selector="users-btn" href="javascript:;">
+						<i class="text-icon icon-user"></i>
+						<span>登录</span>
+					</a>
+				</div>
+			</section>
+			<section class="search-input-wrap flexbox">
+				<a href="https://m.liepin.com/city/" class="search-dq"><span>北京</span><i
+						class="text-icon icon-new-down2"></i></a>
+				<div class="search-input flex-1"><input data-selector="search-input" type="text" placeholder="搜职位、搜公司"></div>
+				<a href="javascript:;" data-selector="search-input-btn" class="search-btn btn btn-primary">搜索</a>
+			</section>
+			<section class="search-hot-wrap clearfix">
+				<a href="javascript:;">产品经理</a>
+				<a href="javascript:;">销售经理</a>
+				<a href="javascript:;">理财顾问</a>
+				<a href="javascript:;">土建工程师</a>
+			</section>
+			<section class="group-wrap flexbox">
+				<dl data-selector="group-btn" class="flex-1 group-resume"
+					data-src="https://m-c.liepin.com/resume/getdefaultresume/?imscid=R000011544">
+					<dt></dt>
+					<dd>我的简历</dd>
+				</dl>
+				<dl data-selector="group-btn" class="flex-1 group-collect"
+					data-src="https://m-c.liepin.com/profile/showfavoritejoblist/?imscid=R000011542">
+					<dt></dt>
+					<dd>我的收藏</dd>
+				</dl>
+				<dl data-selector="group-btn" class="flex-1 group-apply-log"
+					data-src="https://m-c.liepin.com/profile/showapplyjoblist/?imscid=R000011543">
+					<dt><em class="group-unread">9</em></dt>
+					<dd>投递记录</dd>
+				</dl>
+				<dl data-selector="group-who-see-btn" class="flex-1 group-who-see">
+					<dt><em class="group-unread">10</em></dt>
+					<dd>谁看过我</dd>
+				</dl>
+			</section>
+			<section id="AdSlots-lp_c_1129" class="adslots nearby-live-wrap" style="display: none;"></section>
+			</section>
+		</div>
+		<!-- 职位推荐 -->
+		<div class="recommend-job">
+			<h2><span>推荐职位</span><a href="https://m.liepin.com/register/" class="recommend-login-tips" data-selector="recommend-login-tips">登录获取更匹配职位</a></h2>
+			<div class="recommend-job-list">
+				<a href="https://m.liepin.com/job/191946254.shtml" class="job-card "
+					data-promid="d_sfrom=recom_jd_seo&amp;d_ckId=5d3ffc8b95d08be2627806c74905d448&amp;d_curPage=0&amp;d_pageSize=29&amp;d_headId=5d3ffc8b95d08be2627806c74905d448&amp;d_posi=0">
+					<h3><span class="job-title">测试工程师</span><span class="job-title-label">急聘</span> <small>11-15k·12薪</small></h3>
+					<div class="job-card-company">孙进测试 </div>
+					<div class="job-card-labels">
+						<label>北京-西城区</label>
+						<label>9年以上</label>
+						<label>本科及以上</label>
+					</div>
+					<div class="job-card-publisher clearfix"><img
+							src="https://image0.lietou-static.com/normal/5afa5b8b8e509b07de06a39e04a.png" alt="">欧先生 · 资深HR</div>
+				</a>
+				<a href="https://m.liepin.com/job/191946254.shtml" class="job-card "
+					data-promid="d_sfrom=recom_jd_seo&amp;d_ckId=5d3ffc8b95d08be2627806c74905d448&amp;d_curPage=0&amp;d_pageSize=29&amp;d_headId=5d3ffc8b95d08be2627806c74905d448&amp;d_posi=1">
+					<h3><span class="job-title">前端开发工程师</span><small>11-15k·12薪</small></h3>
+					<div class="job-card-company">孙进测试 </div>
+					<div class="job-card-labels">
+						<label>北京-西城区</label>
+						<label>9年以上</label>
+						<label>本科及以上</label>
+					</div>
+					<div class="job-card-publisher clearfix"><img
+							src="https://image0.lietou-static.com/normal/5afa5b8b8e509b07de06a39e04a.png" alt="">欧先生 · 资深HR</div>
+				</a>
+			</div>
+		</div>
+		<!-- 无推荐职位 -->
+		<div class="no-recommend-job-wrap">
+			<dl>
+				<dt></dt>
+				<dd><p>抱歉，暂时没有找到适合您的职位</p></dd>
+				<dd><a href="javascript:;" class="btn btn-primary" data-selector="no-data-search">先去搜索看看</a></dd>
+			</dl>
+		</div>
+		<!-- 热门职位 -->
+		<div class="hot-job-wrap">
+			<h2>热门职位</h2>
+			<ul>
+				<li><a href="https://m.liepin.com/370001/">销售</a></li>
+				<li><a href="https://m.liepin.com/kuaiji/">会计</a></li>
+				<li><a href="https://m.liepin.com/renliziyuanguwen/">人事</a></li>
+				<li><a href="https://m.liepin.com/bi/">BI</a></li>
+				<li><a href="https://m.liepin.com/540/">行政</a></li>
+				<li><a href="https://m.liepin.com/546/">产品</a></li>
+				<li><a href="https://m.liepin.com/545/">运营</a></li>
+				<li><a href="https://m.liepin.com/547/">UI</a></li>
+			</ul>
+		</div>
+		<!-- 友情链接 -->
+		<section class="friendly-link-wrap flexbox">
+			<a href="https://m.liepin.com/" class="flex-1"><span>招聘网</span></a>
+			<a href="https://m.liepin.com/job/" class="flex-1 "><span>人才网</span></a>
+			<a href="https://m.liepin.com/qiuzhi/" class="flex-1"><span>求职网</span></a>
+		</section>
+		<div class="fix-login-guide-wrap" data-selector="fix-login-guide-wrap">
+			<a class="flexbox" href="https://m.liepin.com/register/">
+				<i class="text-icon icon-user"></i>
+				<p class="fix-login-desc flex-1">登录获取更匹配职位</p>
+				<span class="fix-login-btn">注册/登录</span>
+			</a>
+		</div>
+	</div>
+	<!-- 备案信息 -->
+	<footer>
+		<div class="footer-tip">京ICP备09083200号 合字B2-20160007<br>
+			人才服务许可证:120116174002号 <img src="https://s.lietou-static.com/fe-mobile-h5/v5/static/images/police.png"
+				style="width: 15px;height: 15px;"><a
+				href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=11010502035189" target="_blank"
+				style="color: #999;">京公网安备:11010502035189</a><br>
+			Copyright © 2006-2019 liepin.com All Rights Reserved</div>
+	</footer>
+	<script type="text/javascript" charset="utf-8">
+		var config = {};
+		config.sfrom = '0';
+		config.res_id_encode = '0';
+		config.show_pushactivity = '0';
+		config.imscid = '0';
+		var $CONFIG = {
+			dataForWeixin: {
+				appId: "",
+				title: "猎聘-中高端人才求职、找工作，信赖的招聘平台",
+				link: "",
+				msgImg: "https://image0.lietou-static.com/img/55f7d8d845ce668beffecc3a03a.jpg",
+				desc: "猎聘是中国专业的中高端人才职业发展平台，为职场精英推荐高薪职位、规划职业发展。"
+			}
+		};
+		$CONFIG.cityName = "";
+		$CONFIG.cityCode = "";
+		$CONFIG.nowCityCode = "w";
+		$CONFIG.abTest = "";
+	</script>
+	<script crossorigin="anonymous" src="https://s.lietou-static.com/fe-mobile-h5/v5/static/js/vendor.js"></script>
+	<script src="https://s.lietou-static.com/fe-lib-h5/v5/react/16.8.6/react.min.js"></script>
+	<script src="https://s.lietou-static.com/fe-lib-h5/v5/react-dom/16.8.6/react-dom.min.js"></script>
+	<script crossorigin="anonymous" src="https://s.lietou-static.com/fe-mobile-h5/v5/js/common/common.js"></script>
+	<script crossorigin="anonymous" src="https://s.lietou-static.com/fe-lib-h5/v5/swiper/3.4.1/swiper.min.js"></script>
+	<script crossorigin="anonymous" src="https://s.lietou-static.com/fe-mobile-h5/v5/js/pages/home.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,46 @@
+.lottrey-entry-container {
+  .content-wrap {
+    h2 {
+      a {
+        color: #000;
+        text-decoration: none;
+      }
+    }
+  }
+  .prise-container {
+    padding: 0 25px;
+    .prise-content {
+      margin: 40px auto 0;
+      flex-flow: wrap;
+      .prise-item {
+        margin: 24px 4% 0;
+        width: 24.727%;
+        padding: 9.43% 0;
+        position: relative;
+        span {
+          position: absolute;
+          left: 50%;
+          top: 38%;
+          transform: translate(-50%, 0);
+          white-space: nowrap;
+        }
+        &.prise-nocheck {
+          background: url(./images/prize.png) no-repeat 0 0;
+          background-size: 100% 100%;
+        }
+        &.prise-checked {
+          background: url('./images/prise-checked.png') no-repeat 0 0 / cover;
+          background-size: 100% 100%;
+        }
+      }
+    }
+    .luck-draw-btn {
+      width: 100%;
+      margin: 37px auto 0;
+    }
+    .open-checked {
+      background-color: #ff4e00;
+      color: #fff;
+    }
+  }
+}

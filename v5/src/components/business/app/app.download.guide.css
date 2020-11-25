@@ -1,0 +1,16 @@
+.download-center-box {
+  position: relative;
+  margin-top: 26%;
+  text-align: center;
+}
+.download-center-box .index-banner {
+  width: 100%;
+}
+.download-center-box .index-banner-close {
+  position: absolute;
+  top: -4%;
+  right: 8%;
+  min-width: 30px;
+  width: 7%;
+  z-index: 10;
+}
